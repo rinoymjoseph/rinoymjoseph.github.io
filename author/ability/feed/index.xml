@@ -9,10 +9,10 @@
 
 <channel>
 	<title>ability &#8211; rinoymjoseph</title>
-	<atom:link href="http://192.168.0.149/author/ability/feed/?simply_static_page=54" rel="self" type="application/rss+xml" />
+	<atom:link href="http://192.168.0.149/author/ability/feed/?simply_static_page=88" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sun, 30 Jul 2023 12:17:37 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 30 Jul 2023 12:25:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -126,7 +126,7 @@ sudo firewall-cmd --reload</code></pre>
 
 
 <ul>
-<li>Download pull secret for Redhat registries.</li>
+<li>Download pull secret for Redhat registries. Refer <a href="https://dev.azure.com/ABB-BCI-PCP/PCP/_wiki/wikis/Digital%20Stream/39246/Installation-of-Microshift-4.13-on-RHEL-9.2?_a=edit&amp;anchor=5.2-download-pull-secret-for-redhat-registries">5.2 Download pull secret for Redhat registries</a></li>
 
 
 
@@ -350,6 +350,10 @@ openshift-storage          topolvm-controller-f58fcd7cb-m9ng4   0/4     Pending 
 
 
 
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="460" src="/wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1024x460.png" alt="" class="wp-image-26" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1024x460.png 1024w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-300x135.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-768x345.png 768w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1536x690.png 1536w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459.png 1659w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
 <ul>
 <li>Access https://console.redhat.com/openshift/install/pull-secret.</li>
 
@@ -360,10 +364,6 @@ openshift-storage          topolvm-controller-f58fcd7cb-m9ng4   0/4     Pending 
 
 
 <li>Click on &#8216;Download pull secret&#8217; to get the pull-secret.txt file.</li>
-
-
-
-<li><img decoding="async" src=".attachments\image-aa90c651-d400-4b38-9c93-796e57f1caa8.png" alt="Images.png"></li>
 </ul>
 
 
