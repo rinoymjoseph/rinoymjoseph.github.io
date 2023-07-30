@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>rinoymjoseph</title>
-	<atom:link href="http://192.168.0.149/feed/?simply_static_page=69" rel="self" type="application/rss+xml" />
+	<title>Hive</title>
+	<atom:link href="http://192.168.0.149/feed/?simply_static_page=106" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sun, 30 Jul 2023 12:25:56 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 30 Jul 2023 12:39:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Installation of Microshift 4.13 on RHEL 9.2</title>
 		<link>/2023/07/30/installation-of-microshift-4-13-on-rhel-9-2/</link>
-					<comments>/2023/07/30/installation-of-microshift-4-13-on-rhel-9-2/#respond</comments>
 		
 		<dc:creator><![CDATA[ability]]></dc:creator>
 		<pubDate>Sun, 30 Jul 2023 12:16:48 +0000</pubDate>
@@ -459,8 +458,6 @@ pvc-1d6e6430-b052-4c4b-8ff2-df3b23dd9160   1Gi        RWO            Delete     
 <h1 class="wp-block-heading">6. Document History</h1>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2023/07/30/installation-of-microshift-4-13-on-rhel-9-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
