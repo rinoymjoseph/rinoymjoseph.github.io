@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'chromenews-icons';
+  src:  url('httprinoymjoseph.github.io/wp-content/themes/chromenews/assets/icons/fonts/chromenews-icons.eot?wwnnqg');
+  src:  url('httprinoymjoseph.github.io/wp-content/themes/chromenews/assets/icons/fonts/chromenews-icons.eot?wwnnqg#iefix') format('embedded-opentype'),
+    url('httprinoymjoseph.github.io/wp-content/themes/chromenews/assets/icons/fonts/chromenews-icons.ttf?wwnnqg') format('truetype'),
+    url('httprinoymjoseph.github.io/wp-content/themes/chromenews/assets/icons/fonts/chromenews-icons.woff?wwnnqg') format('woff'),
+    url('httprinoymjoseph.github.io/wp-content/themes/chromenews/assets/icons/fonts/chromenews-icons.svg?wwnnqg#chromenews-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.custom-menu-link i,
+.af-yt-video-play .fa-play,
+.af-bg-play .fa-play,
+.slick-arrow.fa-angle-up,
+.slick-arrow.fa-angle-down,
+.slick-arrow.fa-angle-right,
+.slick-arrow.fa-angle-left,
+.author-links .fa-user-circle,
+.author-links .fa-clock,
+.aft-comment-count .fa-comment,
+.aft-view-count .fa-eye,
+.custom-menu-link i.fa-bell,
+.af-search-wrap .fa-search,
+.em-post-format .fa-video,
+.em-post-format .fa-photo-video,
+.em-post-format .fa-camera,
+[class^="chromenews-icon-"], [class*=" chromenews-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'chromenews-icons' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.chromenews-icon-hashtag-solid:before {
+  content: "\e90f";
+}
+.custom-menu-link i.fa-bell:before,
+.chromenews-icon-bell-solid:before {
+  content: "\e910";
+}
+.af-yt-video-play .fa-play:before,
+.af-bg-play .fa-play:before,
+.chromenews-icon-play:before,
+.custom-menu-link .fa-play:before,
+.chromenews-icon-play-solid:before {
+  content: "\e911";
+  font-size: 1.15em;
+}
+.custom-menu-link .fa-sign-in-alt:before,
+.chromenews-icon-right-to-bracket-solid:before {
+  content: "\e912";
+}
+.custom-menu-link .fa-user:before,
+.chromenews-icon-user-solid:before {
+  content: "\e913";
+}
+.chromenews-icon-clock-solid:before {
+  content: "\e909";
+}
+.chromenews-icon-bolt-lightning-solid:before {
+  content: "\e90e";
+}
+.chromenews-icon-facebook:before {
+  content: "\e90a";
+}
+.aft-comment-count .fa-comment:before,
+.chromenews-icon-comment-regular:before {
+  content: "\e908";
+}
+.em-post-format .fa-photo-video:before,
+.chromenews-icon-images-regular:before {
+  content: "\e907";
+}
+.chromenews-icon-magnifying-glass-solid:before {
+  content: "\e906";
+}
+.aft-view-count .fa-eye:before,
+.chromenews-icon-eye-regular:before {
+  content: "\e905";
+}
+.author-links .fa-clock:before,
+.chromenews-icon-clock-regular:before {
+  content: "\e904";
+}
+.author-links .fa-user-circle:before,
+.chromenews-icon-circle-user-regular:before {
+  content: "\e903";
+}
+.custom-menu-link .fa-share-alt:before,
+.chromenews-icon-share-alt:before {
+  content: "\f1e0";
+}
+.chromenews-icon-github:before {
+  content: "\e902";
+}
+.chromenews-icon-messenger:before {
+  content: "\e901";
+}
+.chromenews-icon-tiktok:before {
+  content: "\e900";
+}
+.chromenews-icon-twitch:before {
+  content: "\e90b";
+}
+.chromenews-icon-viber:before {
+  content: "\e90c";
+}
+.chromenews-icon-yahoo:before {
+  content: "\e90d";
+}
+.af-search-wrap .fa-search::before,
+.chromenews-icon-search:before {
+  content: "\f002";
+}
+.em-post-format .fa-camera:before,
+.chromenews-icon-camera:before {
+  content: "\f030";
+}
+.em-post-format .fa-video:before,
+.chromenews-icon-video-camera:before {
+  content: "\f03d";
+}
+.slick-arrow.fa-angle-left:before,
+.chromenews-icon-chevron-left:before {
+  content: "\f053";
+}
+.slick-arrow.fa-angle-right:before,
+.chromenews-icon-chevron-right:before {
+  content: "\f054";
+}
+.slick-arrow.fa-angle-up:before,
+.chromenews-icon-chevron-up:before {
+  content: "\f077";
+}
+.slick-arrow.fa-angle-down:before,
+.chromenews-icon-chevron-down:before {
+  content: "\f078";
+}
+.chromenews-icon-shopping-cart:before {
+  content: "\f07a";
+}
+.chromenews-icon-twitter:before {
+  content: "\f099";
+}
+.chromenews-icon-pinterest:before {
+  content: "\f0d2";
+}
+.chromenews-icon-google-plus:before {
+  content: "\f0d5";
+}
+.chromenews-icon-linkedin:before {
+  content: "\f0e1";
+}
+.chromenews-icon-youtube-play:before {
+  content: "\f16a";
+}
+.chromenews-icon-stack-overflow:before {
+  content: "\f16c";
+}
+.chromenews-icon-instagram:before {
+  content: "\f16d";
+}
+.chromenews-icon-tumblr:before {
+  content: "\f173";
+}
+.chromenews-icon-dribbble:before {
+  content: "\f17d";
+}
+.chromenews-icon-vk:before {
+  content: "\f189";
+}
+.chromenews-icon-weibo:before {
+  content: "\f18a";
+}
+.chromenews-icon-slack:before {
+  content: "\f198";
+}
+.chromenews-icon-wordpress:before {
+  content: "\f19a";
+}
+.chromenews-icon-behance:before {
+  content: "\f1b4";
+}
+.chromenews-icon-spotify:before {
+  content: "\f1bc";
+}
+.chromenews-icon-soundcloud:before {
+  content: "\f1be";
+}
+.chromenews-icon-wechat:before {
+  content: "\f1d7";
+}
+.chromenews-icon-weixin:before {
+  content: "\f1d7";
+}
+.chromenews-icon-whatsapp:before {
+  content: "\f232";
+}
+.chromenews-icon-vimeo:before {
+  content: "\f27d";
+}
+.chromenews-icon-reddit-alien:before {
+  content: "\f281";
+}
+.chromenews-icon-snapchat-square:before {
+  content: "\f2ad";
+}
+.chromenews-icon-quora:before {
+  content: "\f2c4";
+}
+.chromenews-icon-telegram:before {
+  content: "\f2c6";
+}

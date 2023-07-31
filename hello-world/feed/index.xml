@@ -7,9 +7,9 @@
 	>
 <channel>
 	<title>
-	Comments for Hive	</title>
-	<atom:link href="httprinoymjoseph.github.io/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>httprinoymjoseph.github.io/</link>
+	Comments on: Hello world!	</title>
+	<atom:link href="httprinoymjoseph.github.io/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>httprinoymjoseph.github.io/hello-world/</link>
 	<description></description>
 	<lastBuildDate>Mon, 31 Jul 2023 07:08:09 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -19,7 +19,7 @@
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
 		<title>
-		Comment on Hello world! by A WordPress Commenter		</title>
+		By: A WordPress Commenter		</title>
 		<link>httprinoymjoseph.github.io/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
