@@ -29,7 +29,7 @@
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/?p=5</guid>
 
-					<description><![CDATA[Enable the Red Hat build of MicroShift repositories by running]]></description>
+					<description><![CDATA[Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of Microshift and openshift clients by running the following command. Configure firewall rules Conifgure pull-secret.json Start the MicroShift service To start MicroShift when machine starts, enter the following command Check the service logs by running below command Create ... <a title="Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2">Read more</a>]]></description>
 										<content:encoded><![CDATA[
 <p><strong>Enable the Red Hat build of MicroShift repositories by running the following command</strong></p>
 
@@ -163,7 +163,7 @@ openshift-storage          topolvm-controller-f58fcd7cb-m9ng4   0/4     Pending 
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/?p=1</guid>
 
-					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or]]></description>
+					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
