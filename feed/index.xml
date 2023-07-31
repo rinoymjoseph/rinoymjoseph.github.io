@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Hive</title>
-	<atom:link href="httprinoymjoseph.github.io/feed/" rel="self" type="application/rss+xml" />
-	<link>httprinoymjoseph.github.io/</link>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description></description>
 	<lastBuildDate>Mon, 31 Jul 2023 07:12:28 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,13 +21,13 @@
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
 		<title>Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2</title>
-		<link>httprinoymjoseph.github.io/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/</link>
-					<comments>httprinoymjoseph.github.io/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/#respond</comments>
+		<link>/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/</link>
+					<comments>/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 07:12:09 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">httprinoymjoseph.github.io/?p=5</guid>
+		<guid isPermaLink="false">/?p=5</guid>
 
 					<description><![CDATA[Enable the Red Hat build of MicroShift repositories by running]]></description>
 										<content:encoded><![CDATA[
@@ -148,27 +148,27 @@ openshift-service-ca       service-ca-764bd7f7b7-c82g5          0/1     Pending 
 openshift-storage          topolvm-controller-f58fcd7cb-m9ng4   0/4     Pending             0          2m3s</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>httprinoymjoseph.github.io/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/feed/</wfw:commentRss>
+					<wfw:commentRss>/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Hello world!</title>
-		<link>httprinoymjoseph.github.io/hello-world/</link>
-					<comments>httprinoymjoseph.github.io/hello-world/#comments</comments>
+		<link>/hello-world/</link>
+					<comments>/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 07:08:09 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">httprinoymjoseph.github.io/?p=1</guid>
+		<guid isPermaLink="false">/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>httprinoymjoseph.github.io/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

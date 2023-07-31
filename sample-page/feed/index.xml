@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Sample Page	</title>
-	<atom:link href="httprinoymjoseph.github.io/sample-page/feed/" rel="self" type="application/rss+xml" />
-	<link>httprinoymjoseph.github.io/</link>
+	<atom:link href="/sample-page/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description></description>
 	<lastBuildDate>Mon, 31 Jul 2023 07:08:09 +0000</lastBuildDate>
 	<sy:updatePeriod>

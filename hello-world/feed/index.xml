@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Hello world!	</title>
-	<atom:link href="httprinoymjoseph.github.io/hello-world/feed/" rel="self" type="application/rss+xml" />
-	<link>httprinoymjoseph.github.io/hello-world/</link>
+	<atom:link href="/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>/hello-world/</link>
 	<description></description>
 	<lastBuildDate>Mon, 31 Jul 2023 07:08:09 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		By: A WordPress Commenter		</title>
-		<link>httprinoymjoseph.github.io/hello-world/#comment-1</link>
+		<link>/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 07:08:09 +0000</pubDate>
-		<guid isPermaLink="false">httprinoymjoseph.github.io/?p=1#comment-1</guid>
+		<guid isPermaLink="false">/?p=1#comment-1</guid>
 
 					<description><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
