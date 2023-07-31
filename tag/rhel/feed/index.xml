@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>RHEL &#8211; Hive</title>
+	<atom:link href="/tag/rhel/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Mon, 31 Jul 2023 11:18:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<item>
+		<title>Installation of Red Hat Enterprise Linux 9.2 using developer account</title>
+		<link>/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Mon, 31 Jul 2023 09:46:28 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[RHEL]]></category>
+		<guid isPermaLink="false">/?p=24</guid>
+
+					<description><![CDATA[The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program. The no-cost Red Hat Developer Subscription for ... <a title="Installation of Red Hat Enterprise Linux 9.2 using developer account" class="read-more" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/" aria-label="More on Installation of Red Hat Enterprise Linux 9.2 using developer account">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program.</p>
+
+
+
+<p>The no-cost Red Hat Developer Subscription for Individuals is available and includes Red Hat Enterprise Linux along with numerous other Red Hat technologies. Users can access this no-cost subscription by joining the Red Hat Developer program at&nbsp;<a href="https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/registrations?client_id=rhd-web&amp;redirect_uri=https%3A%2F%2Fdevelopers.redhat.com&amp;state=a4ecd0f1-1e1b-4f77-8ab8-75bca9a84f15&amp;response_mode=fragment&amp;response_type=code&amp;scope=openid&amp;nonce=bab04a92-fff9-43b6-8d24-d4a653163741">developers.redhat.com/register</a>. Joining the program is free.</p>
+
+
+
+<p>After registering with Red Hat Developer program, navigate to Products &amp; Technologies -&gt; Red Hat Enterprise Linux.  https://developers.redhat.com/products/rhel/overview. Click on &#8216;Download RHEL at no-cost&#8217; button to download RHEL 9.2 media DVD. You can also check https://developers.redhat.com/products/rhel/download for other versions of RHEL.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="656" height="496" src="/wp-content/uploads/2023/07/image-1.png" alt="" class="wp-image-32" srcset="/wp-content/uploads/2023/07/image-1.png 656w, /wp-content/uploads/2023/07/image-1-300x227.png 300w" sizes="(max-width: 656px) 100vw, 656px" /></figure>
+
+
+
+<p>Mount the DVD and boot the machine. Configuration used here is 2 CPU, 4 GB RAM and a Harddisk with 200 GB space. Configure System and User Settings and Begin Installation.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="998" height="741" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-155152.png" alt="" class="wp-image-42" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-155152.png 998w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-155152-300x223.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-155152-768x570.png 768w" sizes="(max-width: 998px) 100vw, 998px" /></figure>
+
+
+
+<p>Reboot system once installation is completed.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="1001" height="740" src="/wp-content/uploads/2023/07/image.png" alt="" class="wp-image-47" srcset="/wp-content/uploads/2023/07/image.png 1001w, /wp-content/uploads/2023/07/image-300x222.png 300w, /wp-content/uploads/2023/07/image-768x568.png 768w" sizes="(max-width: 1001px) 100vw, 1001px" /></figure>
+
+
+
+<p>Login and click on &#8216;Register System&#8217;.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="994" height="723" src="/wp-content/uploads/2023/07/image-2.png" alt="" class="wp-image-50" srcset="/wp-content/uploads/2023/07/image-2.png 994w, /wp-content/uploads/2023/07/image-2-300x218.png 300w, /wp-content/uploads/2023/07/image-2-768x559.png 768w" sizes="(max-width: 994px) 100vw, 994px" /></figure>
+
+
+
+<p>Click on Subscription to register the system with developer account.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="987" height="712" src="/wp-content/uploads/2023/07/image-3.png" alt="" class="wp-image-53" srcset="/wp-content/uploads/2023/07/image-3.png 987w, /wp-content/uploads/2023/07/image-3-300x216.png 300w, /wp-content/uploads/2023/07/image-3-768x554.png 768w" sizes="(max-width: 987px) 100vw, 987px" /></figure>
+
+
+
+<p>Provide developer account details and click on Register.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="988" height="736" src="/wp-content/uploads/2023/07/image-4.png" alt="" class="wp-image-56" srcset="/wp-content/uploads/2023/07/image-4.png 988w, /wp-content/uploads/2023/07/image-4-300x223.png 300w, /wp-content/uploads/2023/07/image-4-768x572.png 768w" sizes="(max-width: 988px) 100vw, 988px" /></figure>
+
+
+
+<p>Don&#8217;t forget to Register the system to receive software updates by selecting &#8216;Software Updates&#8217;.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -12,7 +12,7 @@
 	<atom:link href="/author/rinoy/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Mon, 31 Jul 2023 07:12:28 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 31 Jul 2023 11:43:30 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,17 +20,102 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Installation of Red Hat Enterprise Linux 9.2 using developer account</title>
+		<link>/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Mon, 31 Jul 2023 09:46:28 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[RHEL]]></category>
+		<guid isPermaLink="false">/?p=24</guid>
+
+					<description><![CDATA[The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program. The no-cost Red Hat Developer Subscription for ... <a title="Installation of Red Hat Enterprise Linux 9.2 using developer account" class="read-more" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/" aria-label="More on Installation of Red Hat Enterprise Linux 9.2 using developer account">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program.</p>
+
+
+
+<p>The no-cost Red Hat Developer Subscription for Individuals is available and includes Red Hat Enterprise Linux along with numerous other Red Hat technologies. Users can access this no-cost subscription by joining the Red Hat Developer program at&nbsp;<a href="https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/registrations?client_id=rhd-web&amp;redirect_uri=https%3A%2F%2Fdevelopers.redhat.com&amp;state=a4ecd0f1-1e1b-4f77-8ab8-75bca9a84f15&amp;response_mode=fragment&amp;response_type=code&amp;scope=openid&amp;nonce=bab04a92-fff9-43b6-8d24-d4a653163741">developers.redhat.com/register</a>. Joining the program is free.</p>
+
+
+
+<p>After registering with Red Hat Developer program, navigate to Products &amp; Technologies -&gt; Red Hat Enterprise Linux.  https://developers.redhat.com/products/rhel/overview. Click on &#8216;Download RHEL at no-cost&#8217; button to download RHEL 9.2 media DVD. You can also check https://developers.redhat.com/products/rhel/download for other versions of RHEL.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="656" height="496" src="/wp-content/uploads/2023/07/image-1.png" alt="" class="wp-image-32" srcset="/wp-content/uploads/2023/07/image-1.png 656w, /wp-content/uploads/2023/07/image-1-300x227.png 300w" sizes="(max-width: 656px) 100vw, 656px" /></figure>
+
+
+
+<p>Mount the DVD and boot the machine. Configuration used here is 2 CPU, 4 GB RAM and a Harddisk with 200 GB space. Configure System and User Settings and Begin Installation.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="998" height="741" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-155152.png" alt="" class="wp-image-42" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-155152.png 998w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-155152-300x223.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-155152-768x570.png 768w" sizes="(max-width: 998px) 100vw, 998px" /></figure>
+
+
+
+<p>Reboot system once installation is completed.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="1001" height="740" src="/wp-content/uploads/2023/07/image.png" alt="" class="wp-image-47" srcset="/wp-content/uploads/2023/07/image.png 1001w, /wp-content/uploads/2023/07/image-300x222.png 300w, /wp-content/uploads/2023/07/image-768x568.png 768w" sizes="(max-width: 1001px) 100vw, 1001px" /></figure>
+
+
+
+<p>Login and click on &#8216;Register System&#8217;.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="994" height="723" src="/wp-content/uploads/2023/07/image-2.png" alt="" class="wp-image-50" srcset="/wp-content/uploads/2023/07/image-2.png 994w, /wp-content/uploads/2023/07/image-2-300x218.png 300w, /wp-content/uploads/2023/07/image-2-768x559.png 768w" sizes="(max-width: 994px) 100vw, 994px" /></figure>
+
+
+
+<p>Click on Subscription to register the system with developer account.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="987" height="712" src="/wp-content/uploads/2023/07/image-3.png" alt="" class="wp-image-53" srcset="/wp-content/uploads/2023/07/image-3.png 987w, /wp-content/uploads/2023/07/image-3-300x216.png 300w, /wp-content/uploads/2023/07/image-3-768x554.png 768w" sizes="(max-width: 987px) 100vw, 987px" /></figure>
+
+
+
+<p>Provide developer account details and click on Register.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="988" height="736" src="/wp-content/uploads/2023/07/image-4.png" alt="" class="wp-image-56" srcset="/wp-content/uploads/2023/07/image-4.png 988w, /wp-content/uploads/2023/07/image-4-300x223.png 300w, /wp-content/uploads/2023/07/image-4-768x572.png 768w" sizes="(max-width: 988px) 100vw, 988px" /></figure>
+
+
+
+<p>Don&#8217;t forget to Register the system to receive software updates by selecting &#8216;Software Updates&#8217;.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2</title>
 		<link>/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/</link>
-					<comments>/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 07:12:09 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/?p=5</guid>
 
-					<description><![CDATA[Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of Microshift and openshift clients by running the following command. Configure firewall rules Conifgure pull-secret.json Start the MicroShift service To start MicroShift when machine starts, enter the following command Check the service logs by running below command Create ... <a title="Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2">Read more</a>]]></description>
+					<description><![CDATA[Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of Microshift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2">Read more</a>]]></description>
 										<content:encoded><![CDATA[
+<p><strong>Prerequisite </strong></p>
+
+
+
+<p>Red Hat Enterprise Linux 9.2. </p>
+
+
+
+<p>Please refer <a href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/">Installation of Red Hat Enterprise Linux 9.2 using developer account</a> for installation of RHEL 9.2.</p>
+
+
+
 <p><strong>Enable the Red Hat build of MicroShift repositories by running the following command</strong></p>
 
 
@@ -59,16 +144,24 @@ sudo firewall-cmd --reload</code></pre>
 
 
 
+<p><strong>Download pull secret for Red Hat registry authentication</strong></p>
+
+
+
+<p>Open<a href=" https://console.redhat.com/openshift/install/pull-secret "> https://console.redhat.com/openshift/install/pull-secret </a>and click on &#8216;Download pull secret&#8217;. Pull secret file is downloaded as &#8216;pull-secret.txt&#8217; file.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="460" src="/wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1024x460.png" alt="" class="wp-image-67" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1024x460.png 1024w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-300x135.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-768x345.png 768w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1536x690.png 1536w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459.png 1659w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
 <p><strong>Conifgure pull-secret.json</strong></p>
 
 
 
 <ul>
-<li>Download pull secret for RedHat registries.</li>
-
-
-
-<li>Upload file to target machine and rename file to pull-secret.json.</li>
+<li>Upload pull secret file to target machine and rename file to pull-secret.json.</li>
 
 
 
@@ -148,8 +241,6 @@ openshift-service-ca       service-ca-764bd7f7b7-c82g5          0/1     Pending 
 openshift-storage          topolvm-controller-f58fcd7cb-m9ng4   0/4     Pending             0          2m3s</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
