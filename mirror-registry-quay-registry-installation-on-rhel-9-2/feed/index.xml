@@ -7,9 +7,9 @@
 	>
 <channel>
 	<title>
-	Comments for Hive	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	Comments on: Mirror registry (Quay registry) installation on RHEL 9.2	</title>
+	<atom:link href="/mirror-registry-quay-registry-installation-on-rhel-9-2/feed/" rel="self" type="application/rss+xml" />
+	<link>/mirror-registry-quay-registry-installation-on-rhel-9-2/</link>
 	<description></description>
 	<lastBuildDate>Mon, 31 Jul 2023 13:00:42 +0000</lastBuildDate>
 	<sy:updatePeriod>

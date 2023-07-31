@@ -12,7 +12,7 @@
 	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Mon, 31 Jul 2023 11:43:30 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 31 Jul 2023 11:59:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -99,7 +99,9 @@
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 07:12:09 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[RHEL]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Microshift]]></category>
 		<guid isPermaLink="false">/?p=5</guid>
 
 					<description><![CDATA[Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of Microshift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2">Read more</a>]]></description>
@@ -241,26 +243,6 @@ openshift-service-ca       service-ca-764bd7f7b7-c82g5          0/1     Pending 
 openshift-storage          topolvm-controller-f58fcd7cb-m9ng4   0/4     Pending             0          2m3s</code></pre>
 ]]></content:encoded>
 					
-		
-		
-			</item>
-		<item>
-		<title>Hello world!</title>
-		<link>/hello-world/</link>
-					<comments>/hello-world/#comments</comments>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Mon, 31 Jul 2023 07:08:09 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/?p=1</guid>
-
-					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
-										<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>/hello-world/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
 		
 		
 			</item>
