@@ -5,15 +5,16 @@
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- This site is optimized with the Yoast SEO plugin v20.12 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Installation of Elastic Search and Kibana on Ubuntu 22.04 - Hyrule Sage</title>
+	<title>Installation of Elasticsearch and Kibana on Ubuntu 22.04 - Hyrule Sage</title>
 	<link rel="canonical" href="/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Installation of Elastic Search and Kibana on Ubuntu 22.04 - Hyrule Sage">
+	<meta property="og:title" content="Installation of Elasticsearch and Kibana on Ubuntu 22.04 - Hyrule Sage">
+	<meta property="og:description" content="Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.As the heart of the Elastic Stack, it centrally stores your data for lightning fast search, fine‑tuned relevancy, and powerful analytics that scale with ease. This post will guide ... Read more">
 	<meta property="og:url" content="/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/">
 	<meta property="og:site_name" content="Hyrule Sage">
 	<meta property="article:published_time" content="2023-07-31T15:52:05+00:00">
-	<meta property="article:modified_time" content="2023-08-01T04:28:49+00:00">
+	<meta property="article:modified_time" content="2023-08-01T11:58:37+00:00">
 	<meta property="og:image" content="/wp-content/uploads/2023/07/Screenshot-2023-07-31-214957.png">
 	<meta property="og:image:width" content="862">
 	<meta property="og:image:height" content="253">
@@ -22,13 +23,15 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:label1" content="Written by">
 	<meta name="twitter:data1" content="rinoy">
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#article","isPartOf":{"@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/"},"author":{"name":"rinoy","@id":"/#/schema/person/38ea6608be87499adfa5d999e0869440"},"headline":"Installation of Elastic Search and Kibana on Ubuntu 22.04","datePublished":"2023-07-31T15:52:05+00:00","dateModified":"2023-08-01T04:28:49+00:00","mainEntityOfPage":{"@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/"},"wordCount":8,"publisher":{"@id":"/#/schema/person/38ea6608be87499adfa5d999e0869440"},"image":{"@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#primaryimage"},"thumbnailUrl":"/wp-content/uploads/2023/07/Screenshot-2023-07-31-214957.png","keywords":["Elastic Search","Kibana","Ubuntu"],"articleSection":["Elastic Search"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/","url":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/","name":"Installation of Elastic Search and Kibana on Ubuntu 22.04 - Hyrule Sage","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#primaryimage"},"image":{"@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#primaryimage"},"thumbnailUrl":"/wp-content/uploads/2023/07/Screenshot-2023-07-31-214957.png","datePublished":"2023-07-31T15:52:05+00:00","dateModified":"2023-08-01T04:28:49+00:00","breadcrumb":{"@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#primaryimage","url":"/wp-content/uploads/2023/07/Screenshot-2023-07-31-214957.png","contentUrl":"/wp-content/uploads/2023/07/Screenshot-2023-07-31-214957.png","width":862,"height":253},{"@type":"BreadcrumbList","@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Installation of Elastic Search and Kibana on Ubuntu 22.04"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Hyrule Sage","description":"","publisher":{"@id":"/#/schema/person/38ea6608be87499adfa5d999e0869440"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":["Person","Organization"],"@id":"/#/schema/person/38ea6608be87499adfa5d999e0869440","name":"rinoy","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/person/image/","url":"/wp-content/uploads/2023/08/TP_Sage_Render.webp","contentUrl":"/wp-content/uploads/2023/08/TP_Sage_Render.webp","width":1105,"height":1968,"caption":"rinoy"},"logo":{"@id":"/#/schema/person/image/"},"sameAs":[""],"url":"/author/rinoy/"}]}</script>
+	<meta name="twitter:label2" content="Est. reading time">
+	<meta name="twitter:data2" content="3 minutes">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#article","isPartOf":{"@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/"},"author":{"name":"rinoy","@id":"/#/schema/person/38ea6608be87499adfa5d999e0869440"},"headline":"Installation of Elasticsearch and Kibana on Ubuntu 22.04","datePublished":"2023-07-31T15:52:05+00:00","dateModified":"2023-08-01T11:58:37+00:00","mainEntityOfPage":{"@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/"},"wordCount":300,"publisher":{"@id":"/#/schema/person/38ea6608be87499adfa5d999e0869440"},"image":{"@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#primaryimage"},"thumbnailUrl":"/wp-content/uploads/2023/07/Screenshot-2023-07-31-214957.png","keywords":["Elastic Search","Kibana","Ubuntu"],"articleSection":["Elastic Search"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/","url":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/","name":"Installation of Elasticsearch and Kibana on Ubuntu 22.04 - Hyrule Sage","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#primaryimage"},"image":{"@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#primaryimage"},"thumbnailUrl":"/wp-content/uploads/2023/07/Screenshot-2023-07-31-214957.png","datePublished":"2023-07-31T15:52:05+00:00","dateModified":"2023-08-01T11:58:37+00:00","breadcrumb":{"@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#primaryimage","url":"/wp-content/uploads/2023/07/Screenshot-2023-07-31-214957.png","contentUrl":"/wp-content/uploads/2023/07/Screenshot-2023-07-31-214957.png","width":862,"height":253},{"@type":"BreadcrumbList","@id":"/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Installation of Elasticsearch and Kibana on Ubuntu 22.04"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Hyrule Sage","description":"","publisher":{"@id":"/#/schema/person/38ea6608be87499adfa5d999e0869440"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":["Person","Organization"],"@id":"/#/schema/person/38ea6608be87499adfa5d999e0869440","name":"rinoy","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/person/image/","url":"/wp-content/uploads/2023/08/TP_Sage_Render.webp","contentUrl":"/wp-content/uploads/2023/08/TP_Sage_Render.webp","width":1105,"height":1968,"caption":"rinoy"},"logo":{"@id":"/#/schema/person/image/"},"sameAs":[""],"url":"/author/rinoy/"}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
 <link rel="alternate" type="application/rss+xml" title="Hyrule Sage &raquo; Feed" href="/feed/">
 <link rel="alternate" type="application/rss+xml" title="Hyrule Sage &raquo; Comments Feed" href="/comments/feed/">
-<link rel="alternate" type="application/rss+xml" title="Hyrule Sage &raquo; Installation of Elastic Search and Kibana on Ubuntu 22.04 Comments Feed" href="/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/feed/">
+<link rel="alternate" type="application/rss+xml" title="Hyrule Sage &raquo; Installation of Elasticsearch and Kibana on Ubuntu 22.04 Comments Feed" href="/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/feed/">
 <script>
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"}};
 /*! This file is auto-generated */
@@ -119,12 +122,299 @@ img.emoji {
 				<div class="featured-image page-header-image-single grid-container grid-parent">
 			<img width="862" height="253" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-214957.png" class="attachment-full size-full wp-post-image" alt="" decoding="async" itemprop="image" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-214957.png 862w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-214957-300x88.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-214957-768x225.png 768w" sizes="(max-width: 862px) 100vw, 862px">		</div>
 					<header class="entry-header" aria-label="Content">
-				<h1 class="entry-title" itemprop="headline">Installation of Elastic Search and Kibana on Ubuntu 22.04</h1>		<div class="entry-meta">
-			<span class="posted-on"><time class="updated" datetime="2023-08-01T04:28:49+00:00" itemprop="dateModified">August 1, 2023</time><time class="entry-date published" datetime="2023-07-31T15:52:05+00:00" itemprop="datePublished">July 31, 2023</time></span> <span class="byline">by <span class="author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope><a class="url fn n" href="/author/rinoy/" title="View all posts by rinoy" rel="author" itemprop="url"><span class="author-name" itemprop="name">rinoy</span></a></span></span> 		</div>
+				<h1 class="entry-title" itemprop="headline">Installation of Elasticsearch and Kibana on Ubuntu 22.04</h1>		<div class="entry-meta">
+			<span class="posted-on"><time class="updated" datetime="2023-08-01T11:58:37+00:00" itemprop="dateModified">August 1, 2023</time><time class="entry-date published" datetime="2023-07-31T15:52:05+00:00" itemprop="datePublished">July 31, 2023</time></span> <span class="byline">by <span class="author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope><a class="url fn n" href="/author/rinoy/" title="View all posts by rinoy" rel="author" itemprop="url"><span class="author-name" itemprop="name">rinoy</span></a></span></span> 		</div>
 					</header>
 			
 		<div class="entry-content" itemprop="text">
-					</div>
+			
+<p class="has-text-align-left">Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.<br>As the heart of the Elastic Stack, it centrally stores your data for lightning fast search, fine‑tuned relevancy, and powerful analytics that scale with ease.</p>
+
+
+
+<p>This post will guide you through installation and configuration of Elasticsearch and Kibana.</p>
+
+
+
+<p><strong>Update package index files</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt update</code></pre>
+
+
+
+<p><strong>Install dependencies</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt-get install apt-transport-https</code></pre>
+
+
+
+<p><strong>Import the Elasticsearch PGP Key</strong></p>
+
+
+
+<pre class="wp-block-code"><code>wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo gpg --dearmor -o /usr/share/keyrings/elasticsearch-keyring.gpg</code></pre>
+
+
+
+<p><strong>Add the Elastic source list to the sources.list.d directory, where apt will search for new sources:</strong></p>
+
+
+
+<pre class="wp-block-code"><code>echo "deb &#91;signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://artifacts.elastic.co/packages/8.x/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-8.x.list</code></pre>
+
+
+
+<h3 class="wp-block-heading">Elasticsearch Installation</h3>
+
+
+
+<p><strong>Install elasticsearch</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt update &amp;&amp; sudo apt install elasticsearch</code></pre>
+
+
+
+<p><strong>Enable Elasticsearch service</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo systemctl daemon-reload
+sudo systemctl enable elasticsearch.service</code></pre>
+
+
+
+<p><strong>Elasticsearch can be started and stopped as follows</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo systemctl start elasticsearch.service</code></pre>
+
+
+
+<p><strong>To stope Elasticsearch run below command</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo systemctl stop elasticsearch.service</code></pre>
+
+
+
+<p><strong>To list journal entries for the Elasticsearch service</strong></p>
+
+
+
+<pre class="wp-block-code"><code>journalctl --unit elasticsearch</code></pre>
+
+
+
+<p><strong>You should see similar output as below in the console</strong></p>
+
+
+
+<pre class="wp-block-code"><code>$ journalctl --unit elasticsearch
+Aug 01 11:34:36 abb systemd&#91;1]: Starting Elasticsearch...
+Aug 01 11:34:49 abb systemd&#91;1]: Started Elasticsearch.</code></pre>
+
+
+
+<p><strong>To reset password of Elasticsearch</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic</code></pre>
+
+
+
+<p><strong>You should see output similar to below in the console</strong></p>
+
+
+
+<pre class="wp-block-code"><code>$ sudo /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic
+This tool will reset the password of the &#91;elastic] user to an autogenerated value.
+The password will be printed in the console.
+Please confirm that you would like to continue &#91;y/N]y
+
+
+Password for the &#91;elastic] user successfully reset.
+New value: D5SQMkZ*I_m5qCVAFHQE</code></pre>
+
+
+
+<p><strong>To Check Elasticsearch is up and running</strong></p>
+
+
+
+<pre class="wp-block-code"><code>curl -k -u elastic https://localhost:9200</code></pre>
+
+
+
+<p><strong>You should see output similar to below after entering the password</strong></p>
+
+
+
+<pre class="wp-block-code"><code>$ curl -k -u elastic https://localhost:9200
+Enter host password for user 'elastic':
+{
+  "name" : "abb",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "bD_SCK32SYinR79L6SbagQ",
+  "version" : {
+    "number" : "8.8.2",
+    "build_flavor" : "default",
+    "build_type" : "deb",
+    "build_hash" : "98e1271edf932a480e4262a471281f1ee295ce6b",
+    "build_date" : "2023-06-26T05:16:16.196344851Z",
+    "build_snapshot" : false,
+    "lucene_version" : "9.6.0",
+    "minimum_wire_compatibility_version" : "7.17.0",
+    "minimum_index_compatibility_version" : "7.0.0"
+  },
+  "tagline" : "You Know, for Search"
+}</code></pre>
+
+
+
+<h3 class="wp-block-heading">Kibana Installation</h3>
+
+
+
+<p><strong>Install kibana by running below command</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt install kibana</code></pre>
+
+
+
+<p>Make below changes in /etc/elasticsearch/elasticsearch.yml to allow connection from kibana. Edit the file and uncomment/edit lines.</p>
+
+
+
+<pre class="wp-block-code"><code>http.port: 9200
+network.host: 0.0.0.0</code></pre>
+
+
+
+<p><strong>Restart Elasticsearch service</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo systemctl restart elasticsearch</code></pre>
+
+
+
+<p>Make below changes in  /etc/kibana/kibana.yml to configure kibana.</p>
+
+
+
+<pre class="wp-block-code"><code>server.port: 5601
+server.host: "X.X.X.X" (Kibana server's IP address)</code></pre>
+
+
+
+<p><strong>For e.g., </strong></p>
+
+
+
+<pre class="wp-block-code"><code>server.port: 5601
+server.host: "192.168.0.183"</code></pre>
+
+
+
+<p><strong>Restart kibana</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo systemctl restart kibana.service </code></pre>
+
+
+
+<p><strong>Access host ip:5601 (for e.g http://192.168.0.183:5601/) in a browser to configure Kibana with Elasticsearch. </strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="525" src="/wp-content/uploads/2023/08/Screenshot-2023-08-01-171559-1024x525.png" alt="" class="wp-image-165" srcset="/wp-content/uploads/2023/08/Screenshot-2023-08-01-171559-1024x525.png 1024w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171559-300x154.png 300w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171559-768x394.png 768w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171559.png 1352w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+
+
+
+<p><strong>Run below command to generate enrollment token</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo /usr/share/elasticsearch/bin/elasticsearch-create-enrollment-token -s kibana</code></pre>
+
+
+
+<p><strong>Reference output</strong></p>
+
+
+
+<pre class="wp-block-code"><code>ability@abb:~$ sudo /usr/share/elasticsearch/bin/elasticsearch-create-enrollment-token -s kibana
+eyJ2ZXIiOiI4LjkuMCIsImFkciI6WyIxOTIuMTY4LjAuMTgzOjkyMDAiXSwiZmdyIjoiZTc1ZDEwYTllNDA2NDg5YWQxNzdhM2VkMzE1NGM3ZmRkOTMwYTIxYjM5OTY3NDkxYzI1MzY4Yjc3MDBiM2E5OCIsImtleSI6IjJmcnNzSWtCeHBiSklOaEtKQkJEOld1Qnlyb1FtVDE2VU9sZjlPRUJkN2cifQ==</code></pre>
+
+
+
+<p><strong>Enter enrollment token in textbox and click on &#8216;Configure Elastic&#8217; button</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="531" src="/wp-content/uploads/2023/08/Screenshot-2023-08-01-171837-1024x531.png" alt="" class="wp-image-168" srcset="/wp-content/uploads/2023/08/Screenshot-2023-08-01-171837-1024x531.png 1024w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171837-300x156.png 300w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171837-768x399.png 768w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171837-1536x797.png 1536w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171837.png 1561w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+
+
+
+<p><strong>Next step is to verify using another token</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="569" src="/wp-content/uploads/2023/08/Screenshot-2023-08-01-171914-1024x569.png" alt="" class="wp-image-170" srcset="/wp-content/uploads/2023/08/Screenshot-2023-08-01-171914-1024x569.png 1024w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171914-300x167.png 300w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171914-768x426.png 768w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171914.png 1475w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+
+
+
+<p><strong>To generate verification token</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo /usr/share/kibana/bin/kibana-verification-code </code></pre>
+
+
+
+<p><strong>Reference output</strong></p>
+
+
+
+<pre class="wp-block-code"><code>$ sudo /usr/share/kibana/bin/kibana-verification-code 
+Your verification code is:  571 272 </code></pre>
+
+
+
+<p><strong>Enter verification code and click on &#8216;Verify&#8217;</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="581" src="/wp-content/uploads/2023/08/Screenshot-2023-08-01-172238-1024x581.png" alt="" class="wp-image-173" srcset="/wp-content/uploads/2023/08/Screenshot-2023-08-01-172238-1024x581.png 1024w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172238-300x170.png 300w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172238-768x436.png 768w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172238.png 1418w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+
+
+
+<p><strong>You should see below page </strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="600" src="/wp-content/uploads/2023/08/Screenshot-2023-08-01-172553-1024x600.png" alt="" class="wp-image-177" srcset="/wp-content/uploads/2023/08/Screenshot-2023-08-01-172553-1024x600.png 1024w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172553-300x176.png 300w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172553-768x450.png 768w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172553.png 1537w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+
+
+
+<p><strong>Refresh the page if its stuck at &#8216;Completing setup&#8217; step. After successful setup a login page is displayed.</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="599" src="/wp-content/uploads/2023/08/Screenshot-2023-08-01-172740-1024x599.png" alt="" class="wp-image-179" srcset="/wp-content/uploads/2023/08/Screenshot-2023-08-01-172740-1024x599.png 1024w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172740-300x176.png 300w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172740-768x449.png 768w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172740.png 1480w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+		</div>
 
 				<footer class="entry-meta" aria-label="Entry meta">
 			<span class="cat-links"><span class="gp-icon icon-categories"><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z"></path></svg></span><span class="screen-reader-text">Categories </span><a href="/category/elastic-search/" rel="category tag">Elastic Search</a></span> <span class="tags-links"><span class="gp-icon icon-tags"><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M20 39.5c-8.836 0-16 7.163-16 16v176c0 4.243 1.686 8.313 4.687 11.314l224 224c6.248 6.248 16.378 6.248 22.626 0l176-176c6.244-6.244 6.25-16.364.013-22.615l-223.5-224A15.999 15.999 0 00196.5 39.5H20zm56 96c0-13.255 10.745-24 24-24s24 10.745 24 24-10.745 24-24 24-24-10.745-24-24z"></path><path d="M259.515 43.015c4.686-4.687 12.284-4.687 16.97 0l228 228c4.686 4.686 4.686 12.284 0 16.97l-180 180c-4.686 4.687-12.284 4.687-16.97 0-4.686-4.686-4.686-12.284 0-16.97L479.029 279.5 259.515 59.985c-4.686-4.686-4.686-12.284 0-16.97z"></path></svg></span><span class="screen-reader-text">Tags </span><a href="/tag/elastic-search/" rel="tag">Elastic Search</a>, <a href="/tag/kibana/" rel="tag">Kibana</a>, <a href="/tag/ubuntu/" rel="tag">Ubuntu</a></span> 		<nav id="nav-below" class="post-navigation" aria-label="Posts">
@@ -162,7 +452,7 @@ img.emoji {
 
 
 <ul class="wp-block-latest-posts__list wp-block-latest-posts">
-<li><a class="wp-block-latest-posts__post-title" href="/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/">Installation of Elastic Search and Kibana on Ubuntu 22.04</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/">Installation of Elasticsearch and Kibana on Ubuntu 22.04</a></li>
 <li><a class="wp-block-latest-posts__post-title" href="/installation-of-cockpit-on-rhel-9-2/">Installation of Cockpit on RHEL 9.2</a></li>
 <li><a class="wp-block-latest-posts__post-title" href="/k3s-installation-on-ubuntu-22-04/">K3s installation on Ubuntu 22.04</a></li>
 <li><a class="wp-block-latest-posts__post-title" href="/installation-of-ansible-on-ubuntu-22-04/">Installation of Ansible on Ubuntu 22.04</a></li>
