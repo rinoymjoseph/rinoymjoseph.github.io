@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>Quay &#8211; Hyrule Secrets</title>
+	<title>Quay Archives - Hyrule Sage</title>
 	<atom:link href="/tag/quay/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<link>/tag/quay/</link>
 	<description></description>
 	<lastBuildDate>Mon, 31 Jul 2023 13:00:42 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -22,8 +22,8 @@
 
 <image>
 	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
-	<title>Quay &#8211; Hyrule Secrets</title>
-	<link>/</link>
+	<title>Quay Archives - Hyrule Sage</title>
+	<link>/tag/quay/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
@@ -35,10 +35,11 @@
 		<pubDate>Mon, 31 Jul 2023 12:18:51 +0000</pubDate>
 				<category><![CDATA[RHEL]]></category>
 		<category><![CDATA[Quay]]></category>
-		<category><![CDATA[RHEL 9.2]]></category>
 		<guid isPermaLink="false">/?p=70</guid>
 
-					<description><![CDATA[The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a>]]></description>
+					<description><![CDATA[<p>The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a></p>
+<p>The post <a rel="nofollow" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/">Mirror registry (Quay registry) installation on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></description>
 										<content:encoded><![CDATA[
 <p>The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations.</p>
 
@@ -154,6 +155,7 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 
 
 <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="978" height="666" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182549.png" alt="" class="wp-image-92" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182549.png 978w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182549-300x204.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182549-768x523.png 768w" sizes="(max-width: 978px) 100vw, 978px" /></figure>
+<p>The post <a rel="nofollow" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/">Mirror registry (Quay registry) installation on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
 ]]></content:encoded>
 					
 		

@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>rinoy &#8211; Hyrule Secrets</title>
+	<title>rinoy, Author at Hyrule Sage</title>
 	<atom:link href="/author/rinoy/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<link>/author/rinoy/</link>
 	<description></description>
-	<lastBuildDate>Mon, 31 Jul 2023 13:00:42 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 01 Aug 2023 04:28:49 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,12 +22,145 @@
 
 <image>
 	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
-	<title>rinoy &#8211; Hyrule Secrets</title>
-	<link>/</link>
+	<title>rinoy, Author at Hyrule Sage</title>
+	<link>/author/rinoy/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
+		<title>Installation of Elastic Search and Kibana on Ubuntu 22.04</title>
+		<link>/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Mon, 31 Jul 2023 15:52:05 +0000</pubDate>
+				<category><![CDATA[Elastic Search]]></category>
+		<category><![CDATA[Kibana]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<guid isPermaLink="false">/?p=129</guid>
+
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/">Installation of Elastic Search and Kibana on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/">Installation of Elastic Search and Kibana on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Installation of Cockpit on RHEL 9.2</title>
+		<link>/installation-of-cockpit-on-rhel-9-2/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Mon, 31 Jul 2023 15:44:07 +0000</pubDate>
+				<category><![CDATA[RHEL]]></category>
+		<category><![CDATA[Cockpit]]></category>
+		<guid isPermaLink="false">/?p=125</guid>
+
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-cockpit-on-rhel-9-2/">Installation of Cockpit on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-cockpit-on-rhel-9-2/">Installation of Cockpit on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>K3s installation on Ubuntu 22.04</title>
+		<link>/k3s-installation-on-ubuntu-22-04/</link>
+					<comments>/k3s-installation-on-ubuntu-22-04/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Mon, 31 Jul 2023 15:30:21 +0000</pubDate>
+				<category><![CDATA[k3s]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<guid isPermaLink="false">/?p=122</guid>
+
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/k3s-installation-on-ubuntu-22-04/">K3s installation on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/k3s-installation-on-ubuntu-22-04/">K3s installation on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/k3s-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Installation of Ansible on Ubuntu 22.04</title>
+		<link>/installation-of-ansible-on-ubuntu-22-04/</link>
+					<comments>/installation-of-ansible-on-ubuntu-22-04/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Mon, 31 Jul 2023 15:25:34 +0000</pubDate>
+				<category><![CDATA[Ansible]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<guid isPermaLink="false">/?p=119</guid>
+
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-ansible-on-ubuntu-22-04/">Installation of Ansible on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-ansible-on-ubuntu-22-04/">Installation of Ansible on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/installation-of-ansible-on-ubuntu-22-04/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Installation of Terraform on Ubuntu 22.04</title>
+		<link>/installation-of-terraform-on-ubuntu-22-04/</link>
+					<comments>/installation-of-terraform-on-ubuntu-22-04/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Mon, 31 Jul 2023 15:13:17 +0000</pubDate>
+				<category><![CDATA[Terraform]]></category>
+		<category><![CDATA[Proxmox]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<guid isPermaLink="false">/?p=115</guid>
+
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-terraform-on-ubuntu-22-04/">Installation of Terraform on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-terraform-on-ubuntu-22-04/">Installation of Terraform on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/installation-of-terraform-on-ubuntu-22-04/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Virtual Machine provisioning using Terraform on Proxmox VE</title>
+		<link>/virtual-machine-provisioning-using-terraform-in-proxmox/</link>
+					<comments>/virtual-machine-provisioning-using-terraform-in-proxmox/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Mon, 31 Jul 2023 15:06:23 +0000</pubDate>
+				<category><![CDATA[Proxmox]]></category>
+		<category><![CDATA[Terraform]]></category>
+		<guid isPermaLink="false">/?p=107</guid>
+
+					<description><![CDATA[<p>Prerequisite Create a virtual machine in Proxmox VE and convert it to a template.</p>
+<p>The post <a rel="nofollow" href="/virtual-machine-provisioning-using-terraform-in-proxmox/">Virtual Machine provisioning using Terraform on Proxmox VE</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Prerequisite</strong> </p>
+
+
+
+<p>Create a virtual machine in Proxmox VE and convert it to a template.</p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="/virtual-machine-provisioning-using-terraform-in-proxmox/">Virtual Machine provisioning using Terraform on Proxmox VE</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/virtual-machine-provisioning-using-terraform-in-proxmox/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Mirror registry (Quay registry) installation on RHEL 9.2</title>
 		<link>/mirror-registry-quay-registry-installation-on-rhel-9-2/</link>
 		
@@ -35,10 +168,11 @@
 		<pubDate>Mon, 31 Jul 2023 12:18:51 +0000</pubDate>
 				<category><![CDATA[RHEL]]></category>
 		<category><![CDATA[Quay]]></category>
-		<category><![CDATA[RHEL 9.2]]></category>
 		<guid isPermaLink="false">/?p=70</guid>
 
-					<description><![CDATA[The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a>]]></description>
+					<description><![CDATA[<p>The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a></p>
+<p>The post <a rel="nofollow" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/">Mirror registry (Quay registry) installation on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></description>
 										<content:encoded><![CDATA[
 <p>The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations.</p>
 
@@ -154,6 +288,7 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 
 
 <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="978" height="666" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182549.png" alt="" class="wp-image-92" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182549.png 978w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182549-300x204.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182549-768x523.png 768w" sizes="(max-width: 978px) 100vw, 978px" /></figure>
+<p>The post <a rel="nofollow" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/">Mirror registry (Quay registry) installation on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
 ]]></content:encoded>
 					
 		
@@ -165,11 +300,12 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 09:46:28 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<category><![CDATA[RHEL]]></category>
+				<category><![CDATA[RHEL]]></category>
 		<guid isPermaLink="false">/?p=24</guid>
 
-					<description><![CDATA[The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program. The no-cost Red Hat Developer Subscription for ... <a title="Installation of Red Hat Enterprise Linux 9.2 using developer account" class="read-more" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/" aria-label="More on Installation of Red Hat Enterprise Linux 9.2 using developer account">Read more</a>]]></description>
+					<description><![CDATA[<p>The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program. The no-cost Red Hat Developer Subscription for ... <a title="Installation of Red Hat Enterprise Linux 9.2 using developer account" class="read-more" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/" aria-label="More on Installation of Red Hat Enterprise Linux 9.2 using developer account">Read more</a></p>
+<p>The post <a rel="nofollow" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/">Installation of Red Hat Enterprise Linux 9.2 using developer account</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></description>
 										<content:encoded><![CDATA[
 <p>The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program.</p>
 
@@ -228,6 +364,7 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 
 
 <p>Don&#8217;t forget to Register the system to receive software updates by selecting &#8216;Software Updates&#8217;.</p>
+<p>The post <a rel="nofollow" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/">Installation of Red Hat Enterprise Linux 9.2 using developer account</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
 ]]></content:encoded>
 					
 		
@@ -240,11 +377,12 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 07:12:09 +0000</pubDate>
 				<category><![CDATA[RHEL]]></category>
-		<category><![CDATA[Uncategorized]]></category>
 		<category><![CDATA[Microshift]]></category>
 		<guid isPermaLink="false">/?p=5</guid>
 
-					<description><![CDATA[Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of Microshift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2">Read more</a>]]></description>
+					<description><![CDATA[<p>Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of Microshift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2">Read more</a></p>
+<p>The post <a rel="nofollow" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/">Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></description>
 										<content:encoded><![CDATA[
 <p><strong>Prerequisite </strong></p>
 
@@ -381,6 +519,7 @@ openshift-ovn-kubernetes   ovnkube-master-q729v                 0/4     Containe
 openshift-ovn-kubernetes   ovnkube-node-spbf4                   0/1     ContainerCreating   0          2m3s
 openshift-service-ca       service-ca-764bd7f7b7-c82g5          0/1     Pending             0          2m4s
 openshift-storage          topolvm-controller-f58fcd7cb-m9ng4   0/4     Pending             0          2m3s</code></pre>
+<p>The post <a rel="nofollow" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/">Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
 ]]></content:encoded>
 					
 		

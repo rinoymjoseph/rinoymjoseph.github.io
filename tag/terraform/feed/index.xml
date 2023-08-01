@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Terraform Archives - Hyrule Sage</title>
+	<atom:link href="/tag/terraform/feed/" rel="self" type="application/rss+xml" />
+	<link>/tag/terraform/</link>
+	<description></description>
+	<lastBuildDate>Tue, 01 Aug 2023 04:27:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<title>Terraform Archives - Hyrule Sage</title>
+	<link>/tag/terraform/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Virtual Machine provisioning using Terraform on Proxmox VE</title>
+		<link>/virtual-machine-provisioning-using-terraform-in-proxmox/</link>
+					<comments>/virtual-machine-provisioning-using-terraform-in-proxmox/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Mon, 31 Jul 2023 15:06:23 +0000</pubDate>
+				<category><![CDATA[Proxmox]]></category>
+		<category><![CDATA[Terraform]]></category>
+		<guid isPermaLink="false">/?p=107</guid>
+
+					<description><![CDATA[<p>Prerequisite Create a virtual machine in Proxmox VE and convert it to a template.</p>
+<p>The post <a rel="nofollow" href="/virtual-machine-provisioning-using-terraform-in-proxmox/">Virtual Machine provisioning using Terraform on Proxmox VE</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Prerequisite</strong> </p>
+
+
+
+<p>Create a virtual machine in Proxmox VE and convert it to a template.</p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="/virtual-machine-provisioning-using-terraform-in-proxmox/">Virtual Machine provisioning using Terraform on Proxmox VE</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/virtual-machine-provisioning-using-terraform-in-proxmox/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
