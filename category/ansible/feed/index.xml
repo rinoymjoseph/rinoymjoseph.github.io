@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>Ansible Archives - Hyrule Sage</title>
+	<title>Ansible &#8211; Hyrule Monk</title>
 	<atom:link href="/category/ansible/feed/" rel="self" type="application/rss+xml" />
-	<link>/category/ansible/</link>
+	<link>/</link>
 	<description></description>
-	<lastBuildDate>Mon, 31 Jul 2023 15:28:15 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Aug 2023 11:52:25 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,15 +22,14 @@
 
 <image>
 	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
-	<title>Ansible Archives - Hyrule Sage</title>
-	<link>/category/ansible/</link>
+	<title>Ansible &#8211; Hyrule Monk</title>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
-		<title>Installation of Ansible on Ubuntu 22.04</title>
+		<title>Ansible installation on Ubuntu 22.04</title>
 		<link>/installation-of-ansible-on-ubuntu-22-04/</link>
-					<comments>/installation-of-ansible-on-ubuntu-22-04/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 15:25:34 +0000</pubDate>
@@ -38,13 +37,61 @@
 		<category><![CDATA[Ubuntu]]></category>
 		<guid isPermaLink="false">/?p=119</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-ansible-on-ubuntu-22-04/">Installation of Ansible on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-ansible-on-ubuntu-22-04/">Installation of Ansible on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+					<description><![CDATA[Ansible is a simple IT automation system. It handles configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration. It is primarily intended for IT professionals, who use it for application deployment, updates on workstations and servers, cloud provisioning, configuration management, intra-service orchestration, and nearly anything a systems administrator does on ... <a title="Ansible installation on Ubuntu 22.04" class="read-more" href="/installation-of-ansible-on-ubuntu-22-04/" aria-label="More on Ansible installation on Ubuntu 22.04">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Ansible is a simple IT automation system. It handles configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration.</p>
+
+
+
+<p>It is primarily intended for IT professionals, who use it for application deployment, updates on workstations and servers, cloud provisioning, configuration management, intra-service orchestration, and nearly anything a systems administrator does on a weekly or daily basis</p>
+
+
+
+<p><strong>Update package index files</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt update</code></pre>
+
+
+
+<p><strong>Add the repository</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo add-apt-repository --yes --update ppa:ansible/ansible</code></pre>
+
+
+
+<p><strong>Install pip and ansible</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt install python3-pip ansible -y</code></pre>
+
+
+
+<p><strong>Check version of ansible installed in the system</strong></p>
+
+
+
+<pre class="wp-block-code"><code>ansible --version</code></pre>
+
+
+
+<p><strong>Terminal output for reference</strong></p>
+
+
+
+<pre class="wp-block-code"><code>$ ansible --version
+ansible 2.10.8
+  config file = None
+  configured module search path = &#91;'/home/ability/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.10.12 (main, Jun 11 2023, 05:26:28) &#91;GCC 11.4.0]</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/installation-of-ansible-on-ubuntu-22-04/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

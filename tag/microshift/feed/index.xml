@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>Microshift Archives - Hyrule Sage</title>
+	<title>Microshift &#8211; Hyrule Monk</title>
 	<atom:link href="/tag/microshift/feed/" rel="self" type="application/rss+xml" />
-	<link>/tag/microshift/</link>
+	<link>/</link>
 	<description></description>
-	<lastBuildDate>Tue, 01 Aug 2023 04:28:01 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Aug 2023 04:31:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,13 +22,13 @@
 
 <image>
 	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
-	<title>Microshift Archives - Hyrule Sage</title>
-	<link>/tag/microshift/</link>
+	<title>Microshift &#8211; Hyrule Monk</title>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
-		<title>Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2</title>
+		<title>Microshift 4.13 installation on RedHat Enterprise Linux 9.2</title>
 		<link>/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
@@ -37,9 +37,7 @@
 		<category><![CDATA[Microshift]]></category>
 		<guid isPermaLink="false">/?p=5</guid>
 
-					<description><![CDATA[<p>Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of Microshift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2">Read more</a></p>
-<p>The post <a rel="nofollow" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/">Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
+					<description><![CDATA[Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of Microshift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="Microshift 4.13 installation on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on Microshift 4.13 installation on RedHat Enterprise Linux 9.2">Read more</a>]]></description>
 										<content:encoded><![CDATA[
 <p><strong>Prerequisite </strong></p>
 
@@ -89,7 +87,7 @@ sudo firewall-cmd --reload</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="460" src="/wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1024x460.png" alt="" class="wp-image-67" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1024x460.png 1024w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-300x135.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-768x345.png 768w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1536x690.png 1536w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459.png 1659w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="460" src="/wp-content/uploads/2023/08/ocp-pull-secret-1024x460.png" alt="OCP Pull Secret Download" class="wp-image-247" srcset="/wp-content/uploads/2023/08/ocp-pull-secret-1024x460.png 1024w, /wp-content/uploads/2023/08/ocp-pull-secret-300x135.png 300w, /wp-content/uploads/2023/08/ocp-pull-secret-768x345.png 768w, /wp-content/uploads/2023/08/ocp-pull-secret-1536x690.png 1536w, /wp-content/uploads/2023/08/ocp-pull-secret.png 1659w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -176,7 +174,6 @@ openshift-ovn-kubernetes   ovnkube-master-q729v                 0/4     Containe
 openshift-ovn-kubernetes   ovnkube-node-spbf4                   0/1     ContainerCreating   0          2m3s
 openshift-service-ca       service-ca-764bd7f7b7-c82g5          0/1     Pending             0          2m4s
 openshift-storage          topolvm-controller-f58fcd7cb-m9ng4   0/4     Pending             0          2m3s</code></pre>
-<p>The post <a rel="nofollow" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/">Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
 ]]></content:encoded>
 					
 		

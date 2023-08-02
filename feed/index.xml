@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>Hyrule Sage</title>
+	<title>Hyrule Monk</title>
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Tue, 01 Aug 2023 11:58:37 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Aug 2023 12:15:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,13 +22,69 @@
 
 <image>
 	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
-	<title>Hyrule Sage</title>
+	<title>Hyrule Monk</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
-		<title>Installation of Elasticsearch and Kibana on Ubuntu 22.04</title>
+		<title>Podman play kube example on Ubuntu 22.04</title>
+		<link>/podman-play-kube-example-on-ubuntu-22-04/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Tue, 01 Aug 2023 13:52:27 +0000</pubDate>
+				<category><![CDATA[Podman]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<guid isPermaLink="false">/?p=223</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Podman installation on Ubuntu 22.04</title>
+		<link>/podman-installation-on-ubuntu-22-04/</link>
+					<comments>/podman-installation-on-ubuntu-22-04/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Tue, 01 Aug 2023 13:45:27 +0000</pubDate>
+				<category><![CDATA[Podman]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<guid isPermaLink="false">/?p=215</guid>
+
+					<description><![CDATA[Prerequisite]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Prerequisite</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/podman-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mirror registry (Quay registry) installation on Ubuntu 22.04</title>
+		<link>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/</link>
+					<comments>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Tue, 01 Aug 2023 13:41:55 +0000</pubDate>
+				<category><![CDATA[Ubuntu]]></category>
+		<category><![CDATA[Quay]]></category>
+		<guid isPermaLink="false">/?p=213</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Elasticsearch and Kibana installation on Ubuntu 22.04</title>
 		<link>/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
@@ -38,9 +94,7 @@
 		<category><![CDATA[Ubuntu]]></category>
 		<guid isPermaLink="false">/?p=129</guid>
 
-					<description><![CDATA[<p>Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.As the heart of the Elastic Stack, it centrally stores your data for lightning fast search, fine‑tuned relevancy, and powerful analytics that scale with ease. This post will guide ... <a title="Installation of Elasticsearch and Kibana on Ubuntu 22.04" class="read-more" href="/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/" aria-label="More on Installation of Elasticsearch and Kibana on Ubuntu 22.04">Read more</a></p>
-<p>The post <a rel="nofollow" href="/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/">Installation of Elasticsearch and Kibana on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
+					<description><![CDATA[Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.As the heart of the Elastic Stack, it centrally stores your data for lightning fast search, fine‑tuned relevancy, and powerful analytics that scale with ease. This post will guide ... <a title="Elasticsearch and Kibana installation on Ubuntu 22.04" class="read-more" href="/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/" aria-label="More on Elasticsearch and Kibana installation on Ubuntu 22.04">Read more</a>]]></description>
 										<content:encoded><![CDATA[
 <p class="has-text-align-left">Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.<br>As the heart of the Elastic Stack, it centrally stores your data for lightning fast search, fine‑tuned relevancy, and powerful analytics that scale with ease.</p>
 
@@ -103,7 +157,7 @@ sudo systemctl enable elasticsearch.service</code></pre>
 
 
 
-<p><strong>Elasticsearch can be started and stopped as follows</strong></p>
+<p><strong>Elasticsearch can be started as follows</strong></p>
 
 
 
@@ -111,7 +165,7 @@ sudo systemctl enable elasticsearch.service</code></pre>
 
 
 
-<p><strong>To stope Elasticsearch run below command</strong></p>
+<p><strong>To stop Elasticsearch run below command</strong></p>
 
 
 
@@ -119,7 +173,7 @@ sudo systemctl enable elasticsearch.service</code></pre>
 
 
 
-<p><strong>To list journal entries for the Elasticsearch service</strong></p>
+<p><strong>To list journal entries for the Elasticsearch service run below command</strong></p>
 
 
 
@@ -137,7 +191,7 @@ Aug 01 11:34:49 abb systemd&#91;1]: Started Elasticsearch.</code></pre>
 
 
 
-<p><strong>To reset password of Elasticsearch</strong></p>
+<p><strong>To reset password of Elasticsearch run below command</strong></p>
 
 
 
@@ -160,7 +214,7 @@ New value: D5SQMkZ*I_m5qCVAFHQE</code></pre>
 
 
 
-<p><strong>To Check Elasticsearch is up and running</strong></p>
+<p><strong>To Check Elasticsearch is up and running run below command</strong></p>
 
 
 
@@ -223,7 +277,7 @@ network.host: 0.0.0.0</code></pre>
 
 
 
-<p>Make below changes in  /etc/kibana/kibana.yml to configure kibana.</p>
+<p>Make below changes in &nbsp;/etc/kibana/kibana.yml to configure kibana.</p>
 
 
 
@@ -253,7 +307,7 @@ server.host: "192.168.0.183"</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="525" src="/wp-content/uploads/2023/08/Screenshot-2023-08-01-171559-1024x525.png" alt="" class="wp-image-165" srcset="/wp-content/uploads/2023/08/Screenshot-2023-08-01-171559-1024x525.png 1024w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171559-300x154.png 300w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171559-768x394.png 768w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171559.png 1352w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="525" src="/wp-content/uploads/2023/07/kibana-elastic-configuration-1024x525.png" alt="Kibana Elasticsearch configuration page" class="wp-image-285" srcset="/wp-content/uploads/2023/07/kibana-elastic-configuration-1024x525.png 1024w, /wp-content/uploads/2023/07/kibana-elastic-configuration-300x154.png 300w, /wp-content/uploads/2023/07/kibana-elastic-configuration-768x394.png 768w, /wp-content/uploads/2023/07/kibana-elastic-configuration.png 1352w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -278,7 +332,7 @@ eyJ2ZXIiOiI4LjkuMCIsImFkciI6WyIxOTIuMTY4LjAuMTgzOjkyMDAiXSwiZmdyIjoiZTc1ZDEwYTll
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="531" src="/wp-content/uploads/2023/08/Screenshot-2023-08-01-171837-1024x531.png" alt="" class="wp-image-168" srcset="/wp-content/uploads/2023/08/Screenshot-2023-08-01-171837-1024x531.png 1024w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171837-300x156.png 300w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171837-768x399.png 768w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171837-1536x797.png 1536w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171837.png 1561w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="531" src="/wp-content/uploads/2023/07/kibana-elastic-configuration-2-1024x531.png" alt="Kibana Elasticsearch configuration - Enrollment Token" class="wp-image-287" srcset="/wp-content/uploads/2023/07/kibana-elastic-configuration-2-1024x531.png 1024w, /wp-content/uploads/2023/07/kibana-elastic-configuration-2-300x156.png 300w, /wp-content/uploads/2023/07/kibana-elastic-configuration-2-768x399.png 768w, /wp-content/uploads/2023/07/kibana-elastic-configuration-2-1536x797.png 1536w, /wp-content/uploads/2023/07/kibana-elastic-configuration-2.png 1561w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -286,7 +340,7 @@ eyJ2ZXIiOiI4LjkuMCIsImFkciI6WyIxOTIuMTY4LjAuMTgzOjkyMDAiXSwiZmdyIjoiZTc1ZDEwYTll
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="569" src="/wp-content/uploads/2023/08/Screenshot-2023-08-01-171914-1024x569.png" alt="" class="wp-image-170" srcset="/wp-content/uploads/2023/08/Screenshot-2023-08-01-171914-1024x569.png 1024w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171914-300x167.png 300w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171914-768x426.png 768w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-171914.png 1475w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="569" src="/wp-content/uploads/2023/07/kibana-elastic-search-verification-token-page-1024x569.png" alt="Kibana Elasticsearch Verification Token Page" class="wp-image-289" srcset="/wp-content/uploads/2023/07/kibana-elastic-search-verification-token-page-1024x569.png 1024w, /wp-content/uploads/2023/07/kibana-elastic-search-verification-token-page-300x167.png 300w, /wp-content/uploads/2023/07/kibana-elastic-search-verification-token-page-768x426.png 768w, /wp-content/uploads/2023/07/kibana-elastic-search-verification-token-page.png 1475w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -311,7 +365,7 @@ Your verification code is:  571 272 </code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="581" src="/wp-content/uploads/2023/08/Screenshot-2023-08-01-172238-1024x581.png" alt="" class="wp-image-173" srcset="/wp-content/uploads/2023/08/Screenshot-2023-08-01-172238-1024x581.png 1024w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172238-300x170.png 300w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172238-768x436.png 768w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172238.png 1418w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="581" src="/wp-content/uploads/2023/07/kibana-elastic-search-verification-token-value-1024x581.png" alt="Kibana Elasticsearch Verification Token Value" class="wp-image-291" srcset="/wp-content/uploads/2023/07/kibana-elastic-search-verification-token-value-1024x581.png 1024w, /wp-content/uploads/2023/07/kibana-elastic-search-verification-token-value-300x170.png 300w, /wp-content/uploads/2023/07/kibana-elastic-search-verification-token-value-768x436.png 768w, /wp-content/uploads/2023/07/kibana-elastic-search-verification-token-value.png 1418w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -319,23 +373,30 @@ Your verification code is:  571 272 </code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="600" src="/wp-content/uploads/2023/08/Screenshot-2023-08-01-172553-1024x600.png" alt="" class="wp-image-177" srcset="/wp-content/uploads/2023/08/Screenshot-2023-08-01-172553-1024x600.png 1024w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172553-300x176.png 300w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172553-768x450.png 768w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172553.png 1537w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="600" src="/wp-content/uploads/2023/07/kibana-elasticsearch-configruation-final-1024x600.png" alt="Kibana Elasticsearch Configuration Apply" class="wp-image-293" srcset="/wp-content/uploads/2023/07/kibana-elasticsearch-configruation-final-1024x600.png 1024w, /wp-content/uploads/2023/07/kibana-elasticsearch-configruation-final-300x176.png 300w, /wp-content/uploads/2023/07/kibana-elasticsearch-configruation-final-768x450.png 768w, /wp-content/uploads/2023/07/kibana-elasticsearch-configruation-final.png 1537w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
-<p><strong>Refresh the page if its stuck at &#8216;Completing setup&#8217; step. After successful setup a login page is displayed.</strong></p>
+<p><strong>Refresh the page if installation stuck at &#8216;Completing setup&#8217; step. After setup is completed successfully login page is displayed.</strong></p>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="599" src="/wp-content/uploads/2023/08/Screenshot-2023-08-01-172740-1024x599.png" alt="" class="wp-image-179" srcset="/wp-content/uploads/2023/08/Screenshot-2023-08-01-172740-1024x599.png 1024w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172740-300x176.png 300w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172740-768x449.png 768w, /wp-content/uploads/2023/08/Screenshot-2023-08-01-172740.png 1480w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-<p>The post <a rel="nofollow" href="/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/">Installation of Elasticsearch and Kibana on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="599" src="/wp-content/uploads/2023/07/kibana-elasticsearch-login-screen-1024x599.png" alt="Kibana Elasticsearch Login Page" class="wp-image-295" srcset="/wp-content/uploads/2023/07/kibana-elasticsearch-login-screen-1024x599.png 1024w, /wp-content/uploads/2023/07/kibana-elasticsearch-login-screen-300x176.png 300w, /wp-content/uploads/2023/07/kibana-elasticsearch-login-screen-768x449.png 768w, /wp-content/uploads/2023/07/kibana-elasticsearch-login-screen.png 1480w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p><strong>Enter the credentials. Username is elastic.</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="516" src="/wp-content/uploads/2023/07/kibana-home-page-1024x516.png" alt="Kibana Home Page" class="wp-image-297" srcset="/wp-content/uploads/2023/07/kibana-home-page-1024x516.png 1024w, /wp-content/uploads/2023/07/kibana-home-page-300x151.png 300w, /wp-content/uploads/2023/07/kibana-home-page-768x387.png 768w, /wp-content/uploads/2023/07/kibana-home-page-1536x774.png 1536w, /wp-content/uploads/2023/07/kibana-home-page.png 1897w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Installation of Cockpit on RHEL 9.2</title>
+		<title>Cockpit installation on RHEL 9.2</title>
 		<link>/installation-of-cockpit-on-rhel-9-2/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
@@ -344,9 +405,66 @@ Your verification code is:  571 272 </code></pre>
 		<category><![CDATA[Cockpit]]></category>
 		<guid isPermaLink="false">/?p=125</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-cockpit-on-rhel-9-2/">Installation of Cockpit on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-cockpit-on-rhel-9-2/">Installation of Cockpit on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+					<description><![CDATA[Introduction Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser. You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL. Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks ... <a title="Cockpit installation on RHEL 9.2" class="read-more" href="/installation-of-cockpit-on-rhel-9-2/" aria-label="More on Cockpit installation on RHEL 9.2">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<h3 class="wp-block-heading">Introduction</h3>
+
+
+
+<p>Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser.</p>
+
+
+
+<p>You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL.</p>
+
+
+
+<p>Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks such as starting containers, storage administration, network configuration, inspecting logs and so on.</p>
+
+
+
+<p>This post explains how to install Cockpit on RHEL 9.2 OS.</p>
+
+
+
+<p>Please refer <a href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/">Installation of Red Hat Enterprise Linux 9.2 using developer account</a> for installation of RHEL 9.2.</p>
+
+
+
+<h3 class="wp-block-heading">Installation</h3>
+
+
+
+<p><strong>To install cockpit run below command</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo dnf install cockpit -y</code></pre>
+
+
+
+<p><strong>Enable cockpit service by running below command</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo systemctl enable cockpit.socket --now</code></pre>
+
+
+
+<p><strong>Configure firewall to add the cockpit service to firewalld and open port 9090 in the firewall</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo firewall-cmd --add-service=cockpit --permanent
+sudo firewall-cmd --reload</code></pre>
+
+
+
+<p><strong>Access cockpit web interface at http://locahost:9090/ using firefox browser. Enter user credentials to login to the cockpit application.</strong></p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="912" height="649" src="/wp-content/uploads/2023/08/image.png" alt="" class="wp-image-193" srcset="/wp-content/uploads/2023/08/image.png 912w, /wp-content/uploads/2023/08/image-300x213.png 300w, /wp-content/uploads/2023/08/image-768x547.png 768w" sizes="(max-width: 912px) 100vw, 912px" /></figure>
 ]]></content:encoded>
 					
 		
@@ -363,10 +481,8 @@ Your verification code is:  571 272 </code></pre>
 		<category><![CDATA[Ubuntu]]></category>
 		<guid isPermaLink="false">/?p=122</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="/k3s-installation-on-ubuntu-22-04/">K3s installation on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/k3s-installation-on-ubuntu-22-04/">K3s installation on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></content:encoded>
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
 					
 					<wfw:commentRss>/k3s-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
@@ -374,9 +490,8 @@ Your verification code is:  571 272 </code></pre>
 		
 			</item>
 		<item>
-		<title>Installation of Ansible on Ubuntu 22.04</title>
+		<title>Ansible installation on Ubuntu 22.04</title>
 		<link>/installation-of-ansible-on-ubuntu-22-04/</link>
-					<comments>/installation-of-ansible-on-ubuntu-22-04/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 15:25:34 +0000</pubDate>
@@ -384,35 +499,129 @@ Your verification code is:  571 272 </code></pre>
 		<category><![CDATA[Ubuntu]]></category>
 		<guid isPermaLink="false">/?p=119</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-ansible-on-ubuntu-22-04/">Installation of Ansible on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-ansible-on-ubuntu-22-04/">Installation of Ansible on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+					<description><![CDATA[Ansible is a simple IT automation system. It handles configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration. It is primarily intended for IT professionals, who use it for application deployment, updates on workstations and servers, cloud provisioning, configuration management, intra-service orchestration, and nearly anything a systems administrator does on ... <a title="Ansible installation on Ubuntu 22.04" class="read-more" href="/installation-of-ansible-on-ubuntu-22-04/" aria-label="More on Ansible installation on Ubuntu 22.04">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Ansible is a simple IT automation system. It handles configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration.</p>
+
+
+
+<p>It is primarily intended for IT professionals, who use it for application deployment, updates on workstations and servers, cloud provisioning, configuration management, intra-service orchestration, and nearly anything a systems administrator does on a weekly or daily basis</p>
+
+
+
+<p><strong>Update package index files</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt update</code></pre>
+
+
+
+<p><strong>Add the repository</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo add-apt-repository --yes --update ppa:ansible/ansible</code></pre>
+
+
+
+<p><strong>Install pip and ansible</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt install python3-pip ansible -y</code></pre>
+
+
+
+<p><strong>Check version of ansible installed in the system</strong></p>
+
+
+
+<pre class="wp-block-code"><code>ansible --version</code></pre>
+
+
+
+<p><strong>Terminal output for reference</strong></p>
+
+
+
+<pre class="wp-block-code"><code>$ ansible --version
+ansible 2.10.8
+  config file = None
+  configured module search path = &#91;'/home/ability/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.10.12 (main, Jun 11 2023, 05:26:28) &#91;GCC 11.4.0]</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/installation-of-ansible-on-ubuntu-22-04/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Installation of Terraform on Ubuntu 22.04</title>
+		<title>Terraform installation on Ubuntu 22.04</title>
 		<link>/installation-of-terraform-on-ubuntu-22-04/</link>
-					<comments>/installation-of-terraform-on-ubuntu-22-04/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 15:13:17 +0000</pubDate>
 				<category><![CDATA[Terraform]]></category>
-		<category><![CDATA[Proxmox]]></category>
 		<category><![CDATA[Ubuntu]]></category>
 		<guid isPermaLink="false">/?p=115</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-terraform-on-ubuntu-22-04/">Installation of Terraform on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-terraform-on-ubuntu-22-04/">Installation of Terraform on Ubuntu 22.04</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+					<description><![CDATA[Terraform is an open source “Infrastructure as Code” tool, created by HashiCorp.Terraform is a declarative coding tool, enables developers to use a high-level configuration language called HCL (HashiCorp Configuration Language) to describe the desired “end-state” cloud or on-premises infrastructure for running an application. It then generates a plan for reaching that end-state and executes the ... <a title="Terraform installation on Ubuntu 22.04" class="read-more" href="/installation-of-terraform-on-ubuntu-22-04/" aria-label="More on Terraform installation on Ubuntu 22.04">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Terraform is an open source “Infrastructure as Code” tool, created by HashiCorp.<br>Terraform is a declarative coding tool, enables developers to use a high-level configuration language called HCL (HashiCorp Configuration Language) to describe the desired “end-state” cloud or on-premises infrastructure for running an application. It then generates a plan for reaching that end-state and executes the plan to provision the infrastructure.</p>
+
+
+
+<p><strong>Update package index files</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt update</code></pre>
+
+
+
+<p><strong>Add the GPG Key</strong></p>
+
+
+
+<pre class="wp-block-code"><code>wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg</code></pre>
+
+
+
+<p><strong>Add the Repository</strong></p>
+
+
+
+<pre class="wp-block-code"><code>echo "deb &#91;signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list</code></pre>
+
+
+
+<p><strong>Install Terraform by running below command</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt update &amp;&amp; sudo apt install terraform</code></pre>
+
+
+
+<p><strong>Check the installed version of Terraform by running below command</strong></p>
+
+
+
+<pre class="wp-block-code"><code>terraform version</code></pre>
+
+
+
+<p><strong>For e.g.</strong></p>
+
+
+
+<pre class="wp-block-code"><code>$ terraform version
+Terraform v1.5.4
+on linux_amd64</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/installation-of-terraform-on-ubuntu-22-04/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -427,9 +636,7 @@ Your verification code is:  571 272 </code></pre>
 		<category><![CDATA[Terraform]]></category>
 		<guid isPermaLink="false">/?p=107</guid>
 
-					<description><![CDATA[<p>Prerequisite Create a virtual machine in Proxmox VE and convert it to a template.</p>
-<p>The post <a rel="nofollow" href="/virtual-machine-provisioning-using-terraform-in-proxmox/">Virtual Machine provisioning using Terraform on Proxmox VE</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
+					<description><![CDATA[Prerequisite Create a virtual machine in Proxmox VE and convert it to a template.]]></description>
 										<content:encoded><![CDATA[
 <p><strong>Prerequisite</strong> </p>
 
@@ -440,7 +647,6 @@ Your verification code is:  571 272 </code></pre>
 
 
 <p></p>
-<p>The post <a rel="nofollow" href="/virtual-machine-provisioning-using-terraform-in-proxmox/">Virtual Machine provisioning using Terraform on Proxmox VE</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>/virtual-machine-provisioning-using-terraform-in-proxmox/feed/</wfw:commentRss>
@@ -458,9 +664,7 @@ Your verification code is:  571 272 </code></pre>
 		<category><![CDATA[Quay]]></category>
 		<guid isPermaLink="false">/?p=70</guid>
 
-					<description><![CDATA[<p>The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a></p>
-<p>The post <a rel="nofollow" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/">Mirror registry (Quay registry) installation on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
+					<description><![CDATA[The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a>]]></description>
 										<content:encoded><![CDATA[
 <p>The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations.</p>
 
@@ -478,26 +682,29 @@ Your verification code is:  571 272 </code></pre>
 
 
 
-<p>Set hostname in the system</p>
+<p><strong>Set hostname for the system</strong></p>
 
 
 
-<pre class="wp-block-code"><code>sudo hostname &lt;host-name></code></pre>
+<pre class="wp-block-code"><code>sudo hostname &lt;host-name&gt;</code></pre>
 
 
 
-<pre class="wp-block-code"><code>&#91;rinoy@localhost Downloads]$ sudo hostname quay.local
-&#91;rinoy@localhost Downloads]$ hostname
-quay.local
-&#91;rinoy@localhost Downloads]$ </code></pre>
+<p><strong>Reference is given below</strong></p>
 
 
 
-<p>Download mirror registry package from <a href="https://console.redhat.com/openshift/downloads#tool-mirror-registry" target="_blank" rel="noreferrer noopener">Red Hat download site</a>.</p>
+<pre class="wp-block-code"><code>$ sudo hostname quay.local
+$ hostname
+quay.local</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="249" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-1024x249.png" alt="" class="wp-image-75" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-1024x249.png 1024w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-300x73.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-768x187.png 768w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-1536x373.png 1536w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-175513.png 1713w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<p><strong>Download mirror registry package from <a rel="noreferrer noopener" href="https://console.redhat.com/openshift/downloads#tool-mirror-registry" target="_blank">Red Hat download site</a>.</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="249" src="/wp-content/uploads/2023/07/mirror-registry-download-1024x249.png" alt="Mirror Registry Package Download" class="wp-image-251" srcset="/wp-content/uploads/2023/07/mirror-registry-download-1024x249.png 1024w, /wp-content/uploads/2023/07/mirror-registry-download-300x73.png 300w, /wp-content/uploads/2023/07/mirror-registry-download-768x187.png 768w, /wp-content/uploads/2023/07/mirror-registry-download-1536x373.png 1536w, /wp-content/uploads/2023/07/mirror-registry-download.png 1713w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -509,7 +716,7 @@ quay.local
 
 
 
-<p>Extract mirror registry.</p>
+<p><strong>Extract mirror registry</strong></p>
 
 
 
@@ -517,20 +724,20 @@ quay.local
 
 
 
-<p>For e.g</p>
+<p>For e.g.</p>
 
 
 
-<pre class="wp-block-code"><code>&#91;rinoy@localhost Downloads]$ ls
+<pre class="wp-block-code"><code>$ ls
 mirror-registry.tar.gz
-&#91;rinoy@localhost Downloads]$ tar xzvf mirror-registry.tar.gz 
+$ tar xzvf mirror-registry.tar.gz 
 image-archive.tar
 execution-environment.tar
 mirror-registry</code></pre>
 
 
 
-<p>Create a directory for quay root config.</p>
+<p><strong>Create a directory for quay root config</strong></p>
 
 
 
@@ -538,15 +745,15 @@ mirror-registry</code></pre>
 
 
 
-<p>Install mirror registry using below command.</p>
+<p><strong>Install mirror registry using below command</strong></p>
 
 
 
-<pre class="wp-block-code"><code>./mirror-registry install --quayHostname &lt;host-name> --quayRoot /home/rinoy/quay/install --initPassword &lt;password> </code></pre>
+<pre class="wp-block-code"><code>./mirror-registry install --quayHostname &lt;host-name&gt; --quayRoot /home/rinoy/quay/install --initPassword &lt;password&gt; </code></pre>
 
 
 
-<p>For e.g</p>
+<p><strong>For e.g.</strong></p>
 
 
 
@@ -554,7 +761,7 @@ mirror-registry</code></pre>
 
 
 
-<p>After successful installation, below message is displayed in console. </p>
+<p><strong>After successful installation, below message is displayed in console at the end. </strong></p>
 
 
 
@@ -563,251 +770,31 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 
 
 
-<p>Log into Red Hat GUI and open Firefox browser. Quay registry is accessible in https://qua.local:8443/ url. Accept the Risk and Continue to the site.</p>
+<p><strong>Log into Red Hat GUI and open Firefox browser.</strong></p>
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="985" height="692" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182316.png" alt="" class="wp-image-89" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182316.png 985w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182316-300x211.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182316-768x540.png 768w" sizes="(max-width: 985px) 100vw, 985px" /></figure>
+<p><strong>Quay registry is accessible in https://qua.local:8443/ url. Accept the Risk and Continue to the site.</strong></p>
 
 
 
-<p>A login is screen is displayed. Default user name is init. Enter the credentials of quay registry and click on &#8216;Sign into Red Hat Quay&#8217;.</p>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="985" height="692" src="/wp-content/uploads/2023/07/mirror-registry-url.png" alt="Mirror Registry Application URL" class="wp-image-253" srcset="/wp-content/uploads/2023/07/mirror-registry-url.png 985w, /wp-content/uploads/2023/07/mirror-registry-url-300x211.png 300w, /wp-content/uploads/2023/07/mirror-registry-url-768x540.png 768w" sizes="(max-width: 985px) 100vw, 985px" /></figure>
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="978" height="666" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182549.png" alt="" class="wp-image-92" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182549.png 978w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182549-300x204.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182549-768x523.png 768w" sizes="(max-width: 978px) 100vw, 978px" /></figure>
-<p>The post <a rel="nofollow" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/">Mirror registry (Quay registry) installation on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Installation of Red Hat Enterprise Linux 9.2 using developer account</title>
-		<link>/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Mon, 31 Jul 2023 09:46:28 +0000</pubDate>
-				<category><![CDATA[RHEL]]></category>
-		<guid isPermaLink="false">/?p=24</guid>
+<p><strong>A login is screen is displayed. Default user name is init. </strong></p>
 
-					<description><![CDATA[<p>The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program. The no-cost Red Hat Developer Subscription for ... <a title="Installation of Red Hat Enterprise Linux 9.2 using developer account" class="read-more" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/" aria-label="More on Installation of Red Hat Enterprise Linux 9.2 using developer account">Read more</a></p>
-<p>The post <a rel="nofollow" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/">Installation of Red Hat Enterprise Linux 9.2 using developer account</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<p>The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program.</p>
 
 
+<p><strong>Enter the credentials of quay registry and click on &#8216;Sign into Red Hat Quay&#8217;.</strong></p>
 
-<p>The no-cost Red Hat Developer Subscription for Individuals is available and includes Red Hat Enterprise Linux along with numerous other Red Hat technologies. Users can access this no-cost subscription by joining the Red Hat Developer program at&nbsp;<a href="https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/registrations?client_id=rhd-web&amp;redirect_uri=https%3A%2F%2Fdevelopers.redhat.com&amp;state=a4ecd0f1-1e1b-4f77-8ab8-75bca9a84f15&amp;response_mode=fragment&amp;response_type=code&amp;scope=openid&amp;nonce=bab04a92-fff9-43b6-8d24-d4a653163741">developers.redhat.com/register</a>. Joining the program is free.</p>
 
 
+<p><strong>After successful login home page of mirror registry is displayed.</strong></p>
 
-<p>After registering with Red Hat Developer program, navigate to Products &amp; Technologies -&gt; Red Hat Enterprise Linux.  https://developers.redhat.com/products/rhel/overview. Click on &#8216;Download RHEL at no-cost&#8217; button to download RHEL 9.2 media DVD. You can also check https://developers.redhat.com/products/rhel/download for other versions of RHEL.</p>
 
 
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="656" height="496" src="/wp-content/uploads/2023/07/image-1.png" alt="" class="wp-image-32" srcset="/wp-content/uploads/2023/07/image-1.png 656w, /wp-content/uploads/2023/07/image-1-300x227.png 300w" sizes="(max-width: 656px) 100vw, 656px" /></figure>
-
-
-
-<p>Mount the DVD and boot the machine. Configuration used here is 2 CPU, 4 GB RAM and a Harddisk with 200 GB space. Configure System and User Settings and Begin Installation.</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="998" height="741" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-155152.png" alt="" class="wp-image-42" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-155152.png 998w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-155152-300x223.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-155152-768x570.png 768w" sizes="(max-width: 998px) 100vw, 998px" /></figure>
-
-
-
-<p>Reboot system once installation is completed.</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="1001" height="740" src="/wp-content/uploads/2023/07/image.png" alt="" class="wp-image-47" srcset="/wp-content/uploads/2023/07/image.png 1001w, /wp-content/uploads/2023/07/image-300x222.png 300w, /wp-content/uploads/2023/07/image-768x568.png 768w" sizes="(max-width: 1001px) 100vw, 1001px" /></figure>
-
-
-
-<p>Login and click on &#8216;Register System&#8217;.</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="994" height="723" src="/wp-content/uploads/2023/07/image-2.png" alt="" class="wp-image-50" srcset="/wp-content/uploads/2023/07/image-2.png 994w, /wp-content/uploads/2023/07/image-2-300x218.png 300w, /wp-content/uploads/2023/07/image-2-768x559.png 768w" sizes="(max-width: 994px) 100vw, 994px" /></figure>
-
-
-
-<p>Click on Subscription to register the system with developer account.</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="987" height="712" src="/wp-content/uploads/2023/07/image-3.png" alt="" class="wp-image-53" srcset="/wp-content/uploads/2023/07/image-3.png 987w, /wp-content/uploads/2023/07/image-3-300x216.png 300w, /wp-content/uploads/2023/07/image-3-768x554.png 768w" sizes="(max-width: 987px) 100vw, 987px" /></figure>
-
-
-
-<p>Provide developer account details and click on Register.</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="988" height="736" src="/wp-content/uploads/2023/07/image-4.png" alt="" class="wp-image-56" srcset="/wp-content/uploads/2023/07/image-4.png 988w, /wp-content/uploads/2023/07/image-4-300x223.png 300w, /wp-content/uploads/2023/07/image-4-768x572.png 768w" sizes="(max-width: 988px) 100vw, 988px" /></figure>
-
-
-
-<p>Don&#8217;t forget to Register the system to receive software updates by selecting &#8216;Software Updates&#8217;.</p>
-<p>The post <a rel="nofollow" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/">Installation of Red Hat Enterprise Linux 9.2 using developer account</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2</title>
-		<link>/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Mon, 31 Jul 2023 07:12:09 +0000</pubDate>
-				<category><![CDATA[RHEL]]></category>
-		<category><![CDATA[Microshift]]></category>
-		<guid isPermaLink="false">/?p=5</guid>
-
-					<description><![CDATA[<p>Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of Microshift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2">Read more</a></p>
-<p>The post <a rel="nofollow" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/">Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<p><strong>Prerequisite </strong></p>
-
-
-
-<p>Red Hat Enterprise Linux 9.2. </p>
-
-
-
-<p>Please refer <a href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/">Installation of Red Hat Enterprise Linux 9.2 using developer account</a> for installation of RHEL 9.2.</p>
-
-
-
-<p><strong>Enable the Red Hat build of MicroShift repositories by running the following command</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo subscription-manager repos \
-    --enable rhocp-4.13-for-rhel-9-$(uname -m)-rpms \
-    --enable fast-datapath-for-rhel-9-$(uname -m)-rpms</code></pre>
-
-
-
-<p><strong>Install Red Hat build of Microshift and openshift clients by running the following command.</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo dnf install -y microshift openshift-clients</code></pre>
-
-
-
-<p><strong>Configure firewall rules</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo firewall-cmd --permanent --zone=trusted --add-source=10.42.0.0/16
-sudo firewall-cmd --permanent --zone=trusted --add-source=169.254.169.1
-sudo firewall-cmd --reload</code></pre>
-
-
-
-<p><strong>Download pull secret for Red Hat registry authentication</strong></p>
-
-
-
-<p>Open<a href=" https://console.redhat.com/openshift/install/pull-secret "> https://console.redhat.com/openshift/install/pull-secret </a>and click on &#8216;Download pull secret&#8217;. Pull secret file is downloaded as &#8216;pull-secret.txt&#8217; file.</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="460" src="/wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1024x460.png" alt="" class="wp-image-67" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1024x460.png 1024w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-300x135.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-768x345.png 768w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1536x690.png 1536w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459.png 1659w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><strong>Conifgure pull-secret.json</strong></p>
-
-
-
-<ul>
-<li>Upload pull secret file to target machine and rename file to pull-secret.json.</li>
-
-
-
-<li>Copy the pull secret to the /etc/crio folder.</li>
-</ul>
-
-
-
-<pre class="wp-block-code"><code>sudo cp pull-secret.json /etc/crio/openshift-pull-secret</code></pre>
-
-
-
-<ul>
-<li>Make the root user the owner of the /etc/crio/openshift-pull-secret file by running the following command.</li>
-</ul>
-
-
-
-<pre class="wp-block-code"><code>sudo chown root:root /etc/crio/openshift-pull-secret</code></pre>
-
-
-
-<ul>
-<li>Make the /etc/crio/openshift-pull-secret file readable and writeable by the root user only by running the following command.</li>
-</ul>
-
-
-
-<pre class="wp-block-code"><code>sudo chmod 600 /etc/crio/openshift-pull-secret</code></pre>
-
-
-
-<p><strong>Start the MicroShift service</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo systemctl start microshift</code></pre>
-
-
-
-<p>To start MicroShift when machine starts, enter the following command</p>
-
-
-
-<pre class="wp-block-code"><code>sudo systemctl enable microshift</code></pre>
-
-
-
-<p>Check the service logs by running below command</p>
-
-
-
-<pre class="wp-block-code"><code>journalctl -u microshift.service -f</code></pre>
-
-
-
-<p>Create kubeconfig file in home directory</p>
-
-
-
-<pre class="wp-block-code"><code>mkdir ~/.kube
-sudo cat /var/lib/microshift/resources/kubeadmin/kubeconfig &gt; ~/.kube/config</code></pre>
-
-
-
-<p>Check the status of pods by running below command. The installation might take several minutes to complete.</p>
-
-
-
-<pre class="wp-block-code"><code>&#91;ability@localhost ~]$ oc get po -A
-NAMESPACE                  NAME                                 READY   STATUS              RESTARTS   AGE
-openshift-dns              node-resolver-mcdxd                  0/1     ContainerCreating   0          2m3s
-openshift-ingress          router-default-65864549b5-fbrkl      0/1     Pending             0          2m3s
-openshift-ovn-kubernetes   ovnkube-master-q729v                 0/4     ContainerCreating   0          2m3s
-openshift-ovn-kubernetes   ovnkube-node-spbf4                   0/1     ContainerCreating   0          2m3s
-openshift-service-ca       service-ca-764bd7f7b7-c82g5          0/1     Pending             0          2m4s
-openshift-storage          topolvm-controller-f58fcd7cb-m9ng4   0/4     Pending             0          2m3s</code></pre>
-<p>The post <a rel="nofollow" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/">Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="978" height="666" src="/wp-content/uploads/2023/07/mirror-registry-landing-page.png" alt="Mirror Registry Home Page" class="wp-image-255" srcset="/wp-content/uploads/2023/07/mirror-registry-landing-page.png 978w, /wp-content/uploads/2023/07/mirror-registry-landing-page-300x204.png 300w, /wp-content/uploads/2023/07/mirror-registry-landing-page-768x523.png 768w" sizes="(max-width: 978px) 100vw, 978px" /></figure>
 ]]></content:encoded>
 					
 		

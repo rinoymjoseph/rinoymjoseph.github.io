@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>Cockpit Archives - Hyrule Sage</title>
+	<title>Cockpit &#8211; Hyrule Monk</title>
 	<atom:link href="/tag/cockpit/feed/" rel="self" type="application/rss+xml" />
-	<link>/tag/cockpit/</link>
+	<link>/</link>
 	<description></description>
-	<lastBuildDate>Tue, 01 Aug 2023 04:25:08 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Aug 2023 04:54:13 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,13 +22,13 @@
 
 <image>
 	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
-	<title>Cockpit Archives - Hyrule Sage</title>
-	<link>/tag/cockpit/</link>
+	<title>Cockpit &#8211; Hyrule Monk</title>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
-		<title>Installation of Cockpit on RHEL 9.2</title>
+		<title>Cockpit installation on RHEL 9.2</title>
 		<link>/installation-of-cockpit-on-rhel-9-2/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
@@ -37,9 +37,66 @@
 		<category><![CDATA[Cockpit]]></category>
 		<guid isPermaLink="false">/?p=125</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-cockpit-on-rhel-9-2/">Installation of Cockpit on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-cockpit-on-rhel-9-2/">Installation of Cockpit on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+					<description><![CDATA[Introduction Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser. You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL. Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks ... <a title="Cockpit installation on RHEL 9.2" class="read-more" href="/installation-of-cockpit-on-rhel-9-2/" aria-label="More on Cockpit installation on RHEL 9.2">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<h3 class="wp-block-heading">Introduction</h3>
+
+
+
+<p>Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser.</p>
+
+
+
+<p>You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL.</p>
+
+
+
+<p>Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks such as starting containers, storage administration, network configuration, inspecting logs and so on.</p>
+
+
+
+<p>This post explains how to install Cockpit on RHEL 9.2 OS.</p>
+
+
+
+<p>Please refer <a href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/">Installation of Red Hat Enterprise Linux 9.2 using developer account</a> for installation of RHEL 9.2.</p>
+
+
+
+<h3 class="wp-block-heading">Installation</h3>
+
+
+
+<p><strong>To install cockpit run below command</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo dnf install cockpit -y</code></pre>
+
+
+
+<p><strong>Enable cockpit service by running below command</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo systemctl enable cockpit.socket --now</code></pre>
+
+
+
+<p><strong>Configure firewall to add the cockpit service to firewalld and open port 9090 in the firewall</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo firewall-cmd --add-service=cockpit --permanent
+sudo firewall-cmd --reload</code></pre>
+
+
+
+<p><strong>Access cockpit web interface at http://locahost:9090/ using firefox browser. Enter user credentials to login to the cockpit application.</strong></p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="912" height="649" src="/wp-content/uploads/2023/08/image.png" alt="" class="wp-image-193" srcset="/wp-content/uploads/2023/08/image.png 912w, /wp-content/uploads/2023/08/image-300x213.png 300w, /wp-content/uploads/2023/08/image-768x547.png 768w" sizes="(max-width: 912px) 100vw, 912px" /></figure>
 ]]></content:encoded>
 					
 		

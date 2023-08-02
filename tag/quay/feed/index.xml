@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>Quay Archives - Hyrule Sage</title>
+	<title>Quay &#8211; Hyrule Monk</title>
 	<atom:link href="/tag/quay/feed/" rel="self" type="application/rss+xml" />
-	<link>/tag/quay/</link>
+	<link>/</link>
 	<description></description>
-	<lastBuildDate>Mon, 31 Jul 2023 13:00:42 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Aug 2023 04:37:24 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,12 +22,31 @@
 
 <image>
 	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
-	<title>Quay Archives - Hyrule Sage</title>
-	<link>/tag/quay/</link>
+	<title>Quay &#8211; Hyrule Monk</title>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
+		<title>Mirror registry (Quay registry) installation on Ubuntu 22.04</title>
+		<link>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/</link>
+					<comments>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Tue, 01 Aug 2023 13:41:55 +0000</pubDate>
+				<category><![CDATA[Ubuntu]]></category>
+		<category><![CDATA[Quay]]></category>
+		<guid isPermaLink="false">/?p=213</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Mirror registry (Quay registry) installation on RHEL 9.2</title>
 		<link>/mirror-registry-quay-registry-installation-on-rhel-9-2/</link>
 		
@@ -37,9 +56,7 @@
 		<category><![CDATA[Quay]]></category>
 		<guid isPermaLink="false">/?p=70</guid>
 
-					<description><![CDATA[<p>The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a></p>
-<p>The post <a rel="nofollow" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/">Mirror registry (Quay registry) installation on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
+					<description><![CDATA[The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a>]]></description>
 										<content:encoded><![CDATA[
 <p>The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations.</p>
 
@@ -57,26 +74,29 @@
 
 
 
-<p>Set hostname in the system</p>
+<p><strong>Set hostname for the system</strong></p>
 
 
 
-<pre class="wp-block-code"><code>sudo hostname &lt;host-name></code></pre>
+<pre class="wp-block-code"><code>sudo hostname &lt;host-name&gt;</code></pre>
 
 
 
-<pre class="wp-block-code"><code>&#91;rinoy@localhost Downloads]$ sudo hostname quay.local
-&#91;rinoy@localhost Downloads]$ hostname
-quay.local
-&#91;rinoy@localhost Downloads]$ </code></pre>
+<p><strong>Reference is given below</strong></p>
 
 
 
-<p>Download mirror registry package from <a href="https://console.redhat.com/openshift/downloads#tool-mirror-registry" target="_blank" rel="noreferrer noopener">Red Hat download site</a>.</p>
+<pre class="wp-block-code"><code>$ sudo hostname quay.local
+$ hostname
+quay.local</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="249" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-1024x249.png" alt="" class="wp-image-75" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-1024x249.png 1024w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-300x73.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-768x187.png 768w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-1536x373.png 1536w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-175513.png 1713w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<p><strong>Download mirror registry package from <a rel="noreferrer noopener" href="https://console.redhat.com/openshift/downloads#tool-mirror-registry" target="_blank">Red Hat download site</a>.</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="249" src="/wp-content/uploads/2023/07/mirror-registry-download-1024x249.png" alt="Mirror Registry Package Download" class="wp-image-251" srcset="/wp-content/uploads/2023/07/mirror-registry-download-1024x249.png 1024w, /wp-content/uploads/2023/07/mirror-registry-download-300x73.png 300w, /wp-content/uploads/2023/07/mirror-registry-download-768x187.png 768w, /wp-content/uploads/2023/07/mirror-registry-download-1536x373.png 1536w, /wp-content/uploads/2023/07/mirror-registry-download.png 1713w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -88,7 +108,7 @@ quay.local
 
 
 
-<p>Extract mirror registry.</p>
+<p><strong>Extract mirror registry</strong></p>
 
 
 
@@ -96,20 +116,20 @@ quay.local
 
 
 
-<p>For e.g</p>
+<p>For e.g.</p>
 
 
 
-<pre class="wp-block-code"><code>&#91;rinoy@localhost Downloads]$ ls
+<pre class="wp-block-code"><code>$ ls
 mirror-registry.tar.gz
-&#91;rinoy@localhost Downloads]$ tar xzvf mirror-registry.tar.gz 
+$ tar xzvf mirror-registry.tar.gz 
 image-archive.tar
 execution-environment.tar
 mirror-registry</code></pre>
 
 
 
-<p>Create a directory for quay root config.</p>
+<p><strong>Create a directory for quay root config</strong></p>
 
 
 
@@ -117,15 +137,15 @@ mirror-registry</code></pre>
 
 
 
-<p>Install mirror registry using below command.</p>
+<p><strong>Install mirror registry using below command</strong></p>
 
 
 
-<pre class="wp-block-code"><code>./mirror-registry install --quayHostname &lt;host-name> --quayRoot /home/rinoy/quay/install --initPassword &lt;password> </code></pre>
+<pre class="wp-block-code"><code>./mirror-registry install --quayHostname &lt;host-name&gt; --quayRoot /home/rinoy/quay/install --initPassword &lt;password&gt; </code></pre>
 
 
 
-<p>For e.g</p>
+<p><strong>For e.g.</strong></p>
 
 
 
@@ -133,7 +153,7 @@ mirror-registry</code></pre>
 
 
 
-<p>After successful installation, below message is displayed in console. </p>
+<p><strong>After successful installation, below message is displayed in console at the end. </strong></p>
 
 
 
@@ -142,20 +162,31 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 
 
 
-<p>Log into Red Hat GUI and open Firefox browser. Quay registry is accessible in https://qua.local:8443/ url. Accept the Risk and Continue to the site.</p>
+<p><strong>Log into Red Hat GUI and open Firefox browser.</strong></p>
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="985" height="692" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182316.png" alt="" class="wp-image-89" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182316.png 985w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182316-300x211.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182316-768x540.png 768w" sizes="(max-width: 985px) 100vw, 985px" /></figure>
+<p><strong>Quay registry is accessible in https://qua.local:8443/ url. Accept the Risk and Continue to the site.</strong></p>
 
 
 
-<p>A login is screen is displayed. Default user name is init. Enter the credentials of quay registry and click on &#8216;Sign into Red Hat Quay&#8217;.</p>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="985" height="692" src="/wp-content/uploads/2023/07/mirror-registry-url.png" alt="Mirror Registry Application URL" class="wp-image-253" srcset="/wp-content/uploads/2023/07/mirror-registry-url.png 985w, /wp-content/uploads/2023/07/mirror-registry-url-300x211.png 300w, /wp-content/uploads/2023/07/mirror-registry-url-768x540.png 768w" sizes="(max-width: 985px) 100vw, 985px" /></figure>
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="978" height="666" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182549.png" alt="" class="wp-image-92" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182549.png 978w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182549-300x204.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182549-768x523.png 768w" sizes="(max-width: 978px) 100vw, 978px" /></figure>
-<p>The post <a rel="nofollow" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/">Mirror registry (Quay registry) installation on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+<p><strong>A login is screen is displayed. Default user name is init. </strong></p>
+
+
+
+<p><strong>Enter the credentials of quay registry and click on &#8216;Sign into Red Hat Quay&#8217;.</strong></p>
+
+
+
+<p><strong>After successful login home page of mirror registry is displayed.</strong></p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="978" height="666" src="/wp-content/uploads/2023/07/mirror-registry-landing-page.png" alt="Mirror Registry Home Page" class="wp-image-255" srcset="/wp-content/uploads/2023/07/mirror-registry-landing-page.png 978w, /wp-content/uploads/2023/07/mirror-registry-landing-page-300x204.png 300w, /wp-content/uploads/2023/07/mirror-registry-landing-page-768x523.png 768w" sizes="(max-width: 978px) 100vw, 978px" /></figure>
 ]]></content:encoded>
 					
 		

@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>RHEL Archives - Hyrule Sage</title>
+	<title>RHEL &#8211; Hyrule Monk</title>
 	<atom:link href="/tag/rhel/feed/" rel="self" type="application/rss+xml" />
-	<link>/tag/rhel/</link>
+	<link>/</link>
 	<description></description>
-	<lastBuildDate>Tue, 01 Aug 2023 04:28:01 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Aug 2023 04:54:13 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,13 +22,13 @@
 
 <image>
 	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
-	<title>RHEL Archives - Hyrule Sage</title>
-	<link>/tag/rhel/</link>
+	<title>RHEL &#8211; Hyrule Monk</title>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
-		<title>Installation of Cockpit on RHEL 9.2</title>
+		<title>Cockpit installation on RHEL 9.2</title>
 		<link>/installation-of-cockpit-on-rhel-9-2/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
@@ -37,9 +37,66 @@
 		<category><![CDATA[Cockpit]]></category>
 		<guid isPermaLink="false">/?p=125</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-cockpit-on-rhel-9-2/">Installation of Cockpit on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/installation-of-cockpit-on-rhel-9-2/">Installation of Cockpit on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+					<description><![CDATA[Introduction Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser. You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL. Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks ... <a title="Cockpit installation on RHEL 9.2" class="read-more" href="/installation-of-cockpit-on-rhel-9-2/" aria-label="More on Cockpit installation on RHEL 9.2">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<h3 class="wp-block-heading">Introduction</h3>
+
+
+
+<p>Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser.</p>
+
+
+
+<p>You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL.</p>
+
+
+
+<p>Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks such as starting containers, storage administration, network configuration, inspecting logs and so on.</p>
+
+
+
+<p>This post explains how to install Cockpit on RHEL 9.2 OS.</p>
+
+
+
+<p>Please refer <a href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/">Installation of Red Hat Enterprise Linux 9.2 using developer account</a> for installation of RHEL 9.2.</p>
+
+
+
+<h3 class="wp-block-heading">Installation</h3>
+
+
+
+<p><strong>To install cockpit run below command</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo dnf install cockpit -y</code></pre>
+
+
+
+<p><strong>Enable cockpit service by running below command</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo systemctl enable cockpit.socket --now</code></pre>
+
+
+
+<p><strong>Configure firewall to add the cockpit service to firewalld and open port 9090 in the firewall</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo firewall-cmd --add-service=cockpit --permanent
+sudo firewall-cmd --reload</code></pre>
+
+
+
+<p><strong>Access cockpit web interface at http://locahost:9090/ using firefox browser. Enter user credentials to login to the cockpit application.</strong></p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="912" height="649" src="/wp-content/uploads/2023/08/image.png" alt="" class="wp-image-193" srcset="/wp-content/uploads/2023/08/image.png 912w, /wp-content/uploads/2023/08/image-300x213.png 300w, /wp-content/uploads/2023/08/image-768x547.png 768w" sizes="(max-width: 912px) 100vw, 912px" /></figure>
 ]]></content:encoded>
 					
 		
@@ -55,9 +112,7 @@
 		<category><![CDATA[Quay]]></category>
 		<guid isPermaLink="false">/?p=70</guid>
 
-					<description><![CDATA[<p>The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a></p>
-<p>The post <a rel="nofollow" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/">Mirror registry (Quay registry) installation on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
+					<description><![CDATA[The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a>]]></description>
 										<content:encoded><![CDATA[
 <p>The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations.</p>
 
@@ -75,26 +130,29 @@
 
 
 
-<p>Set hostname in the system</p>
+<p><strong>Set hostname for the system</strong></p>
 
 
 
-<pre class="wp-block-code"><code>sudo hostname &lt;host-name></code></pre>
+<pre class="wp-block-code"><code>sudo hostname &lt;host-name&gt;</code></pre>
 
 
 
-<pre class="wp-block-code"><code>&#91;rinoy@localhost Downloads]$ sudo hostname quay.local
-&#91;rinoy@localhost Downloads]$ hostname
-quay.local
-&#91;rinoy@localhost Downloads]$ </code></pre>
+<p><strong>Reference is given below</strong></p>
 
 
 
-<p>Download mirror registry package from <a href="https://console.redhat.com/openshift/downloads#tool-mirror-registry" target="_blank" rel="noreferrer noopener">Red Hat download site</a>.</p>
+<pre class="wp-block-code"><code>$ sudo hostname quay.local
+$ hostname
+quay.local</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="249" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-1024x249.png" alt="" class="wp-image-75" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-1024x249.png 1024w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-300x73.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-768x187.png 768w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-175513-1536x373.png 1536w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-175513.png 1713w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<p><strong>Download mirror registry package from <a rel="noreferrer noopener" href="https://console.redhat.com/openshift/downloads#tool-mirror-registry" target="_blank">Red Hat download site</a>.</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="249" src="/wp-content/uploads/2023/07/mirror-registry-download-1024x249.png" alt="Mirror Registry Package Download" class="wp-image-251" srcset="/wp-content/uploads/2023/07/mirror-registry-download-1024x249.png 1024w, /wp-content/uploads/2023/07/mirror-registry-download-300x73.png 300w, /wp-content/uploads/2023/07/mirror-registry-download-768x187.png 768w, /wp-content/uploads/2023/07/mirror-registry-download-1536x373.png 1536w, /wp-content/uploads/2023/07/mirror-registry-download.png 1713w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -106,7 +164,7 @@ quay.local
 
 
 
-<p>Extract mirror registry.</p>
+<p><strong>Extract mirror registry</strong></p>
 
 
 
@@ -114,20 +172,20 @@ quay.local
 
 
 
-<p>For e.g</p>
+<p>For e.g.</p>
 
 
 
-<pre class="wp-block-code"><code>&#91;rinoy@localhost Downloads]$ ls
+<pre class="wp-block-code"><code>$ ls
 mirror-registry.tar.gz
-&#91;rinoy@localhost Downloads]$ tar xzvf mirror-registry.tar.gz 
+$ tar xzvf mirror-registry.tar.gz 
 image-archive.tar
 execution-environment.tar
 mirror-registry</code></pre>
 
 
 
-<p>Create a directory for quay root config.</p>
+<p><strong>Create a directory for quay root config</strong></p>
 
 
 
@@ -135,15 +193,15 @@ mirror-registry</code></pre>
 
 
 
-<p>Install mirror registry using below command.</p>
+<p><strong>Install mirror registry using below command</strong></p>
 
 
 
-<pre class="wp-block-code"><code>./mirror-registry install --quayHostname &lt;host-name> --quayRoot /home/rinoy/quay/install --initPassword &lt;password> </code></pre>
+<pre class="wp-block-code"><code>./mirror-registry install --quayHostname &lt;host-name&gt; --quayRoot /home/rinoy/quay/install --initPassword &lt;password&gt; </code></pre>
 
 
 
-<p>For e.g</p>
+<p><strong>For e.g.</strong></p>
 
 
 
@@ -151,7 +209,7 @@ mirror-registry</code></pre>
 
 
 
-<p>After successful installation, below message is displayed in console. </p>
+<p><strong>After successful installation, below message is displayed in console at the end. </strong></p>
 
 
 
@@ -160,27 +218,38 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 
 
 
-<p>Log into Red Hat GUI and open Firefox browser. Quay registry is accessible in https://qua.local:8443/ url. Accept the Risk and Continue to the site.</p>
+<p><strong>Log into Red Hat GUI and open Firefox browser.</strong></p>
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="985" height="692" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182316.png" alt="" class="wp-image-89" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182316.png 985w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182316-300x211.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182316-768x540.png 768w" sizes="(max-width: 985px) 100vw, 985px" /></figure>
+<p><strong>Quay registry is accessible in https://qua.local:8443/ url. Accept the Risk and Continue to the site.</strong></p>
 
 
 
-<p>A login is screen is displayed. Default user name is init. Enter the credentials of quay registry and click on &#8216;Sign into Red Hat Quay&#8217;.</p>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="985" height="692" src="/wp-content/uploads/2023/07/mirror-registry-url.png" alt="Mirror Registry Application URL" class="wp-image-253" srcset="/wp-content/uploads/2023/07/mirror-registry-url.png 985w, /wp-content/uploads/2023/07/mirror-registry-url-300x211.png 300w, /wp-content/uploads/2023/07/mirror-registry-url-768x540.png 768w" sizes="(max-width: 985px) 100vw, 985px" /></figure>
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="978" height="666" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182549.png" alt="" class="wp-image-92" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-182549.png 978w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182549-300x204.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-182549-768x523.png 768w" sizes="(max-width: 978px) 100vw, 978px" /></figure>
-<p>The post <a rel="nofollow" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/">Mirror registry (Quay registry) installation on RHEL 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+<p><strong>A login is screen is displayed. Default user name is init. </strong></p>
+
+
+
+<p><strong>Enter the credentials of quay registry and click on &#8216;Sign into Red Hat Quay&#8217;.</strong></p>
+
+
+
+<p><strong>After successful login home page of mirror registry is displayed.</strong></p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="978" height="666" src="/wp-content/uploads/2023/07/mirror-registry-landing-page.png" alt="Mirror Registry Home Page" class="wp-image-255" srcset="/wp-content/uploads/2023/07/mirror-registry-landing-page.png 978w, /wp-content/uploads/2023/07/mirror-registry-landing-page-300x204.png 300w, /wp-content/uploads/2023/07/mirror-registry-landing-page-768x523.png 768w" sizes="(max-width: 978px) 100vw, 978px" /></figure>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Installation of Red Hat Enterprise Linux 9.2 using developer account</title>
+		<title>Red Hat Enterprise Linux 9.2 installation using developer account</title>
 		<link>/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
@@ -188,9 +257,7 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 				<category><![CDATA[RHEL]]></category>
 		<guid isPermaLink="false">/?p=24</guid>
 
-					<description><![CDATA[<p>The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program. The no-cost Red Hat Developer Subscription for ... <a title="Installation of Red Hat Enterprise Linux 9.2 using developer account" class="read-more" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/" aria-label="More on Installation of Red Hat Enterprise Linux 9.2 using developer account">Read more</a></p>
-<p>The post <a rel="nofollow" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/">Installation of Red Hat Enterprise Linux 9.2 using developer account</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
+					<description><![CDATA[The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program. The no-cost Red Hat Developer Subscription for ... <a title="Red Hat Enterprise Linux 9.2 installation using developer account" class="read-more" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/" aria-label="More on Red Hat Enterprise Linux 9.2 installation using developer account">Read more</a>]]></description>
 										<content:encoded><![CDATA[
 <p>The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program.</p>
 
@@ -200,11 +267,11 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 
 
 
-<p>After registering with Red Hat Developer program, navigate to Products &amp; Technologies -&gt; Red Hat Enterprise Linux.  https://developers.redhat.com/products/rhel/overview. Click on &#8216;Download RHEL at no-cost&#8217; button to download RHEL 9.2 media DVD. You can also check https://developers.redhat.com/products/rhel/download for other versions of RHEL.</p>
+<p>After registering with Red Hat Developer program, navigate to Products &amp; Technologies -&gt; Red Hat Enterprise Linux.  <a href="https://developers.redhat.com/products/rhel/overview" target="_blank" rel="noreferrer noopener">https://developers.redhat.com/products/rhel/overview</a>. Click on &#8216;Download RHEL at no-cost&#8217; button to download RHEL 9.2 media DVD. You can also check <a href="https://developers.redhat.com/products/rhel/download" target="_blank" rel="noreferrer noopener">https://developers.redhat.com/products/rhel/download</a> for other versions of RHEL.</p>
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="656" height="496" src="/wp-content/uploads/2023/07/image-1.png" alt="" class="wp-image-32" srcset="/wp-content/uploads/2023/07/image-1.png 656w, /wp-content/uploads/2023/07/image-1-300x227.png 300w" sizes="(max-width: 656px) 100vw, 656px" /></figure>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="998" height="741" src="/wp-content/uploads/2023/08/rhel-9-2-installation-configuration.png" alt="RHEL 9.2 Installation Configuration" class="wp-image-230" srcset="/wp-content/uploads/2023/08/rhel-9-2-installation-configuration.png 998w, /wp-content/uploads/2023/08/rhel-9-2-installation-configuration-300x223.png 300w, /wp-content/uploads/2023/08/rhel-9-2-installation-configuration-768x570.png 768w" sizes="(max-width: 998px) 100vw, 998px" /></figure>
 
 
 
@@ -212,7 +279,7 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="998" height="741" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-155152.png" alt="" class="wp-image-42" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-31-155152.png 998w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-155152-300x223.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-31-155152-768x570.png 768w" sizes="(max-width: 998px) 100vw, 998px" /></figure>
+<figure class="wp-block-image size-full"><img decoding="async" src="/wp-content/uploads/2023/07/Screenshot-2023-07-31-155152.png" alt="" class="wp-image-42"/></figure>
 
 
 
@@ -220,7 +287,7 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="1001" height="740" src="/wp-content/uploads/2023/07/image.png" alt="" class="wp-image-47" srcset="/wp-content/uploads/2023/07/image.png 1001w, /wp-content/uploads/2023/07/image-300x222.png 300w, /wp-content/uploads/2023/07/image-768x568.png 768w" sizes="(max-width: 1001px) 100vw, 1001px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="762" src="/wp-content/uploads/2023/08/rhel-9-2-installation-reboot-system-1024x762.png" alt="RHEL 9.2 Installation - Reboot System" class="wp-image-233" srcset="/wp-content/uploads/2023/08/rhel-9-2-installation-reboot-system-1024x762.png 1024w, /wp-content/uploads/2023/08/rhel-9-2-installation-reboot-system-300x223.png 300w, /wp-content/uploads/2023/08/rhel-9-2-installation-reboot-system-768x572.png 768w, /wp-content/uploads/2023/08/rhel-9-2-installation-reboot-system.png 1243w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -228,7 +295,7 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="994" height="723" src="/wp-content/uploads/2023/07/image-2.png" alt="" class="wp-image-50" srcset="/wp-content/uploads/2023/07/image-2.png 994w, /wp-content/uploads/2023/07/image-2-300x218.png 300w, /wp-content/uploads/2023/07/image-2-768x559.png 768w" sizes="(max-width: 994px) 100vw, 994px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="755" src="/wp-content/uploads/2023/08/rhel-9-2-installation-register-system-1024x755.png" alt="RHEL 9.2 Installation - Register System" class="wp-image-236" srcset="/wp-content/uploads/2023/08/rhel-9-2-installation-register-system-1024x755.png 1024w, /wp-content/uploads/2023/08/rhel-9-2-installation-register-system-300x221.png 300w, /wp-content/uploads/2023/08/rhel-9-2-installation-register-system-768x567.png 768w, /wp-content/uploads/2023/08/rhel-9-2-installation-register-system.png 1254w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -236,7 +303,7 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="987" height="712" src="/wp-content/uploads/2023/07/image-3.png" alt="" class="wp-image-53" srcset="/wp-content/uploads/2023/07/image-3.png 987w, /wp-content/uploads/2023/07/image-3-300x216.png 300w, /wp-content/uploads/2023/07/image-3-768x554.png 768w" sizes="(max-width: 987px) 100vw, 987px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="741" src="/wp-content/uploads/2023/07/rhel-9-2-installation-software-updates-1024x741.png" alt="RHEL 9.2 Installation - Software Updates" class="wp-image-239" srcset="/wp-content/uploads/2023/07/rhel-9-2-installation-software-updates-1024x741.png 1024w, /wp-content/uploads/2023/07/rhel-9-2-installation-software-updates-300x217.png 300w, /wp-content/uploads/2023/07/rhel-9-2-installation-software-updates-768x556.png 768w, /wp-content/uploads/2023/07/rhel-9-2-installation-software-updates.png 1270w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -244,19 +311,30 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="988" height="736" src="/wp-content/uploads/2023/07/image-4.png" alt="" class="wp-image-56" srcset="/wp-content/uploads/2023/07/image-4.png 988w, /wp-content/uploads/2023/07/image-4-300x223.png 300w, /wp-content/uploads/2023/07/image-4-768x572.png 768w" sizes="(max-width: 988px) 100vw, 988px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="770" src="/wp-content/uploads/2023/08/rhel-9-2-installation-register-system-credentials-1-1024x770.png" alt="RHEL 9.2 Installation - Register System - Credentials" class="wp-image-243" srcset="/wp-content/uploads/2023/08/rhel-9-2-installation-register-system-credentials-1-1024x770.png 1024w, /wp-content/uploads/2023/08/rhel-9-2-installation-register-system-credentials-1-300x226.png 300w, /wp-content/uploads/2023/08/rhel-9-2-installation-register-system-credentials-1-768x577.png 768w, /wp-content/uploads/2023/08/rhel-9-2-installation-register-system-credentials-1.png 1233w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
 <p>Don&#8217;t forget to Register the system to receive software updates by selecting &#8216;Software Updates&#8217;.</p>
-<p>The post <a rel="nofollow" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/">Installation of Red Hat Enterprise Linux 9.2 using developer account</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
+
+
+
+<p>Registration and subscription can be done via terminal also. Below are the commands.</p>
+
+
+
+<pre class="wp-block-code"><code>subscription-manager register</code></pre>
+
+
+
+<pre class="wp-block-code"><code>subscription-manager attach</code></pre>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2</title>
+		<title>Microshift 4.13 installation on RedHat Enterprise Linux 9.2</title>
 		<link>/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
@@ -265,9 +343,7 @@ INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with
 		<category><![CDATA[Microshift]]></category>
 		<guid isPermaLink="false">/?p=5</guid>
 
-					<description><![CDATA[<p>Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of Microshift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2">Read more</a></p>
-<p>The post <a rel="nofollow" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/">Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
-]]></description>
+					<description><![CDATA[Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of Microshift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="Microshift 4.13 installation on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on Microshift 4.13 installation on RedHat Enterprise Linux 9.2">Read more</a>]]></description>
 										<content:encoded><![CDATA[
 <p><strong>Prerequisite </strong></p>
 
@@ -317,7 +393,7 @@ sudo firewall-cmd --reload</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="460" src="/wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1024x460.png" alt="" class="wp-image-67" srcset="/wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1024x460.png 1024w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-300x135.png 300w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-768x345.png 768w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459-1536x690.png 1536w, /wp-content/uploads/2023/07/Screenshot-2023-07-30-175459.png 1659w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="460" src="/wp-content/uploads/2023/08/ocp-pull-secret-1024x460.png" alt="OCP Pull Secret Download" class="wp-image-247" srcset="/wp-content/uploads/2023/08/ocp-pull-secret-1024x460.png 1024w, /wp-content/uploads/2023/08/ocp-pull-secret-300x135.png 300w, /wp-content/uploads/2023/08/ocp-pull-secret-768x345.png 768w, /wp-content/uploads/2023/08/ocp-pull-secret-1536x690.png 1536w, /wp-content/uploads/2023/08/ocp-pull-secret.png 1659w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -404,7 +480,6 @@ openshift-ovn-kubernetes   ovnkube-master-q729v                 0/4     Containe
 openshift-ovn-kubernetes   ovnkube-node-spbf4                   0/1     ContainerCreating   0          2m3s
 openshift-service-ca       service-ca-764bd7f7b7-c82g5          0/1     Pending             0          2m4s
 openshift-storage          topolvm-controller-f58fcd7cb-m9ng4   0/4     Pending             0          2m3s</code></pre>
-<p>The post <a rel="nofollow" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/">Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2</a> appeared first on <a rel="nofollow" href="/">Hyrule Sage</a>.</p>
 ]]></content:encoded>
 					
 		
