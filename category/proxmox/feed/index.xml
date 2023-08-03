@@ -12,7 +12,7 @@
 	<atom:link href="/category/proxmox/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Tue, 01 Aug 2023 04:27:37 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Aug 2023 05:23:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -30,7 +30,6 @@
 	<item>
 		<title>Virtual Machine provisioning using Terraform on Proxmox VE</title>
 		<link>/virtual-machine-provisioning-using-terraform-in-proxmox/</link>
-					<comments>/virtual-machine-provisioning-using-terraform-in-proxmox/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 15:06:23 +0000</pubDate>
@@ -39,20 +38,7 @@
 		<guid isPermaLink="false">/?p=107</guid>
 
 					<description><![CDATA[Prerequisite Create a virtual machine in Proxmox VE and convert it to a template.]]></description>
-										<content:encoded><![CDATA[
-<p><strong>Prerequisite</strong> </p>
-
-
-
-<p>Create a virtual machine in Proxmox VE and convert it to a template.</p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>/virtual-machine-provisioning-using-terraform-in-proxmox/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+		
 		
 		
 			</item>

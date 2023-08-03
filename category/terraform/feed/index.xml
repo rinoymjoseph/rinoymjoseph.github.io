@@ -12,7 +12,7 @@
 	<atom:link href="/category/terraform/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Wed, 02 Aug 2023 11:27:18 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Aug 2023 05:08:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -38,60 +38,7 @@
 		<guid isPermaLink="false">/?p=115</guid>
 
 					<description><![CDATA[Terraform is an open source “Infrastructure as Code” tool, created by HashiCorp.Terraform is a declarative coding tool, enables developers to use a high-level configuration language called HCL (HashiCorp Configuration Language) to describe the desired “end-state” cloud or on-premises infrastructure for running an application. It then generates a plan for reaching that end-state and executes the ... <a title="Terraform installation on Ubuntu 22.04" class="read-more" href="/installation-of-terraform-on-ubuntu-22-04/" aria-label="More on Terraform installation on Ubuntu 22.04">Read more</a>]]></description>
-										<content:encoded><![CDATA[
-<p>Terraform is an open source “Infrastructure as Code” tool, created by HashiCorp.<br>Terraform is a declarative coding tool, enables developers to use a high-level configuration language called HCL (HashiCorp Configuration Language) to describe the desired “end-state” cloud or on-premises infrastructure for running an application. It then generates a plan for reaching that end-state and executes the plan to provision the infrastructure.</p>
-
-
-
-<p><strong>Update package index files</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo apt update</code></pre>
-
-
-
-<p><strong>Add the GPG Key</strong></p>
-
-
-
-<pre class="wp-block-code"><code>wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg</code></pre>
-
-
-
-<p><strong>Add the Repository</strong></p>
-
-
-
-<pre class="wp-block-code"><code>echo "deb &#91;signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list</code></pre>
-
-
-
-<p><strong>Install Terraform by running below command</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo apt update &amp;&amp; sudo apt install terraform</code></pre>
-
-
-
-<p><strong>Check the installed version of Terraform by running below command</strong></p>
-
-
-
-<pre class="wp-block-code"><code>terraform version</code></pre>
-
-
-
-<p><strong>For e.g.</strong></p>
-
-
-
-<pre class="wp-block-code"><code>$ terraform version
-Terraform v1.5.4
-on linux_amd64</code></pre>
-]]></content:encoded>
-					
+		
 		
 		
 			</item>

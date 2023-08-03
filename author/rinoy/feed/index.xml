@@ -12,7 +12,7 @@
 	<atom:link href="/author/rinoy/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Wed, 02 Aug 2023 12:15:29 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Aug 2023 06:30:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,25 +28,149 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Podman play kube example on Ubuntu 22.04</title>
+		<title>Dependency Injection</title>
+		<link>/dependency-injection/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 06:26:31 +0000</pubDate>
+				<category><![CDATA[Design Pattern]]></category>
+		<guid isPermaLink="false">/?p=403</guid>
+
+					<description><![CDATA[Three types of DI Constructor Injection Setter Injection Interface Injection]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>SOLID Principle</title>
+		<link>/solid-principle/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 06:21:35 +0000</pubDate>
+				<category><![CDATA[Design Pattern]]></category>
+		<guid isPermaLink="false">/?p=395</guid>
+
+					<description><![CDATA[Single Responsibility Principle Open Closed Principle Liskov Substitution Principle Interface Segregation Principle Dependency Inversion Principle]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Delegates in C#</title>
+		<link>/delegates-in-c/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 06:07:00 +0000</pubDate>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[Delegate]]></category>
+		<guid isPermaLink="false">/?p=381</guid>
+
+					<description><![CDATA[There are three types of delegates that can be used in C#. Single Delegate Single delegate can be used to invoke a single method. Multicast Delegate can be used to invoke multiple methods. The delegate instance can do multicasting (adding new method on existing delegate instance) using + operator and – operator can be used ... <a title="Delegates in C#" class="read-more" href="/delegates-in-c/" aria-label="More on Delegates in C#">Read more</a>]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Difference between Hashtable and Dictionary in C#</title>
+		<link>/difference-between-hashtable-and-dictionary-in-c/</link>
+					<comments>/difference-between-hashtable-and-dictionary-in-c/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 06:00:40 +0000</pubDate>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Dictionary]]></category>
+		<category><![CDATA[Hashtable]]></category>
+		<guid isPermaLink="false">/?p=374</guid>
+
+					<description><![CDATA[Hashtable Dictionary]]></description>
+		
+					<wfw:commentRss>/difference-between-hashtable-and-dictionary-in-c/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Async method in C#</title>
+		<link>/async-method-in-c/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 05:50:11 +0000</pubDate>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[Asynchronous Programming]]></category>
+		<guid isPermaLink="false">/?p=365</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Installation of VictoriaMetrics on Ubuntu 22.04</title>
+		<link>/installation-of-victoriametrics-on-ubuntu-22-04/</link>
+					<comments>/installation-of-victoriametrics-on-ubuntu-22-04/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 05:40:40 +0000</pubDate>
+				<category><![CDATA[VictoriaMetrics]]></category>
+		<guid isPermaLink="false">/?p=363</guid>
+
+					<description><![CDATA[]]></description>
+		
+					<wfw:commentRss>/installation-of-victoriametrics-on-ubuntu-22-04/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Installation of ClickHouse on Ubuntu 22.04</title>
+		<link>/installation-of-clickhouse-on-ubuntu-22-04/</link>
+					<comments>/installation-of-clickhouse-on-ubuntu-22-04/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 05:39:20 +0000</pubDate>
+				<category><![CDATA[ClickHouse]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<guid isPermaLink="false">/?p=361</guid>
+
+					<description><![CDATA[]]></description>
+		
+					<wfw:commentRss>/installation-of-clickhouse-on-ubuntu-22-04/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Podman play kube &#8211; How to use volumes for data persistence</title>
+		<link>/podman-play-kube-how-to-use-volumes-for-data-persistence/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 05:09:56 +0000</pubDate>
+				<category><![CDATA[Podman]]></category>
+		<guid isPermaLink="false">/?p=320</guid>
+
+					<description><![CDATA[Podman (the POD manager) is an open source tool for developing, managing, and running containers on Linux systems. podman play kube will read in a structured file of Kubernetes YAML. It will then recreate the containers, pods or volumes described in the YAML. Containers within a pod are then started and the ID of the ... <a title="Podman play kube &#8211; How to use volumes for data persistence" class="read-more" href="/podman-play-kube-how-to-use-volumes-for-data-persistence/" aria-label="More on Podman play kube &#8211; How to use volumes for data persistence">Read more</a>]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Podman play kube &#8211; How to run a pod from a yaml file</title>
 		<link>/podman-play-kube-example-on-ubuntu-22-04/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Tue, 01 Aug 2023 13:52:27 +0000</pubDate>
 				<category><![CDATA[Podman]]></category>
-		<category><![CDATA[Ubuntu]]></category>
 		<guid isPermaLink="false">/?p=223</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
-					
+					<description><![CDATA[Podman (the POD manager) is an open source tool for developing, managing, and running containers on Linux systems. podman play kube will read in a structured file of Kubernetes YAML. It will then recreate the containers, pods or volumes described in the YAML. Containers within a pod are then started and the ID of the ... <a title="Podman play kube &#8211; How to run a pod from a yaml file" class="read-more" href="/podman-play-kube-example-on-ubuntu-22-04/" aria-label="More on Podman play kube &#8211; How to run a pod from a yaml file">Read more</a>]]></description>
+		
 		
 		
 			</item>
 		<item>
 		<title>Podman installation on Ubuntu 22.04</title>
 		<link>/podman-installation-on-ubuntu-22-04/</link>
-					<comments>/podman-installation-on-ubuntu-22-04/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Tue, 01 Aug 2023 13:45:27 +0000</pubDate>
@@ -54,749 +178,8 @@
 		<category><![CDATA[Ubuntu]]></category>
 		<guid isPermaLink="false">/?p=215</guid>
 
-					<description><![CDATA[Prerequisite]]></description>
-										<content:encoded><![CDATA[
-<p><strong>Prerequisite</strong></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>/podman-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+					<description><![CDATA[Podman (the POD manager) is an open source tool for developing, managing, and running containers on Linux systems. Podman is a daemonless, open source, Linux native tool designed to make it easy to find, run, build, share and deploy applications using Open Containers Initiative (OCI) Containers and Container Images. Podman provides a command line interface ... <a title="Podman installation on Ubuntu 22.04" class="read-more" href="/podman-installation-on-ubuntu-22-04/" aria-label="More on Podman installation on Ubuntu 22.04">Read more</a>]]></description>
 		
-		
-			</item>
-		<item>
-		<title>Mirror registry (Quay registry) installation on Ubuntu 22.04</title>
-		<link>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/</link>
-					<comments>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/#respond</comments>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Tue, 01 Aug 2023 13:41:55 +0000</pubDate>
-				<category><![CDATA[Ubuntu]]></category>
-		<category><![CDATA[Quay]]></category>
-		<guid isPermaLink="false">/?p=213</guid>
-
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
-					
-					<wfw:commentRss>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Elasticsearch and Kibana installation on Ubuntu 22.04</title>
-		<link>/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Mon, 31 Jul 2023 15:52:05 +0000</pubDate>
-				<category><![CDATA[Elastic Search]]></category>
-		<category><![CDATA[Kibana]]></category>
-		<category><![CDATA[Ubuntu]]></category>
-		<guid isPermaLink="false">/?p=129</guid>
-
-					<description><![CDATA[Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.As the heart of the Elastic Stack, it centrally stores your data for lightning fast search, fine‑tuned relevancy, and powerful analytics that scale with ease. This post will guide ... <a title="Elasticsearch and Kibana installation on Ubuntu 22.04" class="read-more" href="/installation-of-elastic-search-and-kibana-on-ubuntu-22-04/" aria-label="More on Elasticsearch and Kibana installation on Ubuntu 22.04">Read more</a>]]></description>
-										<content:encoded><![CDATA[
-<p class="has-text-align-left">Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.<br>As the heart of the Elastic Stack, it centrally stores your data for lightning fast search, fine‑tuned relevancy, and powerful analytics that scale with ease.</p>
-
-
-
-<p>This post will guide you through installation and configuration of Elasticsearch and Kibana.</p>
-
-
-
-<p><strong>Update package index files</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo apt update</code></pre>
-
-
-
-<p><strong>Install dependencies</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo apt-get install apt-transport-https</code></pre>
-
-
-
-<p><strong>Import the Elasticsearch PGP Key</strong></p>
-
-
-
-<pre class="wp-block-code"><code>wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo gpg --dearmor -o /usr/share/keyrings/elasticsearch-keyring.gpg</code></pre>
-
-
-
-<p><strong>Add the Elastic source list to the sources.list.d directory, where apt will search for new sources:</strong></p>
-
-
-
-<pre class="wp-block-code"><code>echo "deb &#91;signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://artifacts.elastic.co/packages/8.x/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-8.x.list</code></pre>
-
-
-
-<h3 class="wp-block-heading">Elasticsearch Installation</h3>
-
-
-
-<p><strong>Install elasticsearch</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo apt update &amp;&amp; sudo apt install elasticsearch</code></pre>
-
-
-
-<p><strong>Enable Elasticsearch service</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo systemctl daemon-reload
-sudo systemctl enable elasticsearch.service</code></pre>
-
-
-
-<p><strong>Elasticsearch can be started as follows</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo systemctl start elasticsearch.service</code></pre>
-
-
-
-<p><strong>To stop Elasticsearch run below command</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo systemctl stop elasticsearch.service</code></pre>
-
-
-
-<p><strong>To list journal entries for the Elasticsearch service run below command</strong></p>
-
-
-
-<pre class="wp-block-code"><code>journalctl --unit elasticsearch</code></pre>
-
-
-
-<p><strong>You should see similar output as below in the console</strong></p>
-
-
-
-<pre class="wp-block-code"><code>$ journalctl --unit elasticsearch
-Aug 01 11:34:36 abb systemd&#91;1]: Starting Elasticsearch...
-Aug 01 11:34:49 abb systemd&#91;1]: Started Elasticsearch.</code></pre>
-
-
-
-<p><strong>To reset password of Elasticsearch run below command</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic</code></pre>
-
-
-
-<p><strong>You should see output similar to below in the console</strong></p>
-
-
-
-<pre class="wp-block-code"><code>$ sudo /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic
-This tool will reset the password of the &#91;elastic] user to an autogenerated value.
-The password will be printed in the console.
-Please confirm that you would like to continue &#91;y/N]y
-
-
-Password for the &#91;elastic] user successfully reset.
-New value: D5SQMkZ*I_m5qCVAFHQE</code></pre>
-
-
-
-<p><strong>To Check Elasticsearch is up and running run below command</strong></p>
-
-
-
-<pre class="wp-block-code"><code>curl -k -u elastic https://localhost:9200/</code></pre>
-
-
-
-<p><strong>You should see output similar to below after entering the password</strong></p>
-
-
-
-<pre class="wp-block-code"><code>$ curl -k -u elastic https://localhost:9200/
-Enter host password for user 'elastic':
-{
-  "name" : "abb",
-  "cluster_name" : "elasticsearch",
-  "cluster_uuid" : "bD_SCK32SYinR79L6SbagQ",
-  "version" : {
-    "number" : "8.8.2",
-    "build_flavor" : "default",
-    "build_type" : "deb",
-    "build_hash" : "98e1271edf932a480e4262a471281f1ee295ce6b",
-    "build_date" : "2023-06-26T05:16:16.196344851Z",
-    "build_snapshot" : false,
-    "lucene_version" : "9.6.0",
-    "minimum_wire_compatibility_version" : "7.17.0",
-    "minimum_index_compatibility_version" : "7.0.0"
-  },
-  "tagline" : "You Know, for Search"
-}</code></pre>
-
-
-
-<h3 class="wp-block-heading">Kibana Installation</h3>
-
-
-
-<p><strong>Install kibana by running below command</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo apt install kibana</code></pre>
-
-
-
-<p>Make below changes in /etc/elasticsearch/elasticsearch.yml to allow connection from kibana. Edit the file and uncomment/edit lines.</p>
-
-
-
-<pre class="wp-block-code"><code>http.port: 9200
-network.host: 0.0.0.0</code></pre>
-
-
-
-<p><strong>Restart Elasticsearch service</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo systemctl restart elasticsearch</code></pre>
-
-
-
-<p>Make below changes in &nbsp;/etc/kibana/kibana.yml to configure kibana.</p>
-
-
-
-<pre class="wp-block-code"><code>server.port: 5601
-server.host: "X.X.X.X" (Kibana server's IP address)</code></pre>
-
-
-
-<p><strong>For e.g., </strong></p>
-
-
-
-<pre class="wp-block-code"><code>server.port: 5601
-server.host: "192.168.0.183"</code></pre>
-
-
-
-<p><strong>Restart kibana</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo systemctl restart kibana.service </code></pre>
-
-
-
-<p><strong>Access host ip:5601 (for e.g http://192.168.0.183:5601/) in a browser to configure Kibana with Elasticsearch. </strong></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="525" src="/wp-content/uploads/2023/07/kibana-elastic-configuration-1024x525.png" alt="Kibana Elasticsearch configuration page" class="wp-image-285" srcset="/wp-content/uploads/2023/07/kibana-elastic-configuration-1024x525.png 1024w, /wp-content/uploads/2023/07/kibana-elastic-configuration-300x154.png 300w, /wp-content/uploads/2023/07/kibana-elastic-configuration-768x394.png 768w, /wp-content/uploads/2023/07/kibana-elastic-configuration.png 1352w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><strong>Run below command to generate enrollment token</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo /usr/share/elasticsearch/bin/elasticsearch-create-enrollment-token -s kibana</code></pre>
-
-
-
-<p><strong>Reference output</strong></p>
-
-
-
-<pre class="wp-block-code"><code>ability@abb:~$ sudo /usr/share/elasticsearch/bin/elasticsearch-create-enrollment-token -s kibana
-eyJ2ZXIiOiI4LjkuMCIsImFkciI6WyIxOTIuMTY4LjAuMTgzOjkyMDAiXSwiZmdyIjoiZTc1ZDEwYTllNDA2NDg5YWQxNzdhM2VkMzE1NGM3ZmRkOTMwYTIxYjM5OTY3NDkxYzI1MzY4Yjc3MDBiM2E5OCIsImtleSI6IjJmcnNzSWtCeHBiSklOaEtKQkJEOld1Qnlyb1FtVDE2VU9sZjlPRUJkN2cifQ==</code></pre>
-
-
-
-<p><strong>Enter enrollment token in textbox and click on &#8216;Configure Elastic&#8217; button</strong></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="531" src="/wp-content/uploads/2023/07/kibana-elastic-configuration-2-1024x531.png" alt="Kibana Elasticsearch configuration - Enrollment Token" class="wp-image-287" srcset="/wp-content/uploads/2023/07/kibana-elastic-configuration-2-1024x531.png 1024w, /wp-content/uploads/2023/07/kibana-elastic-configuration-2-300x156.png 300w, /wp-content/uploads/2023/07/kibana-elastic-configuration-2-768x399.png 768w, /wp-content/uploads/2023/07/kibana-elastic-configuration-2-1536x797.png 1536w, /wp-content/uploads/2023/07/kibana-elastic-configuration-2.png 1561w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><strong>Next step is to verify using another token</strong></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="569" src="/wp-content/uploads/2023/07/kibana-elastic-search-verification-token-page-1024x569.png" alt="Kibana Elasticsearch Verification Token Page" class="wp-image-289" srcset="/wp-content/uploads/2023/07/kibana-elastic-search-verification-token-page-1024x569.png 1024w, /wp-content/uploads/2023/07/kibana-elastic-search-verification-token-page-300x167.png 300w, /wp-content/uploads/2023/07/kibana-elastic-search-verification-token-page-768x426.png 768w, /wp-content/uploads/2023/07/kibana-elastic-search-verification-token-page.png 1475w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><strong>To generate verification token</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo /usr/share/kibana/bin/kibana-verification-code </code></pre>
-
-
-
-<p><strong>Reference output</strong></p>
-
-
-
-<pre class="wp-block-code"><code>$ sudo /usr/share/kibana/bin/kibana-verification-code 
-Your verification code is:  571 272 </code></pre>
-
-
-
-<p><strong>Enter verification code and click on &#8216;Verify&#8217;</strong></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="581" src="/wp-content/uploads/2023/07/kibana-elastic-search-verification-token-value-1024x581.png" alt="Kibana Elasticsearch Verification Token Value" class="wp-image-291" srcset="/wp-content/uploads/2023/07/kibana-elastic-search-verification-token-value-1024x581.png 1024w, /wp-content/uploads/2023/07/kibana-elastic-search-verification-token-value-300x170.png 300w, /wp-content/uploads/2023/07/kibana-elastic-search-verification-token-value-768x436.png 768w, /wp-content/uploads/2023/07/kibana-elastic-search-verification-token-value.png 1418w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><strong>You should see below page </strong></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="600" src="/wp-content/uploads/2023/07/kibana-elasticsearch-configruation-final-1024x600.png" alt="Kibana Elasticsearch Configuration Apply" class="wp-image-293" srcset="/wp-content/uploads/2023/07/kibana-elasticsearch-configruation-final-1024x600.png 1024w, /wp-content/uploads/2023/07/kibana-elasticsearch-configruation-final-300x176.png 300w, /wp-content/uploads/2023/07/kibana-elasticsearch-configruation-final-768x450.png 768w, /wp-content/uploads/2023/07/kibana-elasticsearch-configruation-final.png 1537w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><strong>Refresh the page if installation stuck at &#8216;Completing setup&#8217; step. After setup is completed successfully login page is displayed.</strong></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="599" src="/wp-content/uploads/2023/07/kibana-elasticsearch-login-screen-1024x599.png" alt="Kibana Elasticsearch Login Page" class="wp-image-295" srcset="/wp-content/uploads/2023/07/kibana-elasticsearch-login-screen-1024x599.png 1024w, /wp-content/uploads/2023/07/kibana-elasticsearch-login-screen-300x176.png 300w, /wp-content/uploads/2023/07/kibana-elasticsearch-login-screen-768x449.png 768w, /wp-content/uploads/2023/07/kibana-elasticsearch-login-screen.png 1480w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><strong>Enter the credentials. Username is elastic.</strong></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="516" src="/wp-content/uploads/2023/07/kibana-home-page-1024x516.png" alt="Kibana Home Page" class="wp-image-297" srcset="/wp-content/uploads/2023/07/kibana-home-page-1024x516.png 1024w, /wp-content/uploads/2023/07/kibana-home-page-300x151.png 300w, /wp-content/uploads/2023/07/kibana-home-page-768x387.png 768w, /wp-content/uploads/2023/07/kibana-home-page-1536x774.png 1536w, /wp-content/uploads/2023/07/kibana-home-page.png 1897w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Cockpit installation on RHEL 9.2</title>
-		<link>/installation-of-cockpit-on-rhel-9-2/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Mon, 31 Jul 2023 15:44:07 +0000</pubDate>
-				<category><![CDATA[RHEL]]></category>
-		<category><![CDATA[Cockpit]]></category>
-		<guid isPermaLink="false">/?p=125</guid>
-
-					<description><![CDATA[Introduction Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser. You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL. Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks ... <a title="Cockpit installation on RHEL 9.2" class="read-more" href="/installation-of-cockpit-on-rhel-9-2/" aria-label="More on Cockpit installation on RHEL 9.2">Read more</a>]]></description>
-										<content:encoded><![CDATA[
-<h3 class="wp-block-heading">Introduction</h3>
-
-
-
-<p>Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser.</p>
-
-
-
-<p>You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL.</p>
-
-
-
-<p>Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks such as starting containers, storage administration, network configuration, inspecting logs and so on.</p>
-
-
-
-<p>This post explains how to install Cockpit on RHEL 9.2 OS.</p>
-
-
-
-<p>Please refer <a href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/">Installation of Red Hat Enterprise Linux 9.2 using developer account</a> for installation of RHEL 9.2.</p>
-
-
-
-<h3 class="wp-block-heading">Installation</h3>
-
-
-
-<p><strong>To install cockpit run below command</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo dnf install cockpit -y</code></pre>
-
-
-
-<p><strong>Enable cockpit service by running below command</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo systemctl enable cockpit.socket --now</code></pre>
-
-
-
-<p><strong>Configure firewall to add the cockpit service to firewalld and open port 9090 in the firewall</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo firewall-cmd --add-service=cockpit --permanent
-sudo firewall-cmd --reload</code></pre>
-
-
-
-<p><strong>Access cockpit web interface at http://locahost:9090/ using firefox browser. Enter user credentials to login to the cockpit application.</strong></p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="912" height="649" src="/wp-content/uploads/2023/08/image.png" alt="" class="wp-image-193" srcset="/wp-content/uploads/2023/08/image.png 912w, /wp-content/uploads/2023/08/image-300x213.png 300w, /wp-content/uploads/2023/08/image-768x547.png 768w" sizes="(max-width: 912px) 100vw, 912px" /></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>K3s installation on Ubuntu 22.04</title>
-		<link>/k3s-installation-on-ubuntu-22-04/</link>
-					<comments>/k3s-installation-on-ubuntu-22-04/#respond</comments>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Mon, 31 Jul 2023 15:30:21 +0000</pubDate>
-				<category><![CDATA[k3s]]></category>
-		<category><![CDATA[Ubuntu]]></category>
-		<guid isPermaLink="false">/?p=122</guid>
-
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
-					
-					<wfw:commentRss>/k3s-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Ansible installation on Ubuntu 22.04</title>
-		<link>/installation-of-ansible-on-ubuntu-22-04/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Mon, 31 Jul 2023 15:25:34 +0000</pubDate>
-				<category><![CDATA[Ansible]]></category>
-		<category><![CDATA[Ubuntu]]></category>
-		<guid isPermaLink="false">/?p=119</guid>
-
-					<description><![CDATA[Ansible is a simple IT automation system. It handles configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration. It is primarily intended for IT professionals, who use it for application deployment, updates on workstations and servers, cloud provisioning, configuration management, intra-service orchestration, and nearly anything a systems administrator does on ... <a title="Ansible installation on Ubuntu 22.04" class="read-more" href="/installation-of-ansible-on-ubuntu-22-04/" aria-label="More on Ansible installation on Ubuntu 22.04">Read more</a>]]></description>
-										<content:encoded><![CDATA[
-<p>Ansible is a simple IT automation system. It handles configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration.</p>
-
-
-
-<p>It is primarily intended for IT professionals, who use it for application deployment, updates on workstations and servers, cloud provisioning, configuration management, intra-service orchestration, and nearly anything a systems administrator does on a weekly or daily basis</p>
-
-
-
-<p><strong>Update package index files</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo apt update</code></pre>
-
-
-
-<p><strong>Add the repository</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo add-apt-repository --yes --update ppa:ansible/ansible</code></pre>
-
-
-
-<p><strong>Install pip and ansible</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo apt install python3-pip ansible -y</code></pre>
-
-
-
-<p><strong>Check version of ansible installed in the system</strong></p>
-
-
-
-<pre class="wp-block-code"><code>ansible --version</code></pre>
-
-
-
-<p><strong>Terminal output for reference</strong></p>
-
-
-
-<pre class="wp-block-code"><code>$ ansible --version
-ansible 2.10.8
-  config file = None
-  configured module search path = &#91;'/home/ability/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
-  ansible python module location = /usr/lib/python3/dist-packages/ansible
-  executable location = /usr/bin/ansible
-  python version = 3.10.12 (main, Jun 11 2023, 05:26:28) &#91;GCC 11.4.0]</code></pre>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Terraform installation on Ubuntu 22.04</title>
-		<link>/installation-of-terraform-on-ubuntu-22-04/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Mon, 31 Jul 2023 15:13:17 +0000</pubDate>
-				<category><![CDATA[Terraform]]></category>
-		<category><![CDATA[Ubuntu]]></category>
-		<guid isPermaLink="false">/?p=115</guid>
-
-					<description><![CDATA[Terraform is an open source “Infrastructure as Code” tool, created by HashiCorp.Terraform is a declarative coding tool, enables developers to use a high-level configuration language called HCL (HashiCorp Configuration Language) to describe the desired “end-state” cloud or on-premises infrastructure for running an application. It then generates a plan for reaching that end-state and executes the ... <a title="Terraform installation on Ubuntu 22.04" class="read-more" href="/installation-of-terraform-on-ubuntu-22-04/" aria-label="More on Terraform installation on Ubuntu 22.04">Read more</a>]]></description>
-										<content:encoded><![CDATA[
-<p>Terraform is an open source “Infrastructure as Code” tool, created by HashiCorp.<br>Terraform is a declarative coding tool, enables developers to use a high-level configuration language called HCL (HashiCorp Configuration Language) to describe the desired “end-state” cloud or on-premises infrastructure for running an application. It then generates a plan for reaching that end-state and executes the plan to provision the infrastructure.</p>
-
-
-
-<p><strong>Update package index files</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo apt update</code></pre>
-
-
-
-<p><strong>Add the GPG Key</strong></p>
-
-
-
-<pre class="wp-block-code"><code>wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg</code></pre>
-
-
-
-<p><strong>Add the Repository</strong></p>
-
-
-
-<pre class="wp-block-code"><code>echo "deb &#91;signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list</code></pre>
-
-
-
-<p><strong>Install Terraform by running below command</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo apt update &amp;&amp; sudo apt install terraform</code></pre>
-
-
-
-<p><strong>Check the installed version of Terraform by running below command</strong></p>
-
-
-
-<pre class="wp-block-code"><code>terraform version</code></pre>
-
-
-
-<p><strong>For e.g.</strong></p>
-
-
-
-<pre class="wp-block-code"><code>$ terraform version
-Terraform v1.5.4
-on linux_amd64</code></pre>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Virtual Machine provisioning using Terraform on Proxmox VE</title>
-		<link>/virtual-machine-provisioning-using-terraform-in-proxmox/</link>
-					<comments>/virtual-machine-provisioning-using-terraform-in-proxmox/#respond</comments>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Mon, 31 Jul 2023 15:06:23 +0000</pubDate>
-				<category><![CDATA[Proxmox]]></category>
-		<category><![CDATA[Terraform]]></category>
-		<guid isPermaLink="false">/?p=107</guid>
-
-					<description><![CDATA[Prerequisite Create a virtual machine in Proxmox VE and convert it to a template.]]></description>
-										<content:encoded><![CDATA[
-<p><strong>Prerequisite</strong> </p>
-
-
-
-<p>Create a virtual machine in Proxmox VE and convert it to a template.</p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>/virtual-machine-provisioning-using-terraform-in-proxmox/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Mirror registry (Quay registry) installation on RHEL 9.2</title>
-		<link>/mirror-registry-quay-registry-installation-on-rhel-9-2/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Mon, 31 Jul 2023 12:18:51 +0000</pubDate>
-				<category><![CDATA[RHEL]]></category>
-		<category><![CDATA[Quay]]></category>
-		<guid isPermaLink="false">/?p=70</guid>
-
-					<description><![CDATA[The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a>]]></description>
-										<content:encoded><![CDATA[
-<p>The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations.</p>
-
-
-
-<p><strong>Prerequisite</strong></p>
-
-
-
-<p>Red Hat Enterprise Linux 9.2.</p>
-
-
-
-<p>Please refer&nbsp;<a href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/">Installation of Red Hat Enterprise Linux 9.2 using developer account</a>&nbsp;for installation of RHEL 9.2.</p>
-
-
-
-<p><strong>Set hostname for the system</strong></p>
-
-
-
-<pre class="wp-block-code"><code>sudo hostname &lt;host-name&gt;</code></pre>
-
-
-
-<p><strong>Reference is given below</strong></p>
-
-
-
-<pre class="wp-block-code"><code>$ sudo hostname quay.local
-$ hostname
-quay.local</code></pre>
-
-
-
-<p><strong>Download mirror registry package from <a rel="noreferrer noopener" href="https://console.redhat.com/openshift/downloads#tool-mirror-registry" target="_blank">Red Hat download site</a>.</strong></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="249" src="/wp-content/uploads/2023/07/mirror-registry-download-1024x249.png" alt="Mirror Registry Package Download" class="wp-image-251" srcset="/wp-content/uploads/2023/07/mirror-registry-download-1024x249.png 1024w, /wp-content/uploads/2023/07/mirror-registry-download-300x73.png 300w, /wp-content/uploads/2023/07/mirror-registry-download-768x187.png 768w, /wp-content/uploads/2023/07/mirror-registry-download-1536x373.png 1536w, /wp-content/uploads/2023/07/mirror-registry-download.png 1713w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>The mirror registry package can be downloaded into system using wget as well.</p>
-
-
-
-<pre class="wp-block-code"><code>wget https://developers.redhat.com/content-gateway/rest/mirror/pub/openshift-v4/clients/mirror-registry/latest/mirror-registry.tar.gz</code></pre>
-
-
-
-<p><strong>Extract mirror registry</strong></p>
-
-
-
-<pre class="wp-block-code"><code>tar xzvf mirror-registry.tar.gz </code></pre>
-
-
-
-<p>For e.g.</p>
-
-
-
-<pre class="wp-block-code"><code>$ ls
-mirror-registry.tar.gz
-$ tar xzvf mirror-registry.tar.gz 
-image-archive.tar
-execution-environment.tar
-mirror-registry</code></pre>
-
-
-
-<p><strong>Create a directory for quay root config</strong></p>
-
-
-
-<pre class="wp-block-code"><code>mkdir -p ~/quay/install</code></pre>
-
-
-
-<p><strong>Install mirror registry using below command</strong></p>
-
-
-
-<pre class="wp-block-code"><code>./mirror-registry install --quayHostname &lt;host-name&gt; --quayRoot /home/rinoy/quay/install --initPassword &lt;password&gt; </code></pre>
-
-
-
-<p><strong>For e.g.</strong></p>
-
-
-
-<pre class="wp-block-code"><code> ./mirror-registry install --quayHostname quay.local --quayRoot /home/rinoy/quay/install --initPassword welcome123#</code></pre>
-
-
-
-<p><strong>After successful installation, below message is displayed in console at the end. </strong></p>
-
-
-
-<pre class="wp-block-code"><code>INFO&#91;2023-07-31 18:15:35] Quay installed successfully, config data is stored in /home/rinoy/quay/install 
-INFO&#91;2023-07-31 18:15:35] Quay is available at https://quay.local:8443/ with credentials (init, welcome123#) </code></pre>
-
-
-
-<p><strong>Log into Red Hat GUI and open Firefox browser.</strong></p>
-
-
-
-<p><strong>Quay registry is accessible in https://qua.local:8443/ url. Accept the Risk and Continue to the site.</strong></p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="985" height="692" src="/wp-content/uploads/2023/07/mirror-registry-url.png" alt="Mirror Registry Application URL" class="wp-image-253" srcset="/wp-content/uploads/2023/07/mirror-registry-url.png 985w, /wp-content/uploads/2023/07/mirror-registry-url-300x211.png 300w, /wp-content/uploads/2023/07/mirror-registry-url-768x540.png 768w" sizes="(max-width: 985px) 100vw, 985px" /></figure>
-
-
-
-<p><strong>A login is screen is displayed. Default user name is init. </strong></p>
-
-
-
-<p><strong>Enter the credentials of quay registry and click on &#8216;Sign into Red Hat Quay&#8217;.</strong></p>
-
-
-
-<p><strong>After successful login home page of mirror registry is displayed.</strong></p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="978" height="666" src="/wp-content/uploads/2023/07/mirror-registry-landing-page.png" alt="Mirror Registry Home Page" class="wp-image-255" srcset="/wp-content/uploads/2023/07/mirror-registry-landing-page.png 978w, /wp-content/uploads/2023/07/mirror-registry-landing-page-300x204.png 300w, /wp-content/uploads/2023/07/mirror-registry-landing-page-768x523.png 768w" sizes="(max-width: 978px) 100vw, 978px" /></figure>
-]]></content:encoded>
-					
 		
 		
 			</item>
