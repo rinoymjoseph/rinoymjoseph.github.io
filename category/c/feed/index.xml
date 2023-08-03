@@ -12,7 +12,7 @@
 	<atom:link href="/category/c/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 03 Aug 2023 06:16:56 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Aug 2023 11:45:26 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,78 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Difference between var and dynamic in C#</title>
+		<link>/difference-between-var-and-dynamic-in-c/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 11:45:25 +0000</pubDate>
+				<category><![CDATA[C#]]></category>
+		<guid isPermaLink="false">/?p=512</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Data Structures in C#</title>
+		<link>/data-structures-in-c/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 11:44:23 +0000</pubDate>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[Data Structure]]></category>
+		<guid isPermaLink="false">/?p=510</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Different types of Classes in C#</title>
+		<link>/different-types-of-classes-in-c/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 11:39:52 +0000</pubDate>
+				<category><![CDATA[C#]]></category>
+		<guid isPermaLink="false">/?p=506</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Singleton Design Pattern in C#</title>
+		<link>/singleton-design-pattern-in-c/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 07:09:04 +0000</pubDate>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[Design Pattern]]></category>
+		<guid isPermaLink="false">/?p=420</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Finalize and Dispose in C#</title>
+		<link>/finalize-and-dispose-in-c/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 07:00:04 +0000</pubDate>
+				<category><![CDATA[C#]]></category>
+		<guid isPermaLink="false">/?p=410</guid>
+
+					<description><![CDATA[Dispose Finalize It is used to free unmanaged resources like files, database connections etc. at any time. It can be used to free unmanaged resources (when you implement it) like files, database connections etc. held by an object before that object is destroyed. Explicitly, it is called by user code and the class which is ... <a title="Finalize and Dispose in C#" class="read-more" href="/finalize-and-dispose-in-c/" aria-label="More on Finalize and Dispose in C#">Read more</a>]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Delegates in C#</title>
 		<link>/delegates-in-c/</link>
 		
@@ -50,7 +122,6 @@
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 06:00:40 +0000</pubDate>
 				<category><![CDATA[C#]]></category>
-		<category><![CDATA[Uncategorized]]></category>
 		<category><![CDATA[Dictionary]]></category>
 		<category><![CDATA[Hashtable]]></category>
 		<guid isPermaLink="false">/?p=374</guid>

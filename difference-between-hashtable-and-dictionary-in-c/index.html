@@ -96,17 +96,17 @@ img.emoji {
 	<div class="content-area" id="primary">
 		<main class="site-main" id="main">
 			
-<article id="post-374" class="post-374 post type-post status-publish format-standard hentry category-c category-uncategorized tag-c tag-dictionary tag-hashtable" itemtype="https://schema.org/CreativeWork" itemscope>
+<article id="post-374" class="post-374 post type-post status-publish format-standard hentry category-c tag-c tag-dictionary tag-hashtable" itemtype="https://schema.org/CreativeWork" itemscope>
 	<div class="inside-article">
 					<header class="entry-header" aria-label="Content">
 				<h1 class="entry-title" itemprop="headline">Difference between Hashtable and Dictionary in C#</h1>		<div class="entry-meta">
-			<span class="posted-on"><time class="entry-date published" datetime="2023-08-03T06:00:40+00:00" itemprop="datePublished">August 3, 2023</time></span> <span class="byline">by <span class="author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope><a class="url fn n" href="/author/rinoy/" title="View all posts by rinoy" rel="author" itemprop="url"><span class="author-name" itemprop="name">rinoy</span></a></span></span> 		</div>
+			<span class="posted-on"><time class="updated" datetime="2023-08-03T07:16:28+00:00" itemprop="dateModified">August 3, 2023</time><time class="entry-date published" datetime="2023-08-03T06:00:40+00:00" itemprop="datePublished">August 3, 2023</time></span> <span class="byline">by <span class="author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope><a class="url fn n" href="/author/rinoy/" title="View all posts by rinoy" rel="author" itemprop="url"><span class="author-name" itemprop="name">rinoy</span></a></span></span> 		</div>
 					</header>
 			
 		<div class="entry-content" itemprop="text">
 			
 <ul>
-<li> A HashTable or Dictionary is a data structure that stores key-value pairs.</li>
+<li>&nbsp;A HashTable or Dictionary is a data structure that stores key-value pairs.</li>
 
 
 
@@ -148,7 +148,7 @@ img.emoji {
 
 
 <ul>
-<li>A Hashtable object consists of buckets that contain the elements of the collection.  A bucket is a virtual subgroup of elements within the Hashtable, which makes searching and retrieving easier and faster than in most collections.</li>
+<li>A Hashtable object consists of buckets that contain the elements of the collection.&nbsp; A bucket is a virtual subgroup of elements within the Hashtable, which makes searching and retrieving easier and faster than in most collections.</li>
 
 
 
@@ -156,7 +156,7 @@ img.emoji {
 
 
 
-<li> When an object is added to a Hashtable, it is stored in the bucket that is associated with the hash code that matches the object&#8217;s hash code. When a value is being searched for in the Hashtable, the hash code is generated for that value, and the bucket associated with that hash code is searched.</li>
+<li>&nbsp;When an object is added to a Hashtable, it is stored in the bucket that is associated with the hash code that matches the object&#8217;s hash code. When a value is being searched for in the Hashtable, the hash code is generated for that value, and the bucket associated with that hash code is searched.</li>
 
 
 
@@ -164,7 +164,7 @@ img.emoji {
 
 
 
-<li>The array contains your data, while the mapping function is used to assign numerical  values(keys) to the data.</li>
+<li>The array contains your data, while the mapping function is used to assign numerical&nbsp; values(keys) to the data.</li>
 
 
 
@@ -199,8 +199,8 @@ img.emoji {
 
 
 
-<pre class="wp-block-code"><code lang="csharp" class="language-csharp"> Dictionary&lt;string, int> d = new Dictionary&lt;string, int>();
-   foreach (KeyValuePair&lt;string, int> pair in d)
+<pre class="wp-block-code"><code lang="csharp" class="language-csharp"> Dictionary&lt;string, int&gt; d = new Dictionary&lt;string, int&gt;();
+   foreach (KeyValuePair&lt;string, int&gt; pair in d)
            {
                Console.WriteLine ("{0}, {1}",pair.Key,  pair.Value);
            }
@@ -208,7 +208,7 @@ img.emoji {
 		</div>
 
 				<footer class="entry-meta" aria-label="Entry meta">
-			<span class="cat-links"><span class="gp-icon icon-categories"><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z"></path></svg></span><span class="screen-reader-text">Categories </span><a href="/category/c/" rel="category tag">C#</a>, <a href="/category/uncategorized/" rel="category tag">Uncategorized</a></span> <span class="tags-links"><span class="gp-icon icon-tags"><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M20 39.5c-8.836 0-16 7.163-16 16v176c0 4.243 1.686 8.313 4.687 11.314l224 224c6.248 6.248 16.378 6.248 22.626 0l176-176c6.244-6.244 6.25-16.364.013-22.615l-223.5-224A15.999 15.999 0 00196.5 39.5H20zm56 96c0-13.255 10.745-24 24-24s24 10.745 24 24-10.745 24-24 24-24-10.745-24-24z"></path><path d="M259.515 43.015c4.686-4.687 12.284-4.687 16.97 0l228 228c4.686 4.686 4.686 12.284 0 16.97l-180 180c-4.686 4.687-12.284 4.687-16.97 0-4.686-4.686-4.686-12.284 0-16.97L479.029 279.5 259.515 59.985c-4.686-4.686-4.686-12.284 0-16.97z"></path></svg></span><span class="screen-reader-text">Tags </span><a href="/tag/c/" rel="tag">C#</a>, <a href="/tag/dictionary/" rel="tag">Dictionary</a>, <a href="/tag/hashtable/" rel="tag">Hashtable</a></span> 		<nav id="nav-below" class="post-navigation" aria-label="Posts">
+			<span class="cat-links"><span class="gp-icon icon-categories"><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z"></path></svg></span><span class="screen-reader-text">Categories </span><a href="/category/c/" rel="category tag">C#</a></span> <span class="tags-links"><span class="gp-icon icon-tags"><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M20 39.5c-8.836 0-16 7.163-16 16v176c0 4.243 1.686 8.313 4.687 11.314l224 224c6.248 6.248 16.378 6.248 22.626 0l176-176c6.244-6.244 6.25-16.364.013-22.615l-223.5-224A15.999 15.999 0 00196.5 39.5H20zm56 96c0-13.255 10.745-24 24-24s24 10.745 24 24-10.745 24-24 24-24-10.745-24-24z"></path><path d="M259.515 43.015c4.686-4.687 12.284-4.687 16.97 0l228 228c4.686 4.686 4.686 12.284 0 16.97l-180 180c-4.686 4.687-12.284 4.687-16.97 0-4.686-4.686-4.686-12.284 0-16.97L479.029 279.5 259.515 59.985c-4.686-4.686-4.686-12.284 0-16.97z"></path></svg></span><span class="screen-reader-text">Tags </span><a href="/tag/c/" rel="tag">C#</a>, <a href="/tag/dictionary/" rel="tag">Dictionary</a>, <a href="/tag/hashtable/" rel="tag">Hashtable</a></span> 		<nav id="nav-below" class="post-navigation" aria-label="Posts">
 			<div class="nav-previous">
 <span class="gp-icon icon-arrow-left"><svg viewbox="0 0 192 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M178.425 138.212c0 2.265-1.133 4.813-2.832 6.512L64.276 256.001l111.317 111.277c1.7 1.7 2.832 4.247 2.832 6.513 0 2.265-1.133 4.813-2.832 6.512L161.43 394.46c-1.7 1.7-4.249 2.832-6.514 2.832-2.266 0-4.816-1.133-6.515-2.832L16.407 262.514c-1.699-1.7-2.832-4.248-2.832-6.513 0-2.265 1.133-4.813 2.832-6.512l131.994-131.947c1.7-1.699 4.249-2.831 6.515-2.831 2.265 0 4.815 1.132 6.514 2.831l14.163 14.157c1.7 1.7 2.832 3.965 2.832 6.513z" fill-rule="nonzero"></path></svg></span><span class="prev"><a href="/async-method-in-c/" rel="prev">Async method in C#</a></span>
 </div>
@@ -251,26 +251,30 @@ img.emoji {
 <h2 class="wp-block-heading">Tags</h2>
 
 
-<p class="wp-block-tag-cloud"><a href="/tag/ansible/" class="tag-cloud-link tag-link-16 tag-link-position-1" style="font-size: 8pt;" aria-label="Ansible (1 item)">Ansible</a>
-<a href="/tag/asynchronous-programming/" class="tag-cloud-link tag-link-34 tag-link-position-2" style="font-size: 8pt;" aria-label="Asynchronous Programming (1 item)">Asynchronous Programming</a>
-<a href="/tag/c/" class="tag-cloud-link tag-link-33 tag-link-position-3" style="font-size: 15pt;" aria-label="C# (3 items)">C#</a>
-<a href="/tag/clickhouse/" class="tag-cloud-link tag-link-31 tag-link-position-4" style="font-size: 8pt;" aria-label="ClickHouse (1 item)">ClickHouse</a>
-<a href="/tag/cockpit/" class="tag-cloud-link tag-link-20 tag-link-position-5" style="font-size: 8pt;" aria-label="Cockpit (1 item)">Cockpit</a>
-<a href="/tag/delegate/" class="tag-cloud-link tag-link-37 tag-link-position-6" style="font-size: 8pt;" aria-label="Delegate (1 item)">Delegate</a>
-<a href="/tag/design-pattern/" class="tag-cloud-link tag-link-39 tag-link-position-7" style="font-size: 12.2pt;" aria-label="Design Pattern (2 items)">Design Pattern</a>
-<a href="/tag/dictionary/" class="tag-cloud-link tag-link-36 tag-link-position-8" style="font-size: 8pt;" aria-label="Dictionary (1 item)">Dictionary</a>
-<a href="/tag/elastic-search/" class="tag-cloud-link tag-link-22 tag-link-position-9" style="font-size: 8pt;" aria-label="Elastic Search (1 item)">Elastic Search</a>
-<a href="/tag/hashtable/" class="tag-cloud-link tag-link-35 tag-link-position-10" style="font-size: 8pt;" aria-label="Hashtable (1 item)">Hashtable</a>
-<a href="/tag/k3s/" class="tag-cloud-link tag-link-19 tag-link-position-11" style="font-size: 8pt;" aria-label="k3s (1 item)">k3s</a>
-<a href="/tag/kibana/" class="tag-cloud-link tag-link-23 tag-link-position-12" style="font-size: 8pt;" aria-label="Kibana (1 item)">Kibana</a>
-<a href="/tag/microshift/" class="tag-cloud-link tag-link-5 tag-link-position-13" style="font-size: 8pt;" aria-label="Microshift (1 item)">Microshift</a>
-<a href="/tag/podman/" class="tag-cloud-link tag-link-25 tag-link-position-14" style="font-size: 15pt;" aria-label="Podman (3 items)">Podman</a>
-<a href="/tag/proxmox/" class="tag-cloud-link tag-link-10 tag-link-position-15" style="font-size: 8pt;" aria-label="Proxmox (1 item)">Proxmox</a>
-<a href="/tag/quay/" class="tag-cloud-link tag-link-8 tag-link-position-16" style="font-size: 12.2pt;" aria-label="Quay (2 items)">Quay</a>
-<a href="/tag/rhel/" class="tag-cloud-link tag-link-3 tag-link-position-17" style="font-size: 17.333333333333pt;" aria-label="RHEL (4 items)">RHEL</a>
-<a href="/tag/terraform/" class="tag-cloud-link tag-link-9 tag-link-position-18" style="font-size: 12.2pt;" aria-label="Terraform (2 items)">Terraform</a>
-<a href="/tag/ubuntu/" class="tag-cloud-link tag-link-12 tag-link-position-19" style="font-size: 22pt;" aria-label="Ubuntu (7 items)">Ubuntu</a>
-<a href="/tag/victoriametrics/" class="tag-cloud-link tag-link-30 tag-link-position-20" style="font-size: 8pt;" aria-label="VictoriaMetrics (1 item)">VictoriaMetrics</a></p>
+<p class="wp-block-tag-cloud"><a href="/tag/net-framework/" class="tag-cloud-link tag-link-42 tag-link-position-1" style="font-size: 8pt;" aria-label=".Net Framework (1 item)">.Net Framework</a>
+<a href="/tag/ansible/" class="tag-cloud-link tag-link-16 tag-link-position-2" style="font-size: 8pt;" aria-label="Ansible (1 item)">Ansible</a>
+<a href="/tag/asynchronous-programming/" class="tag-cloud-link tag-link-34 tag-link-position-3" style="font-size: 8pt;" aria-label="Asynchronous Programming (1 item)">Asynchronous Programming</a>
+<a href="/tag/c/" class="tag-cloud-link tag-link-33 tag-link-position-4" style="font-size: 22pt;" aria-label="C# (8 items)">C#</a>
+<a href="/tag/clickhouse/" class="tag-cloud-link tag-link-31 tag-link-position-5" style="font-size: 8pt;" aria-label="ClickHouse (1 item)">ClickHouse</a>
+<a href="/tag/cockpit/" class="tag-cloud-link tag-link-20 tag-link-position-6" style="font-size: 8pt;" aria-label="Cockpit (1 item)">Cockpit</a>
+<a href="/tag/data-structure/" class="tag-cloud-link tag-link-43 tag-link-position-7" style="font-size: 8pt;" aria-label="Data Structure (1 item)">Data Structure</a>
+<a href="/tag/delegate/" class="tag-cloud-link tag-link-37 tag-link-position-8" style="font-size: 8pt;" aria-label="Delegate (1 item)">Delegate</a>
+<a href="/tag/design-pattern/" class="tag-cloud-link tag-link-39 tag-link-position-9" style="font-size: 22pt;" aria-label="Design Pattern (8 items)">Design Pattern</a>
+<a href="/tag/dictionary/" class="tag-cloud-link tag-link-36 tag-link-position-10" style="font-size: 8pt;" aria-label="Dictionary (1 item)">Dictionary</a>
+<a href="/tag/elastic-search/" class="tag-cloud-link tag-link-22 tag-link-position-11" style="font-size: 8pt;" aria-label="Elastic Search (1 item)">Elastic Search</a>
+<a href="/tag/hashtable/" class="tag-cloud-link tag-link-35 tag-link-position-12" style="font-size: 8pt;" aria-label="Hashtable (1 item)">Hashtable</a>
+<a href="/tag/k3s/" class="tag-cloud-link tag-link-19 tag-link-position-13" style="font-size: 8pt;" aria-label="k3s (1 item)">k3s</a>
+<a href="/tag/kibana/" class="tag-cloud-link tag-link-23 tag-link-position-14" style="font-size: 8pt;" aria-label="Kibana (1 item)">Kibana</a>
+<a href="/tag/microshift/" class="tag-cloud-link tag-link-5 tag-link-position-15" style="font-size: 8pt;" aria-label="Microshift (1 item)">Microshift</a>
+<a href="/tag/oop/" class="tag-cloud-link tag-link-40 tag-link-position-16" style="font-size: 8pt;" aria-label="OOP (1 item)">OOP</a>
+<a href="/tag/podman/" class="tag-cloud-link tag-link-25 tag-link-position-17" style="font-size: 14.461538461538pt;" aria-label="Podman (3 items)">Podman</a>
+<a href="/tag/proxmox/" class="tag-cloud-link tag-link-10 tag-link-position-18" style="font-size: 8pt;" aria-label="Proxmox (1 item)">Proxmox</a>
+<a href="/tag/quay/" class="tag-cloud-link tag-link-8 tag-link-position-19" style="font-size: 11.876923076923pt;" aria-label="Quay (2 items)">Quay</a>
+<a href="/tag/rhel/" class="tag-cloud-link tag-link-3 tag-link-position-20" style="font-size: 16.615384615385pt;" aria-label="RHEL (4 items)">RHEL</a>
+<a href="/tag/terraform/" class="tag-cloud-link tag-link-9 tag-link-position-21" style="font-size: 11.876923076923pt;" aria-label="Terraform (2 items)">Terraform</a>
+<a href="/tag/ubuntu/" class="tag-cloud-link tag-link-12 tag-link-position-22" style="font-size: 20.923076923077pt;" aria-label="Ubuntu (7 items)">Ubuntu</a>
+<a href="/tag/uml/" class="tag-cloud-link tag-link-45 tag-link-position-23" style="font-size: 11.876923076923pt;" aria-label="UML (2 items)">UML</a>
+<a href="/tag/victoriametrics/" class="tag-cloud-link tag-link-30 tag-link-position-24" style="font-size: 8pt;" aria-label="VictoriaMetrics (1 item)">VictoriaMetrics</a></p>
 </div>
 </aside><aside id="block-3" class="widget inner-padding widget_block">
 <div class="wp-block-group is-layout-flow"><div class="wp-block-group__inner-container">
@@ -278,11 +282,11 @@ img.emoji {
 
 
 <ul class="wp-block-latest-posts__list wp-block-latest-posts">
-<li><a class="wp-block-latest-posts__post-title" href="/dependency-injection/">Dependency Injection</a></li>
-<li><a class="wp-block-latest-posts__post-title" href="/solid-principle/">SOLID Principle</a></li>
-<li><a class="wp-block-latest-posts__post-title" href="/delegates-in-c/">Delegates in C#</a></li>
-<li><a class="wp-block-latest-posts__post-title" href="/difference-between-hashtable-and-dictionary-in-c/">Difference between Hashtable and Dictionary in C#</a></li>
-<li><a class="wp-block-latest-posts__post-title" href="/async-method-in-c/">Async method in C#</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="/factory-design-pattern/">Factory Design Pattern</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="/facade-design-pattern/">Façade Design Pattern</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="/observer-design-pattern/">Observer Design Pattern</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="/different-types-of-design-patterns/">Different types of Design Patterns</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="/aggregation-vs-composition-in-uml/">Aggregation vs Composition in UML</a></li>
 </ul>
 </div></div>
 </aside><aside id="block-6" class="widget inner-padding widget_block">
@@ -290,7 +294,10 @@ img.emoji {
 <h2 class="wp-block-heading">Categories</h2>
 
 
-<ul class="wp-block-categories-list wp-block-categories">	<li class="cat-item cat-item-17">
+<ul class="wp-block-categories-list wp-block-categories">	<li class="cat-item cat-item-41">
+<a href="/category/net-framework/">.Net Framework</a>
+</li>
+	<li class="cat-item cat-item-17">
 <a href="/category/ansible/">Ansible</a>
 </li>
 	<li class="cat-item cat-item-32">
@@ -323,8 +330,8 @@ img.emoji {
 	<li class="cat-item cat-item-24">
 <a href="/category/ubuntu/">Ubuntu</a>
 </li>
-	<li class="cat-item cat-item-1">
-<a href="/category/uncategorized/">Uncategorized</a>
+	<li class="cat-item cat-item-44">
+<a href="/category/uml/">UML</a>
 </li>
 	<li class="cat-item cat-item-29">
 <a href="/category/victoriametrics/">VictoriaMetrics</a>

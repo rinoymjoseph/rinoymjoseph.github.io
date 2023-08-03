@@ -7,11 +7,11 @@
 	>
 <channel>
 	<title>
-	Comments on: Installation of ClickHouse on Ubuntu 22.04	</title>
+	Comments on: ClickHouse installation on Ubuntu 22.04	</title>
 	<atom:link href="/installation-of-clickhouse-on-ubuntu-22-04/feed/" rel="self" type="application/rss+xml" />
 	<link>/installation-of-clickhouse-on-ubuntu-22-04/</link>
 	<description></description>
-	<lastBuildDate>Thu, 03 Aug 2023 05:41:33 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Aug 2023 09:38:24 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>

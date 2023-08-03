@@ -12,7 +12,7 @@
 	<atom:link href="/tag/design-pattern/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 03 Aug 2023 06:30:56 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Aug 2023 11:58:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,95 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Factory Design Pattern</title>
+		<link>/factory-design-pattern/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 11:55:14 +0000</pubDate>
+				<category><![CDATA[Design Pattern]]></category>
+		<guid isPermaLink="false">/?p=524</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Façade Design Pattern</title>
+		<link>/facade-design-pattern/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 11:53:21 +0000</pubDate>
+				<category><![CDATA[Design Pattern]]></category>
+		<guid isPermaLink="false">/?p=522</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Observer Design Pattern</title>
+		<link>/observer-design-pattern/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 11:52:38 +0000</pubDate>
+				<category><![CDATA[Design Pattern]]></category>
+		<guid isPermaLink="false">/?p=520</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Different types of Design Patterns</title>
+		<link>/different-types-of-design-patterns/</link>
+					<comments>/different-types-of-design-patterns/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 11:51:28 +0000</pubDate>
+				<category><![CDATA[Design Pattern]]></category>
+		<guid isPermaLink="false">/?p=518</guid>
+
+					<description><![CDATA[]]></description>
+		
+					<wfw:commentRss>/different-types-of-design-patterns/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Object Oriented Programming</title>
+		<link>/object-oriented-programming/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 11:38:52 +0000</pubDate>
+				<category><![CDATA[Design Pattern]]></category>
+		<category><![CDATA[OOP]]></category>
+		<guid isPermaLink="false">/?p=504</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Singleton Design Pattern in C#</title>
+		<link>/singleton-design-pattern-in-c/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 07:09:04 +0000</pubDate>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[Design Pattern]]></category>
+		<guid isPermaLink="false">/?p=420</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Dependency Injection</title>
 		<link>/dependency-injection/</link>
 		

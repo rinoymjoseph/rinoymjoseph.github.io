@@ -11,11 +11,25 @@
 	<atom:link href="/podman-play-kube-example-on-ubuntu-22-04/feed/" rel="self" type="application/rss+xml" />
 	<link>/podman-play-kube-example-on-ubuntu-22-04/</link>
 	<description></description>
-	<lastBuildDate>Thu, 03 Aug 2023 05:35:08 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Aug 2023 12:10:11 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
-</channel>
+	<item>
+		<title>
+		By: Podman play kube &#8211; How to use volumes for data persistence &#8211; Hyrule Monk		</title>
+		<link>/podman-play-kube-example-on-ubuntu-22-04/#comment-5</link>
+
+		<dc:creator><![CDATA[Podman play kube &#8211; How to use volumes for data persistence &#8211; Hyrule Monk]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 05:14:18 +0000</pubDate>
+		<guid isPermaLink="false">/?p=223#comment-5</guid>
+
+					<description><![CDATA[[&#8230;] refer&#160;Podman installation on Ubuntu 22.04&#160;for installation of podman on [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] refer&nbsp;Podman installation on Ubuntu 22.04&nbsp;for installation of podman on [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
 </rss>

@@ -12,7 +12,7 @@
 	<atom:link href="/tag/clickhouse/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 03 Aug 2023 05:41:33 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Aug 2023 09:38:24 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,9 +28,8 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Installation of ClickHouse on Ubuntu 22.04</title>
+		<title>ClickHouse installation on Ubuntu 22.04</title>
 		<link>/installation-of-clickhouse-on-ubuntu-22-04/</link>
-					<comments>/installation-of-clickhouse-on-ubuntu-22-04/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 05:39:20 +0000</pubDate>
@@ -38,10 +37,8 @@
 		<category><![CDATA[Ubuntu]]></category>
 		<guid isPermaLink="false">/?p=361</guid>
 
-					<description><![CDATA[]]></description>
+					<description><![CDATA[ClickHouse is an open-source column-oriented database management system that allows generating analytical data reports in real-time. OLAP scenarios require real-time responses on top of large datasets for complex analytical queries with the following characteristics: Update package index files Install dependencies Import ClickHouse GPG Key Add APT repository to Ubuntu 22.04 Update package index files Install ... <a title="ClickHouse installation on Ubuntu 22.04" class="read-more" href="/installation-of-clickhouse-on-ubuntu-22-04/" aria-label="More on ClickHouse installation on Ubuntu 22.04">Read more</a>]]></description>
 		
-					<wfw:commentRss>/installation-of-clickhouse-on-ubuntu-22-04/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

@@ -12,7 +12,7 @@
 	<atom:link href="/category/victoriametrics/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 03 Aug 2023 05:40:41 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Aug 2023 10:04:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -30,17 +30,14 @@
 	<item>
 		<title>Installation of VictoriaMetrics on Ubuntu 22.04</title>
 		<link>/installation-of-victoriametrics-on-ubuntu-22-04/</link>
-					<comments>/installation-of-victoriametrics-on-ubuntu-22-04/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 05:40:40 +0000</pubDate>
 				<category><![CDATA[VictoriaMetrics]]></category>
 		<guid isPermaLink="false">/?p=363</guid>
 
-					<description><![CDATA[]]></description>
+					<description><![CDATA[VictoriaMetrics is a fast, cost-effective and scalable monitoring solution and time series database. It supports the Prometheus pull model and various push protocols (Graphite, InfluxDB, OpenTSDB) for data ingestion. It is optimized for storage with high-latency IO, low IOPS and time series with high churn rate. For reading the data and evaluating alerting rules, VictoriaMetrics ... <a title="Installation of VictoriaMetrics on Ubuntu 22.04" class="read-more" href="/installation-of-victoriametrics-on-ubuntu-22-04/" aria-label="More on Installation of VictoriaMetrics on Ubuntu 22.04">Read more</a>]]></description>
 		
-					<wfw:commentRss>/installation-of-victoriametrics-on-ubuntu-22-04/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

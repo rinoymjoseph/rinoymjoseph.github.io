@@ -12,7 +12,7 @@
 	<atom:link href="/category/rhel/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 03 Aug 2023 06:17:32 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Aug 2023 11:34:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -60,6 +60,7 @@
 		<item>
 		<title>Red Hat Enterprise Linux 9.2 installation using developer account</title>
 		<link>/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/</link>
+					<comments>/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/#comments</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 09:46:28 +0000</pubDate>
@@ -68,6 +69,8 @@
 
 					<description><![CDATA[The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program. The no-cost Red Hat Developer Subscription for ... <a title="Red Hat Enterprise Linux 9.2 installation using developer account" class="read-more" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/" aria-label="More on Red Hat Enterprise Linux 9.2 installation using developer account">Read more</a>]]></description>
 		
+					<wfw:commentRss>/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
 		
 		
 			</item>

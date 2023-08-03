@@ -17,5 +17,47 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
-</channel>
+	<item>
+		<title>
+		By: Installation of Cockpit on RHEL 9.2 &#8211; Hyrule Sage		</title>
+		<link>/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/#comment-4</link>
+
+		<dc:creator><![CDATA[Installation of Cockpit on RHEL 9.2 &#8211; Hyrule Sage]]></dc:creator>
+		<pubDate>Tue, 01 Aug 2023 12:18:42 +0000</pubDate>
+		<guid isPermaLink="false">/?p=24#comment-4</guid>
+
+					<description><![CDATA[[&#8230;] refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mirror registry (Quay registry) installation on RHEL 9.2 &#8211; Hive		</title>
+		<link>/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/#comment-3</link>
+
+		<dc:creator><![CDATA[Mirror registry (Quay registry) installation on RHEL 9.2 &#8211; Hive]]></dc:creator>
+		<pubDate>Mon, 31 Jul 2023 12:28:57 +0000</pubDate>
+		<guid isPermaLink="false">/?p=24#comment-3</guid>
+
+					<description><![CDATA[[&#8230;] refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] refer&nbsp;Installation of Red Hat Enterprise Linux 9.2 using developer account&nbsp;for installation of RHEL [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2 &#8211; Hive		</title>
+		<link>/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/#comment-2</link>
+
+		<dc:creator><![CDATA[Installation of Microshift 4.13 on RedHat Enterprise Linux 9.2 &#8211; Hive]]></dc:creator>
+		<pubDate>Mon, 31 Jul 2023 11:23:39 +0000</pubDate>
+		<guid isPermaLink="false">/?p=24#comment-2</guid>
+
+					<description><![CDATA[[&#8230;] Installation of Red Hat Enterprise Linux 9.2 using developer account [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] Installation of Red Hat Enterprise Linux 9.2 using developer account [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
 </rss>
