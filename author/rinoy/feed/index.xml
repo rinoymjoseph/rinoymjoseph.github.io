@@ -12,7 +12,7 @@
 	<atom:link href="/author/rinoy/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 03 Aug 2023 11:58:01 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 06 Aug 2023 07:19:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,54 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Composing a customized Fedora image using Image Builder</title>
+		<link>/composing-a-customized-fedora-image-using-image-builder/</link>
+					<comments>/composing-a-customized-fedora-image-using-image-builder/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Sun, 06 Aug 2023 07:18:59 +0000</pubDate>
+				<category><![CDATA[Fedora]]></category>
+		<guid isPermaLink="false">/?p=531</guid>
+
+					<description><![CDATA[]]></description>
+		
+					<wfw:commentRss>/composing-a-customized-fedora-image-using-image-builder/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Image builder installation on Fedora 38</title>
+		<link>/image-builder-installation-on-fedora-38/</link>
+					<comments>/image-builder-installation-on-fedora-38/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Sun, 06 Aug 2023 07:13:18 +0000</pubDate>
+				<category><![CDATA[Fedora]]></category>
+		<guid isPermaLink="false">/?p=528</guid>
+
+					<description><![CDATA[]]></description>
+		
+					<wfw:commentRss>/image-builder-installation-on-fedora-38/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Fedora 38 Installation</title>
+		<link>/fedora-39-installation/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Sun, 06 Aug 2023 07:07:21 +0000</pubDate>
+				<category><![CDATA[Fedora]]></category>
+		<guid isPermaLink="false">/?p=526</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Factory Design Pattern</title>
 		<link>/factory-design-pattern/</link>
 		
@@ -125,49 +173,6 @@
 		<pubDate>Thu, 03 Aug 2023 11:45:25 +0000</pubDate>
 				<category><![CDATA[C#]]></category>
 		<guid isPermaLink="false">/?p=512</guid>
-
-					<description><![CDATA[]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Data Structures in C#</title>
-		<link>/data-structures-in-c/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Thu, 03 Aug 2023 11:44:23 +0000</pubDate>
-				<category><![CDATA[C#]]></category>
-		<category><![CDATA[Data Structure]]></category>
-		<guid isPermaLink="false">/?p=510</guid>
-
-					<description><![CDATA[]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Features provided by CLR</title>
-		<link>/features-provided-by-clr/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Thu, 03 Aug 2023 11:42:26 +0000</pubDate>
-				<category><![CDATA[.Net Framework]]></category>
-		<guid isPermaLink="false">/?p=508</guid>
-
-					<description><![CDATA[]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Different types of Classes in C#</title>
-		<link>/different-types-of-classes-in-c/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Thu, 03 Aug 2023 11:39:52 +0000</pubDate>
-				<category><![CDATA[C#]]></category>
-		<guid isPermaLink="false">/?p=506</guid>
 
 					<description><![CDATA[]]></description>
 		
