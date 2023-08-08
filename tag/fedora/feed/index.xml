@@ -12,7 +12,7 @@
 	<atom:link href="/tag/fedora/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sun, 06 Aug 2023 07:19:00 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 07 Aug 2023 10:02:59 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -70,7 +70,7 @@
 				<category><![CDATA[Fedora]]></category>
 		<guid isPermaLink="false">/?p=526</guid>
 
-					<description><![CDATA[]]></description>
+					<description><![CDATA[Fedora Linux is a Linux distribution developed by the Fedora Project. It was originally developed in 2003 as a continuation of the Red Hat Linux project. It contains software distributed under various free and open-source licenses and aims to be on the leading edge of open-source technologies Download Fedora 38 installation media from https://fedoraproject.org/server/download/ url. ... <a title="Fedora 38 Installation" class="read-more" href="/fedora-39-installation/" aria-label="More on Fedora 38 Installation">Read more</a>]]></description>
 		
 		
 		

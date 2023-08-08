@@ -12,7 +12,7 @@
 	<atom:link href="/category/podman/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 03 Aug 2023 12:10:11 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 07 Aug 2023 13:37:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,22 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Run PostgreSQL and pgAdmin pod using podman</title>
+		<link>/run-postgresql-and-pgadmin-pod-using-podman/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Mon, 07 Aug 2023 11:14:08 +0000</pubDate>
+				<category><![CDATA[Podman]]></category>
+		<category><![CDATA[pgAdmin]]></category>
+		<category><![CDATA[PostgreSQL]]></category>
+		<guid isPermaLink="false">/?p=574</guid>
+
+					<description><![CDATA[Pull pause image]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Podman play kube &#8211; How to use volumes for data persistence</title>
 		<link>/podman-play-kube-how-to-use-volumes-for-data-persistence/</link>
 		

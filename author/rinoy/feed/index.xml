@@ -12,7 +12,7 @@
 	<atom:link href="/author/rinoy/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sun, 06 Aug 2023 07:19:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 08 Aug 2023 10:40:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,85 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>gRPC server app using Go</title>
+		<link>/grpc-server-app-using-go/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Tue, 08 Aug 2023 08:46:47 +0000</pubDate>
+				<category><![CDATA[Go]]></category>
+		<category><![CDATA[gRPC]]></category>
+		<guid isPermaLink="false">/?p=597</guid>
+
+					<description><![CDATA[Create a directory Initialize a go project named &#8216;grpc-demo&#8217; Create a directory to place proto file Install protoc-gen-go and protoc-gen-go-grpc. Add GOPATH/bin to path  Generate the gRPC stubs that can be used to implement the service and consume from clients This creates two files in calc folder. calc_grpc.pb.go and calc.pb.go. Add the main.go file The ... <a title="gRPC server app using Go" class="read-more" href="/grpc-server-app-using-go/" aria-label="More on gRPC server app using Go">Read more</a>]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Github CLI Installation on Ubuntu 22.04</title>
+		<link>/github-cli-installation-on-ubuntu-22-04/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Tue, 08 Aug 2023 07:40:02 +0000</pubDate>
+				<category><![CDATA[Ubuntu]]></category>
+		<category><![CDATA[Github]]></category>
+		<guid isPermaLink="false">/?p=590</guid>
+
+					<description><![CDATA[Update package index files Install Github CLI Login to Github]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>REST Api in Go using Gorilla/Mux</title>
+		<link>/rest-api-in-go-using-gorilla-mux/</link>
+					<comments>/rest-api-in-go-using-gorilla-mux/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Mon, 07 Aug 2023 13:38:56 +0000</pubDate>
+				<category><![CDATA[Go]]></category>
+		<category><![CDATA[REST Api]]></category>
+		<guid isPermaLink="false">/?p=587</guid>
+
+					<description><![CDATA[]]></description>
+		
+					<wfw:commentRss>/rest-api-in-go-using-gorilla-mux/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Run PostgreSQL and pgAdmin pod using podman</title>
+		<link>/run-postgresql-and-pgadmin-pod-using-podman/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Mon, 07 Aug 2023 11:14:08 +0000</pubDate>
+				<category><![CDATA[Podman]]></category>
+		<category><![CDATA[pgAdmin]]></category>
+		<category><![CDATA[PostgreSQL]]></category>
+		<guid isPermaLink="false">/?p=574</guid>
+
+					<description><![CDATA[Pull pause image]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Go Installation on Ubuntu 22.04</title>
+		<link>/go-installation-on-ubuntu-22-04/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Sun, 06 Aug 2023 10:11:38 +0000</pubDate>
+				<category><![CDATA[Go]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<guid isPermaLink="false">/?p=535</guid>
+
+					<description><![CDATA[Update package index files Download package Remove any previous Go installation&#160;by deleting the /usr/local/go folder (if it exists), then extract the archive you just downloaded into /usr/local, creating a fresh Go tree in /usr/local/go: Add /usr/local/go/bin to the&#160;PATH&#160;environment variable Add below line to the end of file Check the go version Terminal output for reference]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Composing a customized Fedora image using Image Builder</title>
 		<link>/composing-a-customized-fedora-image-using-image-builder/</link>
 					<comments>/composing-a-customized-fedora-image-using-image-builder/#respond</comments>
@@ -70,7 +149,7 @@
 				<category><![CDATA[Fedora]]></category>
 		<guid isPermaLink="false">/?p=526</guid>
 
-					<description><![CDATA[]]></description>
+					<description><![CDATA[Fedora Linux is a Linux distribution developed by the Fedora Project. It was originally developed in 2003 as a continuation of the Red Hat Linux project. It contains software distributed under various free and open-source licenses and aims to be on the leading edge of open-source technologies Download Fedora 38 installation media from https://fedoraproject.org/server/download/ url. ... <a title="Fedora 38 Installation" class="read-more" href="/fedora-39-installation/" aria-label="More on Fedora 38 Installation">Read more</a>]]></description>
 		
 		
 		
@@ -97,82 +176,6 @@
 		<pubDate>Thu, 03 Aug 2023 11:53:21 +0000</pubDate>
 				<category><![CDATA[Design Pattern]]></category>
 		<guid isPermaLink="false">/?p=522</guid>
-
-					<description><![CDATA[]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Observer Design Pattern</title>
-		<link>/observer-design-pattern/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Thu, 03 Aug 2023 11:52:38 +0000</pubDate>
-				<category><![CDATA[Design Pattern]]></category>
-		<guid isPermaLink="false">/?p=520</guid>
-
-					<description><![CDATA[]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Different types of Design Patterns</title>
-		<link>/different-types-of-design-patterns/</link>
-					<comments>/different-types-of-design-patterns/#respond</comments>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Thu, 03 Aug 2023 11:51:28 +0000</pubDate>
-				<category><![CDATA[Design Pattern]]></category>
-		<guid isPermaLink="false">/?p=518</guid>
-
-					<description><![CDATA[]]></description>
-		
-					<wfw:commentRss>/different-types-of-design-patterns/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Aggregation vs Composition in UML</title>
-		<link>/aggregation-vs-composition-in-uml/</link>
-					<comments>/aggregation-vs-composition-in-uml/#respond</comments>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Thu, 03 Aug 2023 11:50:33 +0000</pubDate>
-				<category><![CDATA[UML]]></category>
-		<guid isPermaLink="false">/?p=516</guid>
-
-					<description><![CDATA[]]></description>
-		
-					<wfw:commentRss>/aggregation-vs-composition-in-uml/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>UML</title>
-		<link>/uml/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Thu, 03 Aug 2023 11:49:34 +0000</pubDate>
-				<category><![CDATA[UML]]></category>
-		<guid isPermaLink="false">/?p=514</guid>
-
-					<description><![CDATA[]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Difference between var and dynamic in C#</title>
-		<link>/difference-between-var-and-dynamic-in-c/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Thu, 03 Aug 2023 11:45:25 +0000</pubDate>
-				<category><![CDATA[C#]]></category>
-		<guid isPermaLink="false">/?p=512</guid>
 
 					<description><![CDATA[]]></description>
 		

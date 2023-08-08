@@ -12,7 +12,7 @@
 	<atom:link href="/tag/ubuntu/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 03 Aug 2023 09:38:24 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 08 Aug 2023 06:12:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,21 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Go Installation on Ubuntu 22.04</title>
+		<link>/go-installation-on-ubuntu-22-04/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Sun, 06 Aug 2023 10:11:38 +0000</pubDate>
+				<category><![CDATA[Go]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<guid isPermaLink="false">/?p=535</guid>
+
+					<description><![CDATA[Update package index files Download package Remove any previous Go installation&#160;by deleting the /usr/local/go folder (if it exists), then extract the archive you just downloaded into /usr/local, creating a fresh Go tree in /usr/local/go: Add /usr/local/go/bin to the&#160;PATH&#160;environment variable Add below line to the end of file Check the go version Terminal output for reference]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>ClickHouse installation on Ubuntu 22.04</title>
 		<link>/installation-of-clickhouse-on-ubuntu-22-04/</link>
 		

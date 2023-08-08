@@ -12,7 +12,7 @@
 	<atom:link href="/category/ubuntu/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Tue, 01 Aug 2023 13:43:24 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 08 Aug 2023 10:28:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,21 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Github CLI Installation on Ubuntu 22.04</title>
+		<link>/github-cli-installation-on-ubuntu-22-04/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Tue, 08 Aug 2023 07:40:02 +0000</pubDate>
+				<category><![CDATA[Ubuntu]]></category>
+		<category><![CDATA[Github]]></category>
+		<guid isPermaLink="false">/?p=590</guid>
+
+					<description><![CDATA[Update package index files Install Github CLI Login to Github]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Mirror registry (Quay registry) installation on Ubuntu 22.04</title>
 		<link>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/</link>
 					<comments>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/#respond</comments>
