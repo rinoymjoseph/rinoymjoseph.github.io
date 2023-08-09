@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>swagger &#8211; Hyrule Monk</title>
+	<atom:link href="/tag/swagger/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Wed, 09 Aug 2023 09:10:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<title>swagger &#8211; Hyrule Monk</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Go-swagger installation on Ubuntu 22.04</title>
+		<link>/go-swagger-installation-on-ubuntu-22-04/</link>
+					<comments>/go-swagger-installation-on-ubuntu-22-04/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Wed, 09 Aug 2023 09:08:25 +0000</pubDate>
+				<category><![CDATA[Go]]></category>
+		<category><![CDATA[swagger]]></category>
+		<guid isPermaLink="false">/?p=664</guid>
+
+					<description><![CDATA[Install dependencies Install go-swagger]]></description>
+		
+					<wfw:commentRss>/go-swagger-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

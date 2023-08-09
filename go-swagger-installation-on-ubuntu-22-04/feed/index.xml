@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Go-swagger installation on Ubuntu 22.04	</title>
+	<atom:link href="/go-swagger-installation-on-ubuntu-22-04/feed/" rel="self" type="application/rss+xml" />
+	<link>/go-swagger-installation-on-ubuntu-22-04/</link>
+	<description></description>
+	<lastBuildDate>Wed, 09 Aug 2023 09:10:04 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+</channel>
+</rss>

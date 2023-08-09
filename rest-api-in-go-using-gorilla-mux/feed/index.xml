@@ -11,11 +11,11 @@
 	<atom:link href="/rest-api-in-go-using-gorilla-mux/feed/" rel="self" type="application/rss+xml" />
 	<link>/rest-api-in-go-using-gorilla-mux/</link>
 	<description></description>
-	<lastBuildDate>Mon, 07 Aug 2023 13:38:57 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 08 Aug 2023 12:10:48 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 </channel>
 </rss>

@@ -12,13 +12,13 @@
 	<atom:link href="/author/rinoy/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Tue, 08 Aug 2023 10:40:42 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 09 Aug 2023 12:52:51 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
@@ -28,6 +28,39 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Cockpit installation on Fedora 38</title>
+		<link>/cockpit-installation-on-fedora-38/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Wed, 09 Aug 2023 11:44:01 +0000</pubDate>
+				<category><![CDATA[Fedora]]></category>
+		<category><![CDATA[Cockpit]]></category>
+		<guid isPermaLink="false">/?p=669</guid>
+
+					<description><![CDATA[Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser. You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL. Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks such ... <a title="Cockpit installation on Fedora 38" class="read-more" href="/cockpit-installation-on-fedora-38/" aria-label="More on Cockpit installation on Fedora 38">Read more</a>]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Go-swagger installation on Ubuntu 22.04</title>
+		<link>/go-swagger-installation-on-ubuntu-22-04/</link>
+					<comments>/go-swagger-installation-on-ubuntu-22-04/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Wed, 09 Aug 2023 09:08:25 +0000</pubDate>
+				<category><![CDATA[Go]]></category>
+		<category><![CDATA[swagger]]></category>
+		<guid isPermaLink="false">/?p=664</guid>
+
+					<description><![CDATA[Install dependencies Install go-swagger]]></description>
+		
+					<wfw:commentRss>/go-swagger-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>gRPC server app using Go</title>
 		<link>/grpc-server-app-using-go/</link>
 		
@@ -37,7 +70,7 @@
 		<category><![CDATA[gRPC]]></category>
 		<guid isPermaLink="false">/?p=597</guid>
 
-					<description><![CDATA[Create a directory Initialize a go project named &#8216;grpc-demo&#8217; Create a directory to place proto file Install protoc-gen-go and protoc-gen-go-grpc. Add GOPATH/bin to path  Generate the gRPC stubs that can be used to implement the service and consume from clients This creates two files in calc folder. calc_grpc.pb.go and calc.pb.go. Add the main.go file The ... <a title="gRPC server app using Go" class="read-more" href="/grpc-server-app-using-go/" aria-label="More on gRPC server app using Go">Read more</a>]]></description>
+					<description><![CDATA[TL;DR The source code is available in https://github.com/rinoymjoseph/learning-go Create a directory Initialize a go project named &#8216;grpc-demo&#8217; Create a directory to place proto file Install protoc-gen-go and protoc-gen-go-grpc. Add GOPATH/bin to path  Generate the gRPC stubs that can be used to implement the service and consume from clients This creates two files in calc folder. ... <a title="gRPC server app using Go" class="read-more" href="/grpc-server-app-using-go/" aria-label="More on gRPC server app using Go">Read more</a>]]></description>
 		
 		
 		
@@ -60,7 +93,6 @@
 		<item>
 		<title>REST Api in Go using Gorilla/Mux</title>
 		<link>/rest-api-in-go-using-gorilla-mux/</link>
-					<comments>/rest-api-in-go-using-gorilla-mux/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 07 Aug 2023 13:38:56 +0000</pubDate>
@@ -68,10 +100,8 @@
 		<category><![CDATA[REST Api]]></category>
 		<guid isPermaLink="false">/?p=587</guid>
 
-					<description><![CDATA[]]></description>
+					<description><![CDATA[This post explains how to develop REST APIs in Go language using Gorilla Mux Gorilla Mux is a package from the Gorilla Web Toolkit. It provides simple ways to create HTTP routers. Using the package, we can redirect program flow to respective HTTP handler functions. Create a directory for the project Initialize a go project ... <a title="REST Api in Go using Gorilla/Mux" class="read-more" href="/rest-api-in-go-using-gorilla-mux/" aria-label="More on REST Api in Go using Gorilla/Mux">Read more</a>]]></description>
 		
-					<wfw:commentRss>/rest-api-in-go-using-gorilla-mux/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -109,17 +139,16 @@
 		<item>
 		<title>Composing a customized Fedora image using Image Builder</title>
 		<link>/composing-a-customized-fedora-image-using-image-builder/</link>
-					<comments>/composing-a-customized-fedora-image-using-image-builder/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Sun, 06 Aug 2023 07:18:59 +0000</pubDate>
 				<category><![CDATA[Fedora]]></category>
+		<category><![CDATA[Image Builder]]></category>
+		<category><![CDATA[OS Builder]]></category>
 		<guid isPermaLink="false">/?p=531</guid>
 
-					<description><![CDATA[]]></description>
+					<description><![CDATA[Image Builder is a tool that allows you to create custom Fedora OS images. You can use the command line or a Cockpit plugin to work with Image Builder. Prerequires Refer Fedora 38 Installation for Fedora 38 installation and Cockpit installation on Fedora 38 for Cockpit installation. Install Image Builder using below command Enable osbuild-composer.socket ... <a title="Composing a customized Fedora image using Image Builder" class="read-more" href="/composing-a-customized-fedora-image-using-image-builder/" aria-label="More on Composing a customized Fedora image using Image Builder">Read more</a>]]></description>
 		
-					<wfw:commentRss>/composing-a-customized-fedora-image-using-image-builder/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -150,34 +179,6 @@
 		<guid isPermaLink="false">/?p=526</guid>
 
 					<description><![CDATA[Fedora Linux is a Linux distribution developed by the Fedora Project. It was originally developed in 2003 as a continuation of the Red Hat Linux project. It contains software distributed under various free and open-source licenses and aims to be on the leading edge of open-source technologies Download Fedora 38 installation media from https://fedoraproject.org/server/download/ url. ... <a title="Fedora 38 Installation" class="read-more" href="/fedora-39-installation/" aria-label="More on Fedora 38 Installation">Read more</a>]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Factory Design Pattern</title>
-		<link>/factory-design-pattern/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Thu, 03 Aug 2023 11:55:14 +0000</pubDate>
-				<category><![CDATA[Design Pattern]]></category>
-		<guid isPermaLink="false">/?p=524</guid>
-
-					<description><![CDATA[]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Façade Design Pattern</title>
-		<link>/facade-design-pattern/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Thu, 03 Aug 2023 11:53:21 +0000</pubDate>
-				<category><![CDATA[Design Pattern]]></category>
-		<guid isPermaLink="false">/?p=522</guid>
-
-					<description><![CDATA[]]></description>
 		
 		
 		

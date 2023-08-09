@@ -12,13 +12,13 @@
 	<atom:link href="/tag/go/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Tue, 08 Aug 2023 10:40:42 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 09 Aug 2023 09:10:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
@@ -28,6 +28,24 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Go-swagger installation on Ubuntu 22.04</title>
+		<link>/go-swagger-installation-on-ubuntu-22-04/</link>
+					<comments>/go-swagger-installation-on-ubuntu-22-04/#respond</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Wed, 09 Aug 2023 09:08:25 +0000</pubDate>
+				<category><![CDATA[Go]]></category>
+		<category><![CDATA[swagger]]></category>
+		<guid isPermaLink="false">/?p=664</guid>
+
+					<description><![CDATA[Install dependencies Install go-swagger]]></description>
+		
+					<wfw:commentRss>/go-swagger-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>gRPC server app using Go</title>
 		<link>/grpc-server-app-using-go/</link>
 		
@@ -37,7 +55,7 @@
 		<category><![CDATA[gRPC]]></category>
 		<guid isPermaLink="false">/?p=597</guid>
 
-					<description><![CDATA[Create a directory Initialize a go project named &#8216;grpc-demo&#8217; Create a directory to place proto file Install protoc-gen-go and protoc-gen-go-grpc. Add GOPATH/bin to path  Generate the gRPC stubs that can be used to implement the service and consume from clients This creates two files in calc folder. calc_grpc.pb.go and calc.pb.go. Add the main.go file The ... <a title="gRPC server app using Go" class="read-more" href="/grpc-server-app-using-go/" aria-label="More on gRPC server app using Go">Read more</a>]]></description>
+					<description><![CDATA[TL;DR The source code is available in https://github.com/rinoymjoseph/learning-go Create a directory Initialize a go project named &#8216;grpc-demo&#8217; Create a directory to place proto file Install protoc-gen-go and protoc-gen-go-grpc. Add GOPATH/bin to path  Generate the gRPC stubs that can be used to implement the service and consume from clients This creates two files in calc folder. ... <a title="gRPC server app using Go" class="read-more" href="/grpc-server-app-using-go/" aria-label="More on gRPC server app using Go">Read more</a>]]></description>
 		
 		
 		
@@ -45,7 +63,6 @@
 		<item>
 		<title>REST Api in Go using Gorilla/Mux</title>
 		<link>/rest-api-in-go-using-gorilla-mux/</link>
-					<comments>/rest-api-in-go-using-gorilla-mux/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 07 Aug 2023 13:38:56 +0000</pubDate>
@@ -53,10 +70,8 @@
 		<category><![CDATA[REST Api]]></category>
 		<guid isPermaLink="false">/?p=587</guid>
 
-					<description><![CDATA[]]></description>
+					<description><![CDATA[This post explains how to develop REST APIs in Go language using Gorilla Mux Gorilla Mux is a package from the Gorilla Web Toolkit. It provides simple ways to create HTTP routers. Using the package, we can redirect program flow to respective HTTP handler functions. Create a directory for the project Initialize a go project ... <a title="REST Api in Go using Gorilla/Mux" class="read-more" href="/rest-api-in-go-using-gorilla-mux/" aria-label="More on REST Api in Go using Gorilla/Mux">Read more</a>]]></description>
 		
-					<wfw:commentRss>/rest-api-in-go-using-gorilla-mux/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

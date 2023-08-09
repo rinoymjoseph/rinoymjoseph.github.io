@@ -12,13 +12,13 @@
 	<atom:link href="/tag/cockpit/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 03 Aug 2023 05:09:39 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 09 Aug 2023 11:58:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
@@ -28,6 +28,21 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Cockpit installation on Fedora 38</title>
+		<link>/cockpit-installation-on-fedora-38/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Wed, 09 Aug 2023 11:44:01 +0000</pubDate>
+				<category><![CDATA[Fedora]]></category>
+		<category><![CDATA[Cockpit]]></category>
+		<guid isPermaLink="false">/?p=669</guid>
+
+					<description><![CDATA[Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser. You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL. Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks such ... <a title="Cockpit installation on Fedora 38" class="read-more" href="/cockpit-installation-on-fedora-38/" aria-label="More on Cockpit installation on Fedora 38">Read more</a>]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Cockpit installation on RHEL 9.2</title>
 		<link>/installation-of-cockpit-on-rhel-9-2/</link>
 		
