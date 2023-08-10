@@ -30,7 +30,6 @@
 	<item>
 		<title>Cockpit installation on Fedora Workstation 38</title>
 		<link>/cockpit-installation-on-fedora-38/</link>
-					<comments>/cockpit-installation-on-fedora-38/#comments</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Wed, 09 Aug 2023 11:44:01 +0000</pubDate>
@@ -40,8 +39,6 @@
 
 					<description><![CDATA[Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser. You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL. Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks such ... <a title="Cockpit installation on Fedora Workstation 38" class="read-more" href="/cockpit-installation-on-fedora-38/" aria-label="More on Cockpit installation on Fedora Workstation 38">Read more</a>]]></description>
 		
-					<wfw:commentRss>/cockpit-installation-on-fedora-38/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
 		
 		
 			</item>

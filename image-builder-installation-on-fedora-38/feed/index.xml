@@ -11,25 +11,11 @@
 	<atom:link href="/image-builder-installation-on-fedora-38/feed/" rel="self" type="application/rss+xml" />
 	<link>/image-builder-installation-on-fedora-38/</link>
 	<description></description>
-	<lastBuildDate>Thu, 10 Aug 2023 08:39:23 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Aug 2023 07:06:56 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.3</generator>
-	<item>
-		<title>
-		By: Create a custom Fedora ISO using Image Builder &#8211; Hyrule Monk		</title>
-		<link>/image-builder-installation-on-fedora-38/#comment-16</link>
-
-		<dc:creator><![CDATA[Create a custom Fedora ISO using Image Builder &#8211; Hyrule Monk]]></dc:creator>
-		<pubDate>Thu, 10 Aug 2023 08:39:23 +0000</pubDate>
-		<guid isPermaLink="false">/?p=528#comment-16</guid>
-
-					<description><![CDATA[[&#8230;] Install Image Builder tools. Refer Image builder installation on Fedora 38. [&#8230;]]]></description>
-			<content:encoded><![CDATA[<p>[&#8230;] Install Image Builder tools. Refer Image builder installation on Fedora 38. [&#8230;]</p>
-]]></content:encoded>
-		
-			</item>
-	</channel>
+</channel>
 </rss>

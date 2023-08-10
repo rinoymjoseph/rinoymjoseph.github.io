@@ -60,7 +60,6 @@
 		<item>
 		<title>Podman play kube &#8211; How to run a pod from a yaml file</title>
 		<link>/podman-play-kube-example-on-ubuntu-22-04/</link>
-					<comments>/podman-play-kube-example-on-ubuntu-22-04/#comments</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Tue, 01 Aug 2023 13:52:27 +0000</pubDate>
@@ -69,8 +68,6 @@
 
 					<description><![CDATA[Podman (the POD manager) is an open source tool for developing, managing, and running containers on Linux systems. podman play kube will read in a structured file of Kubernetes YAML. It will then recreate the containers, pods or volumes described in the YAML. Containers within a pod are then started and the ID of the ... <a title="Podman play kube &#8211; How to run a pod from a yaml file" class="read-more" href="/podman-play-kube-example-on-ubuntu-22-04/" aria-label="More on Podman play kube &#8211; How to run a pod from a yaml file">Read more</a>]]></description>
 		
-					<wfw:commentRss>/podman-play-kube-example-on-ubuntu-22-04/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
 		
 		
 			</item>

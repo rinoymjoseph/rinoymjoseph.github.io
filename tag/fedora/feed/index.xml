@@ -47,7 +47,6 @@
 		<item>
 		<title>Fedora Workstation 38 Installation</title>
 		<link>/fedora-workstation-38-installation/</link>
-					<comments>/fedora-workstation-38-installation/#comments</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 10 Aug 2023 05:15:19 +0000</pubDate>
@@ -56,15 +55,12 @@
 
 					<description><![CDATA[Fedora Linux is a Linux distribution developed by the Fedora Project. It was originally developed in 2003 as a continuation of the Red Hat Linux project. It contains software distributed under various free and open-source licenses and aims to be on the leading edge of open-source technologies Download Fedora 38 installation media from https://fedoraproject.org/workstation/download/ url. Boot the ... <a title="Fedora Workstation 38 Installation" class="read-more" href="/fedora-workstation-38-installation/" aria-label="More on Fedora Workstation 38 Installation">Read more</a>]]></description>
 		
-					<wfw:commentRss>/fedora-workstation-38-installation/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Cockpit installation on Fedora Workstation 38</title>
 		<link>/cockpit-installation-on-fedora-38/</link>
-					<comments>/cockpit-installation-on-fedora-38/#comments</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Wed, 09 Aug 2023 11:44:01 +0000</pubDate>
@@ -74,8 +70,6 @@
 
 					<description><![CDATA[Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser. You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL. Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks such ... <a title="Cockpit installation on Fedora Workstation 38" class="read-more" href="/cockpit-installation-on-fedora-38/" aria-label="More on Cockpit installation on Fedora Workstation 38">Read more</a>]]></description>
 		
-					<wfw:commentRss>/cockpit-installation-on-fedora-38/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
 		
 		
 			</item>
@@ -98,7 +92,6 @@
 		<item>
 		<title>Image builder installation on Fedora 38</title>
 		<link>/image-builder-installation-on-fedora-38/</link>
-					<comments>/image-builder-installation-on-fedora-38/#comments</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Sun, 06 Aug 2023 07:13:18 +0000</pubDate>
@@ -108,15 +101,12 @@
 
 					<description><![CDATA[Image Builder is a tool that allows you to create custom Fedora OS images. You can use the command line or a Cockpit plugin to work with Image Builder. Prerequisites Image Builder Installation Install Image Builder using below command Enable osbuild-composer.socket To run the composer-cli commands as non-root, user must be in the weldr or ... <a title="Image builder installation on Fedora 38" class="read-more" href="/image-builder-installation-on-fedora-38/" aria-label="More on Image builder installation on Fedora 38">Read more</a>]]></description>
 		
-					<wfw:commentRss>/image-builder-installation-on-fedora-38/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Fedora 38 Installation</title>
 		<link>/fedora-39-installation/</link>
-					<comments>/fedora-39-installation/#comments</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Sun, 06 Aug 2023 07:07:21 +0000</pubDate>
@@ -125,8 +115,6 @@
 
 					<description><![CDATA[Fedora Linux is a Linux distribution developed by the Fedora Project. It was originally developed in 2003 as a continuation of the Red Hat Linux project. It contains software distributed under various free and open-source licenses and aims to be on the leading edge of open-source technologies Download Fedora 38 installation media from https://fedoraproject.org/server/download/ url. ... <a title="Fedora 38 Installation" class="read-more" href="/fedora-39-installation/" aria-label="More on Fedora 38 Installation">Read more</a>]]></description>
 		
-					<wfw:commentRss>/fedora-39-installation/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
 		
 		
 			</item>
