@@ -11,11 +11,39 @@
 	<atom:link href="/fedora-39-installation/feed/" rel="self" type="application/rss+xml" />
 	<link>/fedora-39-installation/</link>
 	<description></description>
-	<lastBuildDate>Mon, 07 Aug 2023 10:02:59 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 09 Aug 2023 12:48:16 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.3</generator>
-</channel>
+	<item>
+		<title>
+		By: Composing a customized Fedora image using Image Builder &#8211; Hyrule Monk		</title>
+		<link>/fedora-39-installation/#comment-7</link>
+
+		<dc:creator><![CDATA[Composing a customized Fedora image using Image Builder &#8211; Hyrule Monk]]></dc:creator>
+		<pubDate>Wed, 09 Aug 2023 12:48:16 +0000</pubDate>
+		<guid isPermaLink="false">/?p=526#comment-7</guid>
+
+					<description><![CDATA[[&#8230;] Fedora 38 Installation for Fedora 38 installation and Cockpit installation on Fedora 38 for Cockpit [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] Fedora 38 Installation for Fedora 38 installation and Cockpit installation on Fedora 38 for Cockpit [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Cockpit installation on Fedora 38 &#8211; Hyrule Monk		</title>
+		<link>/fedora-39-installation/#comment-6</link>
+
+		<dc:creator><![CDATA[Cockpit installation on Fedora 38 &#8211; Hyrule Monk]]></dc:creator>
+		<pubDate>Wed, 09 Aug 2023 11:46:52 +0000</pubDate>
+		<guid isPermaLink="false">/?p=526#comment-6</guid>
+
+					<description><![CDATA[[&#8230;] refer Fedora 38 Installation for installation of Fedora [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] refer Fedora 38 Installation for installation of Fedora [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
 </rss>

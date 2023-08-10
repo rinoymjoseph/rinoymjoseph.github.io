@@ -7,15 +7,57 @@
 	>
 <channel>
 	<title>
-	Comments on: Cockpit installation on Fedora 38	</title>
+	Comments on: Cockpit installation on Fedora Workstation 38	</title>
 	<atom:link href="/cockpit-installation-on-fedora-38/feed/" rel="self" type="application/rss+xml" />
 	<link>/cockpit-installation-on-fedora-38/</link>
 	<description></description>
-	<lastBuildDate>Wed, 09 Aug 2023 11:58:35 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Aug 2023 08:37:50 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.3</generator>
-</channel>
+	<item>
+		<title>
+		By: Create a custom Fedora ISO using Image Builder &#8211; Hyrule Monk		</title>
+		<link>/cockpit-installation-on-fedora-38/#comment-15</link>
+
+		<dc:creator><![CDATA[Create a custom Fedora ISO using Image Builder &#8211; Hyrule Monk]]></dc:creator>
+		<pubDate>Thu, 10 Aug 2023 08:37:50 +0000</pubDate>
+		<guid isPermaLink="false">/?p=669#comment-15</guid>
+
+					<description><![CDATA[[&#8230;] Cockpit installed and configured. Refer Cockpit installation on Fedora Workstation 38. [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] Cockpit installed and configured. Refer Cockpit installation on Fedora Workstation 38. [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Image builder installation on Fedora 38 &#8211; Hyrule Monk		</title>
+		<link>/cockpit-installation-on-fedora-38/#comment-13</link>
+
+		<dc:creator><![CDATA[Image builder installation on Fedora 38 &#8211; Hyrule Monk]]></dc:creator>
+		<pubDate>Thu, 10 Aug 2023 06:59:35 +0000</pubDate>
+		<guid isPermaLink="false">/?p=669#comment-13</guid>
+
+					<description><![CDATA[[&#8230;] Cockpit installed and configured. Refer Cockpit installation on Fedora Workstation 38. [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] Cockpit installed and configured. Refer Cockpit installation on Fedora Workstation 38. [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Composing a customized Fedora image using Image Builder &#8211; Hyrule Monk		</title>
+		<link>/cockpit-installation-on-fedora-38/#comment-8</link>
+
+		<dc:creator><![CDATA[Composing a customized Fedora image using Image Builder &#8211; Hyrule Monk]]></dc:creator>
+		<pubDate>Wed, 09 Aug 2023 12:48:40 +0000</pubDate>
+		<guid isPermaLink="false">/?p=669#comment-8</guid>
+
+					<description><![CDATA[[&#8230;] Fedora 38 Installation for Fedora 38 installation and Cockpit installation on Fedora 38 for Cockpit [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] Fedora 38 Installation for Fedora 38 installation and Cockpit installation on Fedora 38 for Cockpit [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
 </rss>

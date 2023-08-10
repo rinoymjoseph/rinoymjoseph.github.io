@@ -12,7 +12,7 @@
 	<atom:link href="/tag/image-builder/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Wed, 09 Aug 2023 12:52:51 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Aug 2023 07:06:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -38,8 +38,26 @@
 		<category><![CDATA[OS Builder]]></category>
 		<guid isPermaLink="false">/?p=531</guid>
 
-					<description><![CDATA[Image Builder is a tool that allows you to create custom Fedora OS images. You can use the command line or a Cockpit plugin to work with Image Builder. Prerequires Refer Fedora 38 Installation for Fedora 38 installation and Cockpit installation on Fedora 38 for Cockpit installation. Install Image Builder using below command Enable osbuild-composer.socket ... <a title="Composing a customized Fedora image using Image Builder" class="read-more" href="/composing-a-customized-fedora-image-using-image-builder/" aria-label="More on Composing a customized Fedora image using Image Builder">Read more</a>]]></description>
+					<description><![CDATA[Image Builder is a tool that allows you to create custom Fedora OS images. You can use the command line or a Cockpit plugin to work with Image Builder. Prerequisites Image Builder Installation Install Image Builder using below command Enable osbuild-composer.socket To run the composer-cli commands as non-root, user must be in the weldr or ... <a title="Composing a customized Fedora image using Image Builder" class="read-more" href="/composing-a-customized-fedora-image-using-image-builder/" aria-label="More on Composing a customized Fedora image using Image Builder">Read more</a>]]></description>
 		
+		
+		
+			</item>
+		<item>
+		<title>Image builder installation on Fedora 38</title>
+		<link>/image-builder-installation-on-fedora-38/</link>
+					<comments>/image-builder-installation-on-fedora-38/#comments</comments>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Sun, 06 Aug 2023 07:13:18 +0000</pubDate>
+				<category><![CDATA[Fedora]]></category>
+		<category><![CDATA[Image Builder]]></category>
+		<guid isPermaLink="false">/?p=528</guid>
+
+					<description><![CDATA[Image Builder is a tool that allows you to create custom Fedora OS images. You can use the command line or a Cockpit plugin to work with Image Builder. Prerequisites Image Builder Installation Install Image Builder using below command Enable osbuild-composer.socket To run the composer-cli commands as non-root, user must be in the weldr or ... <a title="Image builder installation on Fedora 38" class="read-more" href="/image-builder-installation-on-fedora-38/" aria-label="More on Image builder installation on Fedora 38">Read more</a>]]></description>
+		
+					<wfw:commentRss>/image-builder-installation-on-fedora-38/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
 		
 		
 			</item>

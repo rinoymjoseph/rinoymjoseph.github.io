@@ -12,7 +12,7 @@
 	<atom:link href="/tag/go/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Wed, 09 Aug 2023 09:10:04 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 09 Aug 2023 13:37:27 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -55,7 +55,7 @@
 		<category><![CDATA[gRPC]]></category>
 		<guid isPermaLink="false">/?p=597</guid>
 
-					<description><![CDATA[TL;DR The source code is available in https://github.com/rinoymjoseph/learning-go Create a directory Initialize a go project named &#8216;grpc-demo&#8217; Create a directory to place proto file Install protoc-gen-go and protoc-gen-go-grpc. Add GOPATH/bin to path  Generate the gRPC stubs that can be used to implement the service and consume from clients This creates two files in calc folder. ... <a title="gRPC server app using Go" class="read-more" href="/grpc-server-app-using-go/" aria-label="More on gRPC server app using Go">Read more</a>]]></description>
+					<description><![CDATA[TL;DR The source code is available in https://github.com/rinoymjoseph/learning-go Create a directory Initialize a go project named &#8216;grpc-demo&#8217; Create a directory to place proto file Install protoc-gen-go and protoc-gen-go-grpc. Add GOPATH/bin to path &#160;Generate the gRPC stubs that can be used to implement the service and consume from clients This creates two files in calc folder. ... <a title="gRPC server app using Go" class="read-more" href="/grpc-server-app-using-go/" aria-label="More on gRPC server app using Go">Read more</a>]]></description>
 		
 		
 		
