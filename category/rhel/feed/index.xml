@@ -12,7 +12,7 @@
 	<atom:link href="/category/rhel/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Wed, 09 Aug 2023 11:58:07 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 11 Aug 2023 11:39:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -72,7 +72,7 @@
 		
 			</item>
 		<item>
-		<title>Microshift 4.13 installation on RedHat Enterprise Linux 9.2</title>
+		<title>MicroShift 4.13 installation on RedHat Enterprise Linux 9.2</title>
 		<link>/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
@@ -81,7 +81,7 @@
 		<category><![CDATA[Microshift]]></category>
 		<guid isPermaLink="false">/?p=5</guid>
 
-					<description><![CDATA[Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of Microshift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="Microshift 4.13 installation on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on Microshift 4.13 installation on RedHat Enterprise Linux 9.2">Read more</a>]]></description>
+					<description><![CDATA[Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of MicroShift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="MicroShift 4.13 installation on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on MicroShift 4.13 installation on RedHat Enterprise Linux 9.2">Read more</a>]]></description>
 		
 		
 		

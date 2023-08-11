@@ -12,7 +12,7 @@
 	<atom:link href="/tag/microshift/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 03 Aug 2023 11:34:33 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 11 Aug 2023 12:07:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,7 +28,22 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Microshift 4.13 installation on RedHat Enterprise Linux 9.2</title>
+		<title>MicroShift &#8211; dynamic storage provisioning using LVMS</title>
+		<link>/microshift-dynamic-storage-provisioning-using-lvms/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Fri, 11 Aug 2023 11:23:02 +0000</pubDate>
+				<category><![CDATA[Kubernetes]]></category>
+		<category><![CDATA[Microshift]]></category>
+		<guid isPermaLink="false">/?p=891</guid>
+
+					<description><![CDATA[MicroShift enables dynamic storage provisioning with the Logical Volume Manager Storage (LVMS) provider. The LVMS plugin is a Container Storage Interface (CSI) plugin for managing LVM volumes for Kubernetes. LVMS provisions new logical volume management (LVM) and logical volumes (LVs) for container workloads with persistent volume claims (PVC). Each PVC references a storage class that ... <a title="MicroShift &#8211; dynamic storage provisioning using LVMS" class="read-more" href="/microshift-dynamic-storage-provisioning-using-lvms/" aria-label="More on MicroShift &#8211; dynamic storage provisioning using LVMS">Read more</a>]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>MicroShift 4.13 installation on RedHat Enterprise Linux 9.2</title>
 		<link>/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
@@ -37,7 +52,7 @@
 		<category><![CDATA[Microshift]]></category>
 		<guid isPermaLink="false">/?p=5</guid>
 
-					<description><![CDATA[Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of Microshift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="Microshift 4.13 installation on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on Microshift 4.13 installation on RedHat Enterprise Linux 9.2">Read more</a>]]></description>
+					<description><![CDATA[Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of MicroShift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="MicroShift 4.13 installation on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on MicroShift 4.13 installation on RedHat Enterprise Linux 9.2">Read more</a>]]></description>
 		
 		
 		
