@@ -12,7 +12,7 @@
 	<atom:link href="/tag/ubuntu/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Tue, 08 Aug 2023 06:12:48 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Aug 2023 13:51:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -109,18 +109,16 @@
 		<item>
 		<title>K3s installation on Ubuntu 22.04</title>
 		<link>/k3s-installation-on-ubuntu-22-04/</link>
-					<comments>/k3s-installation-on-ubuntu-22-04/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 15:30:21 +0000</pubDate>
-				<category><![CDATA[k3s]]></category>
+				<category><![CDATA[Kubernetes]]></category>
+		<category><![CDATA[k3s]]></category>
 		<category><![CDATA[Ubuntu]]></category>
 		<guid isPermaLink="false">/?p=122</guid>
 
 					<description><![CDATA[]]></description>
 		
-					<wfw:commentRss>/k3s-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

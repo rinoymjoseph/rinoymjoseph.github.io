@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 10 Aug 2023 09:06:38 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 11 Aug 2023 10:08:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,12 +28,30 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Kubernetes The Hard Way using Terraform, Ansible and Proxmox</title>
+		<link>/kubernetes-the-hard-way-using-ansible-and-proxmox/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 10 Aug 2023 10:40:17 +0000</pubDate>
+				<category><![CDATA[Kubernetes]]></category>
+		<category><![CDATA[kubernetes]]></category>
+		<category><![CDATA[Proxmox]]></category>
+		<category><![CDATA[Terraform]]></category>
+		<guid isPermaLink="false">/?p=806</guid>
+
+					<description><![CDATA[Introduction The scripts are available in https://github.com/rinoymjoseph/k8s-hardway repo. Kubernetes The Hard Way is a popular git hub repo which take the long route to ensure you understand each task required to bootstrap a Kubernetes cluster. 1. Prerequisites 2. System Diagram Single Controller and Three Worker Nodes 3. Configuration Infrastructure Configuration A terraform script creates the ... <a title="Kubernetes The Hard Way using Terraform, Ansible and Proxmox" class="read-more" href="/kubernetes-the-hard-way-using-ansible-and-proxmox/" aria-label="More on Kubernetes The Hard Way using Terraform, Ansible and Proxmox">Read more</a>]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Create a custom Fedora ISO using Image Builder</title>
 		<link>/create-a-custom-fedora-iso-using-image-builder/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 10 Aug 2023 08:35:43 +0000</pubDate>
 				<category><![CDATA[Fedora]]></category>
+		<category><![CDATA[Image Builder]]></category>
 		<guid isPermaLink="false">/?p=800</guid>
 
 					<description><![CDATA[Image Builder is a tool that allows you to create custom Fedora OS ISO images. You can use the command line or a Cockpit plugin to work with Image Builder. Prerequisites]]></description>
@@ -162,21 +180,6 @@
 		<guid isPermaLink="false">/?p=574</guid>
 
 					<description><![CDATA[Pull pause image]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Go Installation on Ubuntu 22.04</title>
-		<link>/go-installation-on-ubuntu-22-04/</link>
-		
-		<dc:creator><![CDATA[rinoy]]></dc:creator>
-		<pubDate>Sun, 06 Aug 2023 10:11:38 +0000</pubDate>
-				<category><![CDATA[Go]]></category>
-		<category><![CDATA[Ubuntu]]></category>
-		<guid isPermaLink="false">/?p=535</guid>
-
-					<description><![CDATA[Update package index files Download package Remove any previous Go installation&#160;by deleting the /usr/local/go folder (if it exists), then extract the archive you just downloaded into /usr/local, creating a fresh Go tree in /usr/local/go: Add /usr/local/go/bin to the&#160;PATH&#160;environment variable Add below line to the end of file Check the go version Terminal output for reference]]></description>
 		
 		
 		

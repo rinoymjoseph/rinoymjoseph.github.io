@@ -12,7 +12,7 @@
 	<atom:link href="/tag/terraform/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 03 Aug 2023 05:23:04 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 11 Aug 2023 10:03:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,23 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Kubernetes The Hard Way using Terraform, Ansible and Proxmox</title>
+		<link>/kubernetes-the-hard-way-using-ansible-and-proxmox/</link>
+		
+		<dc:creator><![CDATA[rinoy]]></dc:creator>
+		<pubDate>Thu, 10 Aug 2023 10:40:17 +0000</pubDate>
+				<category><![CDATA[Kubernetes]]></category>
+		<category><![CDATA[kubernetes]]></category>
+		<category><![CDATA[Proxmox]]></category>
+		<category><![CDATA[Terraform]]></category>
+		<guid isPermaLink="false">/?p=806</guid>
+
+					<description><![CDATA[Introduction The scripts are available in https://github.com/rinoymjoseph/k8s-hardway repo. Kubernetes The Hard Way is a popular git hub repo which take the long route to ensure you understand each task required to bootstrap a Kubernetes cluster. 1. Prerequisites 2. System Diagram Single Controller and Three Worker Nodes 3. Configuration Infrastructure Configuration A terraform script creates the ... <a title="Kubernetes The Hard Way using Terraform, Ansible and Proxmox" class="read-more" href="/kubernetes-the-hard-way-using-ansible-and-proxmox/" aria-label="More on Kubernetes The Hard Way using Terraform, Ansible and Proxmox">Read more</a>]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Terraform installation on Ubuntu 22.04</title>
 		<link>/installation-of-terraform-on-ubuntu-22-04/</link>
 		
