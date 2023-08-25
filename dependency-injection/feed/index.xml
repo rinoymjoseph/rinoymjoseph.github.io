@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Dependency Injection	</title>
-	<atom:link href="/dependency-injection/feed/" rel="self" type="application/rss+xml" />
-	<link>/dependency-injection/</link>
+	<atom:link href="https://rinoymjoseph.github.io/dependency-injection/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/dependency-injection/</link>
 	<description></description>
 	<lastBuildDate>Thu, 03 Aug 2023 06:30:56 +0000</lastBuildDate>
 	<sy:updatePeriod>

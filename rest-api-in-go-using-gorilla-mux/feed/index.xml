@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: REST Api in Go using Gorilla/Mux	</title>
-	<atom:link href="/rest-api-in-go-using-gorilla-mux/feed/" rel="self" type="application/rss+xml" />
-	<link>/rest-api-in-go-using-gorilla-mux/</link>
+	<atom:link href="https://rinoymjoseph.github.io/rest-api-in-go-using-gorilla-mux/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/rest-api-in-go-using-gorilla-mux/</link>
 	<description></description>
 	<lastBuildDate>Wed, 09 Aug 2023 13:37:27 +0000</lastBuildDate>
 	<sy:updatePeriod>

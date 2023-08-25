@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Delegates in C#	</title>
-	<atom:link href="/delegates-in-c/feed/" rel="self" type="application/rss+xml" />
-	<link>/delegates-in-c/</link>
+	<atom:link href="https://rinoymjoseph.github.io/delegates-in-c/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/delegates-in-c/</link>
 	<description></description>
 	<lastBuildDate>Thu, 03 Aug 2023 06:16:56 +0000</lastBuildDate>
 	<sy:updatePeriod>

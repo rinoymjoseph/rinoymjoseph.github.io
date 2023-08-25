@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Quay &#8211; Hyrule Monk</title>
-	<atom:link href="/tag/quay/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/tag/quay/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Wed, 02 Aug 2023 04:37:24 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,41 +21,41 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>Quay &#8211; Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Mirror registry (Quay registry) installation on Ubuntu 22.04</title>
-		<link>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/</link>
-					<comments>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/#respond</comments>
+		<link>https://rinoymjoseph.github.io/mirror-registry-quay-registry-installation-on-ubuntu-22-04/</link>
+					<comments>https://rinoymjoseph.github.io/mirror-registry-quay-registry-installation-on-ubuntu-22-04/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Tue, 01 Aug 2023 13:41:55 +0000</pubDate>
 				<category><![CDATA[Ubuntu]]></category>
 		<category><![CDATA[Quay]]></category>
-		<guid isPermaLink="false">/?p=213</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=213</guid>
 
 					<description><![CDATA[]]></description>
 		
-					<wfw:commentRss>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
+					<wfw:commentRss>https://rinoymjoseph.github.io/mirror-registry-quay-registry-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Mirror registry (Quay registry) installation on RHEL 9.2</title>
-		<link>/mirror-registry-quay-registry-installation-on-rhel-9-2/</link>
+		<link>https://rinoymjoseph.github.io/mirror-registry-quay-registry-installation-on-rhel-9-2/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 12:18:51 +0000</pubDate>
 				<category><![CDATA[RHEL]]></category>
 		<category><![CDATA[Quay]]></category>
-		<guid isPermaLink="false">/?p=70</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=70</guid>
 
-					<description><![CDATA[The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a>]]></description>
+					<description><![CDATA[The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="https://rinoymjoseph.github.io/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a>]]></description>
 		
 		
 		

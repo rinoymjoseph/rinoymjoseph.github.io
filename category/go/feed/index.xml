@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Go &#8211; Hyrule Monk</title>
-	<atom:link href="/category/go/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/category/go/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Wed, 09 Aug 2023 13:37:27 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,69 +21,69 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>Go &#8211; Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Go-swagger installation on Ubuntu 22.04</title>
-		<link>/go-swagger-installation-on-ubuntu-22-04/</link>
-					<comments>/go-swagger-installation-on-ubuntu-22-04/#respond</comments>
+		<link>https://rinoymjoseph.github.io/go-swagger-installation-on-ubuntu-22-04/</link>
+					<comments>https://rinoymjoseph.github.io/go-swagger-installation-on-ubuntu-22-04/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Wed, 09 Aug 2023 09:08:25 +0000</pubDate>
 				<category><![CDATA[Go]]></category>
 		<category><![CDATA[swagger]]></category>
-		<guid isPermaLink="false">/?p=664</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=664</guid>
 
 					<description><![CDATA[Install dependencies Install go-swagger]]></description>
 		
-					<wfw:commentRss>/go-swagger-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
+					<wfw:commentRss>https://rinoymjoseph.github.io/go-swagger-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>gRPC server app using Go</title>
-		<link>/grpc-server-app-using-go/</link>
+		<link>https://rinoymjoseph.github.io/grpc-server-app-using-go/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Tue, 08 Aug 2023 08:46:47 +0000</pubDate>
 				<category><![CDATA[Go]]></category>
 		<category><![CDATA[gRPC]]></category>
-		<guid isPermaLink="false">/?p=597</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=597</guid>
 
-					<description><![CDATA[TL;DR The source code is available in https://github.com/rinoymjoseph/learning-go Create a directory Initialize a go project named &#8216;grpc-demo&#8217; Create a directory to place proto file Install protoc-gen-go and protoc-gen-go-grpc. Add GOPATH/bin to path &#160;Generate the gRPC stubs that can be used to implement the service and consume from clients This creates two files in calc folder. ... <a title="gRPC server app using Go" class="read-more" href="/grpc-server-app-using-go/" aria-label="More on gRPC server app using Go">Read more</a>]]></description>
+					<description><![CDATA[TL;DR The source code is available in https://github.com/rinoymjoseph/learning-go Create a directory Initialize a go project named &#8216;grpc-demo&#8217; Create a directory to place proto file Install protoc-gen-go and protoc-gen-go-grpc. Add GOPATH/bin to path &#160;Generate the gRPC stubs that can be used to implement the service and consume from clients This creates two files in calc folder. ... <a title="gRPC server app using Go" class="read-more" href="https://rinoymjoseph.github.io/grpc-server-app-using-go/" aria-label="More on gRPC server app using Go">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>REST Api in Go using Gorilla/Mux</title>
-		<link>/rest-api-in-go-using-gorilla-mux/</link>
+		<link>https://rinoymjoseph.github.io/rest-api-in-go-using-gorilla-mux/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 07 Aug 2023 13:38:56 +0000</pubDate>
 				<category><![CDATA[Go]]></category>
 		<category><![CDATA[REST Api]]></category>
-		<guid isPermaLink="false">/?p=587</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=587</guid>
 
-					<description><![CDATA[This post explains how to develop REST APIs in Go language using Gorilla Mux Gorilla Mux is a package from the Gorilla Web Toolkit. It provides simple ways to create HTTP routers. Using the package, we can redirect program flow to respective HTTP handler functions. Create a directory for the project Initialize a go project ... <a title="REST Api in Go using Gorilla/Mux" class="read-more" href="/rest-api-in-go-using-gorilla-mux/" aria-label="More on REST Api in Go using Gorilla/Mux">Read more</a>]]></description>
+					<description><![CDATA[This post explains how to develop REST APIs in Go language using Gorilla Mux Gorilla Mux is a package from the Gorilla Web Toolkit. It provides simple ways to create HTTP routers. Using the package, we can redirect program flow to respective HTTP handler functions. Create a directory for the project Initialize a go project ... <a title="REST Api in Go using Gorilla/Mux" class="read-more" href="https://rinoymjoseph.github.io/rest-api-in-go-using-gorilla-mux/" aria-label="More on REST Api in Go using Gorilla/Mux">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>Go Installation on Ubuntu 22.04</title>
-		<link>/go-installation-on-ubuntu-22-04/</link>
+		<link>https://rinoymjoseph.github.io/go-installation-on-ubuntu-22-04/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Sun, 06 Aug 2023 10:11:38 +0000</pubDate>
 				<category><![CDATA[Go]]></category>
 		<category><![CDATA[Ubuntu]]></category>
-		<guid isPermaLink="false">/?p=535</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=535</guid>
 
 					<description><![CDATA[Update package index files Download package Remove any previous Go installation&#160;by deleting the /usr/local/go folder (if it exists), then extract the archive you just downloaded into /usr/local, creating a fresh Go tree in /usr/local/go: Add /usr/local/go/bin to the&#160;PATH&#160;environment variable Add below line to the end of file Check the go version Terminal output for reference]]></description>
 		

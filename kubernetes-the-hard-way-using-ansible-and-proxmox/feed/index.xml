@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Kubernetes The Hard Way using Terraform, Ansible and Proxmox	</title>
-	<atom:link href="/kubernetes-the-hard-way-using-ansible-and-proxmox/feed/" rel="self" type="application/rss+xml" />
-	<link>/kubernetes-the-hard-way-using-ansible-and-proxmox/</link>
+	<atom:link href="https://rinoymjoseph.github.io/kubernetes-the-hard-way-using-ansible-and-proxmox/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/kubernetes-the-hard-way-using-ansible-and-proxmox/</link>
 	<description></description>
 	<lastBuildDate>Fri, 11 Aug 2023 10:24:59 +0000</lastBuildDate>
 	<sy:updatePeriod>

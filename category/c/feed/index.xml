@@ -9,8 +9,8 @@
 
 <channel>
 	<title>C# &#8211; Hyrule Monk</title>
-	<atom:link href="/category/c/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/category/c/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Thu, 03 Aug 2023 11:45:26 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,20 +21,20 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>C# &#8211; Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Difference between var and dynamic in C#</title>
-		<link>/difference-between-var-and-dynamic-in-c/</link>
+		<link>https://rinoymjoseph.github.io/difference-between-var-and-dynamic-in-c/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 11:45:25 +0000</pubDate>
 				<category><![CDATA[C#]]></category>
-		<guid isPermaLink="false">/?p=512</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=512</guid>
 
 					<description><![CDATA[]]></description>
 		
@@ -43,13 +43,13 @@
 			</item>
 		<item>
 		<title>Data Structures in C#</title>
-		<link>/data-structures-in-c/</link>
+		<link>https://rinoymjoseph.github.io/data-structures-in-c/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 11:44:23 +0000</pubDate>
 				<category><![CDATA[C#]]></category>
 		<category><![CDATA[Data Structure]]></category>
-		<guid isPermaLink="false">/?p=510</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=510</guid>
 
 					<description><![CDATA[]]></description>
 		
@@ -58,12 +58,12 @@
 			</item>
 		<item>
 		<title>Different types of Classes in C#</title>
-		<link>/different-types-of-classes-in-c/</link>
+		<link>https://rinoymjoseph.github.io/different-types-of-classes-in-c/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 11:39:52 +0000</pubDate>
 				<category><![CDATA[C#]]></category>
-		<guid isPermaLink="false">/?p=506</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=506</guid>
 
 					<description><![CDATA[]]></description>
 		
@@ -72,13 +72,13 @@
 			</item>
 		<item>
 		<title>Singleton Design Pattern in C#</title>
-		<link>/singleton-design-pattern-in-c/</link>
+		<link>https://rinoymjoseph.github.io/singleton-design-pattern-in-c/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 07:09:04 +0000</pubDate>
 				<category><![CDATA[C#]]></category>
 		<category><![CDATA[Design Pattern]]></category>
-		<guid isPermaLink="false">/?p=420</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=420</guid>
 
 					<description><![CDATA[]]></description>
 		
@@ -87,61 +87,61 @@
 			</item>
 		<item>
 		<title>Finalize and Dispose in C#</title>
-		<link>/finalize-and-dispose-in-c/</link>
+		<link>https://rinoymjoseph.github.io/finalize-and-dispose-in-c/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 07:00:04 +0000</pubDate>
 				<category><![CDATA[C#]]></category>
-		<guid isPermaLink="false">/?p=410</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=410</guid>
 
-					<description><![CDATA[Dispose Finalize It is used to free unmanaged resources like files, database connections etc. at any time. It can be used to free unmanaged resources (when you implement it) like files, database connections etc. held by an object before that object is destroyed. Explicitly, it is called by user code and the class which is ... <a title="Finalize and Dispose in C#" class="read-more" href="/finalize-and-dispose-in-c/" aria-label="More on Finalize and Dispose in C#">Read more</a>]]></description>
+					<description><![CDATA[Dispose Finalize It is used to free unmanaged resources like files, database connections etc. at any time. It can be used to free unmanaged resources (when you implement it) like files, database connections etc. held by an object before that object is destroyed. Explicitly, it is called by user code and the class which is ... <a title="Finalize and Dispose in C#" class="read-more" href="https://rinoymjoseph.github.io/finalize-and-dispose-in-c/" aria-label="More on Finalize and Dispose in C#">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>Delegates in C#</title>
-		<link>/delegates-in-c/</link>
+		<link>https://rinoymjoseph.github.io/delegates-in-c/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 06:07:00 +0000</pubDate>
 				<category><![CDATA[C#]]></category>
 		<category><![CDATA[Delegate]]></category>
-		<guid isPermaLink="false">/?p=381</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=381</guid>
 
-					<description><![CDATA[There are three types of delegates that can be used in C#. Single Delegate Single delegate can be used to invoke a single method. Multicast Delegate can be used to invoke multiple methods. The delegate instance can do multicasting (adding new method on existing delegate instance) using + operator and – operator can be used ... <a title="Delegates in C#" class="read-more" href="/delegates-in-c/" aria-label="More on Delegates in C#">Read more</a>]]></description>
+					<description><![CDATA[There are three types of delegates that can be used in C#. Single Delegate Single delegate can be used to invoke a single method. Multicast Delegate can be used to invoke multiple methods. The delegate instance can do multicasting (adding new method on existing delegate instance) using + operator and – operator can be used ... <a title="Delegates in C#" class="read-more" href="https://rinoymjoseph.github.io/delegates-in-c/" aria-label="More on Delegates in C#">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>Difference between Hashtable and Dictionary in C#</title>
-		<link>/difference-between-hashtable-and-dictionary-in-c/</link>
-					<comments>/difference-between-hashtable-and-dictionary-in-c/#respond</comments>
+		<link>https://rinoymjoseph.github.io/difference-between-hashtable-and-dictionary-in-c/</link>
+					<comments>https://rinoymjoseph.github.io/difference-between-hashtable-and-dictionary-in-c/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 06:00:40 +0000</pubDate>
 				<category><![CDATA[C#]]></category>
 		<category><![CDATA[Dictionary]]></category>
 		<category><![CDATA[Hashtable]]></category>
-		<guid isPermaLink="false">/?p=374</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=374</guid>
 
 					<description><![CDATA[Hashtable Dictionary]]></description>
 		
-					<wfw:commentRss>/difference-between-hashtable-and-dictionary-in-c/feed/</wfw:commentRss>
+					<wfw:commentRss>https://rinoymjoseph.github.io/difference-between-hashtable-and-dictionary-in-c/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Async method in C#</title>
-		<link>/async-method-in-c/</link>
+		<link>https://rinoymjoseph.github.io/async-method-in-c/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 05:50:11 +0000</pubDate>
 				<category><![CDATA[C#]]></category>
 		<category><![CDATA[Asynchronous Programming]]></category>
-		<guid isPermaLink="false">/?p=365</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=365</guid>
 
 					<description><![CDATA[]]></description>
 		

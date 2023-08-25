@@ -9,8 +9,8 @@
 
 <channel>
 	<title>UML &#8211; Hyrule Monk</title>
-	<atom:link href="/tag/uml/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/tag/uml/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Thu, 03 Aug 2023 11:50:34 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,37 +21,37 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>UML &#8211; Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Aggregation vs Composition in UML</title>
-		<link>/aggregation-vs-composition-in-uml/</link>
-					<comments>/aggregation-vs-composition-in-uml/#respond</comments>
+		<link>https://rinoymjoseph.github.io/aggregation-vs-composition-in-uml/</link>
+					<comments>https://rinoymjoseph.github.io/aggregation-vs-composition-in-uml/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 11:50:33 +0000</pubDate>
 				<category><![CDATA[UML]]></category>
-		<guid isPermaLink="false">/?p=516</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=516</guid>
 
 					<description><![CDATA[]]></description>
 		
-					<wfw:commentRss>/aggregation-vs-composition-in-uml/feed/</wfw:commentRss>
+					<wfw:commentRss>https://rinoymjoseph.github.io/aggregation-vs-composition-in-uml/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>UML</title>
-		<link>/uml/</link>
+		<link>https://rinoymjoseph.github.io/uml/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 11:49:34 +0000</pubDate>
 				<category><![CDATA[UML]]></category>
-		<guid isPermaLink="false">/?p=514</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=514</guid>
 
 					<description><![CDATA[]]></description>
 		

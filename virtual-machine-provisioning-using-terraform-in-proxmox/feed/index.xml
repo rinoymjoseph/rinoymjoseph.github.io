@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Virtual Machine provisioning using Terraform on Proxmox VE	</title>
-	<atom:link href="/virtual-machine-provisioning-using-terraform-in-proxmox/feed/" rel="self" type="application/rss+xml" />
-	<link>/virtual-machine-provisioning-using-terraform-in-proxmox/</link>
+	<atom:link href="https://rinoymjoseph.github.io/virtual-machine-provisioning-using-terraform-in-proxmox/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/virtual-machine-provisioning-using-terraform-in-proxmox/</link>
 	<description></description>
 	<lastBuildDate>Thu, 03 Aug 2023 05:23:04 +0000</lastBuildDate>
 	<sy:updatePeriod>

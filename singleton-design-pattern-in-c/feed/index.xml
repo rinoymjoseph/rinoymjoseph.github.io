@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Singleton Design Pattern in C#	</title>
-	<atom:link href="/singleton-design-pattern-in-c/feed/" rel="self" type="application/rss+xml" />
-	<link>/singleton-design-pattern-in-c/</link>
+	<atom:link href="https://rinoymjoseph.github.io/singleton-design-pattern-in-c/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/singleton-design-pattern-in-c/</link>
 	<description></description>
 	<lastBuildDate>Thu, 03 Aug 2023 07:10:24 +0000</lastBuildDate>
 	<sy:updatePeriod>

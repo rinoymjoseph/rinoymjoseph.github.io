@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Podman &#8211; Hyrule Monk</title>
-	<atom:link href="/category/podman/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/category/podman/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Mon, 07 Aug 2023 13:37:08 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>Podman &#8211; Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Run PostgreSQL and pgAdmin pod using podman</title>
-		<link>/run-postgresql-and-pgadmin-pod-using-podman/</link>
+		<link>https://rinoymjoseph.github.io/run-postgresql-and-pgadmin-pod-using-podman/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 07 Aug 2023 11:14:08 +0000</pubDate>
 				<category><![CDATA[Podman]]></category>
 		<category><![CDATA[pgAdmin]]></category>
 		<category><![CDATA[PostgreSQL]]></category>
-		<guid isPermaLink="false">/?p=574</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=574</guid>
 
 					<description><![CDATA[Pull pause image]]></description>
 		
@@ -45,43 +45,43 @@
 			</item>
 		<item>
 		<title>Podman play kube &#8211; How to use volumes for data persistence</title>
-		<link>/podman-play-kube-how-to-use-volumes-for-data-persistence/</link>
+		<link>https://rinoymjoseph.github.io/podman-play-kube-how-to-use-volumes-for-data-persistence/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 05:09:56 +0000</pubDate>
 				<category><![CDATA[Podman]]></category>
-		<guid isPermaLink="false">/?p=320</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=320</guid>
 
-					<description><![CDATA[Podman (the POD manager) is an open source tool for developing, managing, and running containers on Linux systems. podman play kube will read in a structured file of Kubernetes YAML. It will then recreate the containers, pods or volumes described in the YAML. Containers within a pod are then started and the ID of the ... <a title="Podman play kube &#8211; How to use volumes for data persistence" class="read-more" href="/podman-play-kube-how-to-use-volumes-for-data-persistence/" aria-label="More on Podman play kube &#8211; How to use volumes for data persistence">Read more</a>]]></description>
+					<description><![CDATA[Podman (the POD manager) is an open source tool for developing, managing, and running containers on Linux systems. podman play kube will read in a structured file of Kubernetes YAML. It will then recreate the containers, pods or volumes described in the YAML. Containers within a pod are then started and the ID of the ... <a title="Podman play kube &#8211; How to use volumes for data persistence" class="read-more" href="https://rinoymjoseph.github.io/podman-play-kube-how-to-use-volumes-for-data-persistence/" aria-label="More on Podman play kube &#8211; How to use volumes for data persistence">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>Podman play kube &#8211; How to run a pod from a yaml file</title>
-		<link>/podman-play-kube-example-on-ubuntu-22-04/</link>
+		<link>https://rinoymjoseph.github.io/podman-play-kube-example-on-ubuntu-22-04/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Tue, 01 Aug 2023 13:52:27 +0000</pubDate>
 				<category><![CDATA[Podman]]></category>
-		<guid isPermaLink="false">/?p=223</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=223</guid>
 
-					<description><![CDATA[Podman (the POD manager) is an open source tool for developing, managing, and running containers on Linux systems. podman play kube will read in a structured file of Kubernetes YAML. It will then recreate the containers, pods or volumes described in the YAML. Containers within a pod are then started and the ID of the ... <a title="Podman play kube &#8211; How to run a pod from a yaml file" class="read-more" href="/podman-play-kube-example-on-ubuntu-22-04/" aria-label="More on Podman play kube &#8211; How to run a pod from a yaml file">Read more</a>]]></description>
+					<description><![CDATA[Podman (the POD manager) is an open source tool for developing, managing, and running containers on Linux systems. podman play kube will read in a structured file of Kubernetes YAML. It will then recreate the containers, pods or volumes described in the YAML. Containers within a pod are then started and the ID of the ... <a title="Podman play kube &#8211; How to run a pod from a yaml file" class="read-more" href="https://rinoymjoseph.github.io/podman-play-kube-example-on-ubuntu-22-04/" aria-label="More on Podman play kube &#8211; How to run a pod from a yaml file">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>Podman installation on Ubuntu 22.04</title>
-		<link>/podman-installation-on-ubuntu-22-04/</link>
+		<link>https://rinoymjoseph.github.io/podman-installation-on-ubuntu-22-04/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Tue, 01 Aug 2023 13:45:27 +0000</pubDate>
 				<category><![CDATA[Podman]]></category>
 		<category><![CDATA[Ubuntu]]></category>
-		<guid isPermaLink="false">/?p=215</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=215</guid>
 
-					<description><![CDATA[Podman (the POD manager) is an open source tool for developing, managing, and running containers on Linux systems. Podman is a daemonless, open source, Linux native tool designed to make it easy to find, run, build, share and deploy applications using Open Containers Initiative (OCI) Containers and Container Images. Podman provides a command line interface ... <a title="Podman installation on Ubuntu 22.04" class="read-more" href="/podman-installation-on-ubuntu-22-04/" aria-label="More on Podman installation on Ubuntu 22.04">Read more</a>]]></description>
+					<description><![CDATA[Podman (the POD manager) is an open source tool for developing, managing, and running containers on Linux systems. Podman is a daemonless, open source, Linux native tool designed to make it easy to find, run, build, share and deploy applications using Open Containers Initiative (OCI) Containers and Container Images. Podman provides a command line interface ... <a title="Podman installation on Ubuntu 22.04" class="read-more" href="https://rinoymjoseph.github.io/podman-installation-on-ubuntu-22-04/" aria-label="More on Podman installation on Ubuntu 22.04">Read more</a>]]></description>
 		
 		
 		

@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Podman play kube &#8211; How to run a pod from a yaml file	</title>
-	<atom:link href="/podman-play-kube-example-on-ubuntu-22-04/feed/" rel="self" type="application/rss+xml" />
-	<link>/podman-play-kube-example-on-ubuntu-22-04/</link>
+	<atom:link href="https://rinoymjoseph.github.io/podman-play-kube-example-on-ubuntu-22-04/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/podman-play-kube-example-on-ubuntu-22-04/</link>
 	<description></description>
 	<lastBuildDate>Thu, 03 Aug 2023 12:10:11 +0000</lastBuildDate>
 	<sy:updatePeriod>

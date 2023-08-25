@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Cockpit installation on Fedora Workstation 38	</title>
-	<atom:link href="/cockpit-installation-on-fedora-38/feed/" rel="self" type="application/rss+xml" />
-	<link>/cockpit-installation-on-fedora-38/</link>
+	<atom:link href="https://rinoymjoseph.github.io/cockpit-installation-on-fedora-38/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/cockpit-installation-on-fedora-38/</link>
 	<description></description>
 	<lastBuildDate>Thu, 10 Aug 2023 06:13:36 +0000</lastBuildDate>
 	<sy:updatePeriod>

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Design Pattern &#8211; Hyrule Monk</title>
-	<atom:link href="/tag/design-pattern/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/tag/design-pattern/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Thu, 03 Aug 2023 11:58:01 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,20 +21,20 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>Design Pattern &#8211; Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Factory Design Pattern</title>
-		<link>/factory-design-pattern/</link>
+		<link>https://rinoymjoseph.github.io/factory-design-pattern/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 11:55:14 +0000</pubDate>
 				<category><![CDATA[Design Pattern]]></category>
-		<guid isPermaLink="false">/?p=524</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=524</guid>
 
 					<description><![CDATA[]]></description>
 		
@@ -43,12 +43,12 @@
 			</item>
 		<item>
 		<title>Façade Design Pattern</title>
-		<link>/facade-design-pattern/</link>
+		<link>https://rinoymjoseph.github.io/facade-design-pattern/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 11:53:21 +0000</pubDate>
 				<category><![CDATA[Design Pattern]]></category>
-		<guid isPermaLink="false">/?p=522</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=522</guid>
 
 					<description><![CDATA[]]></description>
 		
@@ -57,12 +57,12 @@
 			</item>
 		<item>
 		<title>Observer Design Pattern</title>
-		<link>/observer-design-pattern/</link>
+		<link>https://rinoymjoseph.github.io/observer-design-pattern/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 11:52:38 +0000</pubDate>
 				<category><![CDATA[Design Pattern]]></category>
-		<guid isPermaLink="false">/?p=520</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=520</guid>
 
 					<description><![CDATA[]]></description>
 		
@@ -71,30 +71,30 @@
 			</item>
 		<item>
 		<title>Different types of Design Patterns</title>
-		<link>/different-types-of-design-patterns/</link>
-					<comments>/different-types-of-design-patterns/#respond</comments>
+		<link>https://rinoymjoseph.github.io/different-types-of-design-patterns/</link>
+					<comments>https://rinoymjoseph.github.io/different-types-of-design-patterns/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 11:51:28 +0000</pubDate>
 				<category><![CDATA[Design Pattern]]></category>
-		<guid isPermaLink="false">/?p=518</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=518</guid>
 
 					<description><![CDATA[]]></description>
 		
-					<wfw:commentRss>/different-types-of-design-patterns/feed/</wfw:commentRss>
+					<wfw:commentRss>https://rinoymjoseph.github.io/different-types-of-design-patterns/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Object Oriented Programming</title>
-		<link>/object-oriented-programming/</link>
+		<link>https://rinoymjoseph.github.io/object-oriented-programming/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 11:38:52 +0000</pubDate>
 				<category><![CDATA[Design Pattern]]></category>
 		<category><![CDATA[OOP]]></category>
-		<guid isPermaLink="false">/?p=504</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=504</guid>
 
 					<description><![CDATA[]]></description>
 		
@@ -103,13 +103,13 @@
 			</item>
 		<item>
 		<title>Singleton Design Pattern in C#</title>
-		<link>/singleton-design-pattern-in-c/</link>
+		<link>https://rinoymjoseph.github.io/singleton-design-pattern-in-c/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 07:09:04 +0000</pubDate>
 				<category><![CDATA[C#]]></category>
 		<category><![CDATA[Design Pattern]]></category>
-		<guid isPermaLink="false">/?p=420</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=420</guid>
 
 					<description><![CDATA[]]></description>
 		
@@ -118,12 +118,12 @@
 			</item>
 		<item>
 		<title>Dependency Injection</title>
-		<link>/dependency-injection/</link>
+		<link>https://rinoymjoseph.github.io/dependency-injection/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 06:26:31 +0000</pubDate>
 				<category><![CDATA[Design Pattern]]></category>
-		<guid isPermaLink="false">/?p=403</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=403</guid>
 
 					<description><![CDATA[Three types of DI Constructor Injection Setter Injection Interface Injection]]></description>
 		
@@ -132,12 +132,12 @@
 			</item>
 		<item>
 		<title>SOLID Principle</title>
-		<link>/solid-principle/</link>
+		<link>https://rinoymjoseph.github.io/solid-principle/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 06:21:35 +0000</pubDate>
 				<category><![CDATA[Design Pattern]]></category>
-		<guid isPermaLink="false">/?p=395</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=395</guid>
 
 					<description><![CDATA[Single Responsibility Principle Open Closed Principle Liskov Substitution Principle Interface Segregation Principle Dependency Inversion Principle]]></description>
 		

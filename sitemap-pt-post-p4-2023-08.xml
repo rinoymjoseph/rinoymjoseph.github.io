@@ -1,57 +1,57 @@
-<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet type='text/xsl' href='/wp-content/plugins/google-sitemap-generator/sitemap.xsl'?><!-- sitemap-generator-url='http://www.arnebrachhold.de/' sitemap-generator-version='4.1.13' -->
-<!-- generated-on='August 25, 2023 11:30 am' -->
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet type='text/xsl' href='https://rinoymjoseph.github.io/wp-content/plugins/google-sitemap-generator/sitemap.xsl'?><!-- sitemap-generator-url='http://www.arnebrachhold.de/' sitemap-generator-version='4.1.13' -->
+<!-- generated-on='August 25, 2023 11:46 am' -->
 <urlset xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd' xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>	<url>
-		<loc>/delegates-in-c/</loc>
+		<loc>https://rinoymjoseph.github.io/delegates-in-c/</loc>
 		<lastmod>2023-08-03T06:16:56+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/difference-between-hashtable-and-dictionary-in-c/</loc>
+		<loc>https://rinoymjoseph.github.io/difference-between-hashtable-and-dictionary-in-c/</loc>
 		<lastmod>2023-08-03T07:16:28+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/async-method-in-c/</loc>
+		<loc>https://rinoymjoseph.github.io/async-method-in-c/</loc>
 		<lastmod>2023-08-03T05:57:51+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/installation-of-victoriametrics-on-ubuntu-22-04/</loc>
+		<loc>https://rinoymjoseph.github.io/installation-of-victoriametrics-on-ubuntu-22-04/</loc>
 		<lastmod>2023-08-03T10:04:39+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/installation-of-clickhouse-on-ubuntu-22-04/</loc>
+		<loc>https://rinoymjoseph.github.io/installation-of-clickhouse-on-ubuntu-22-04/</loc>
 		<lastmod>2023-08-03T09:38:24+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/podman-play-kube-how-to-use-volumes-for-data-persistence/</loc>
+		<loc>https://rinoymjoseph.github.io/podman-play-kube-how-to-use-volumes-for-data-persistence/</loc>
 		<lastmod>2023-08-03T11:30:23+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/podman-play-kube-example-on-ubuntu-22-04/</loc>
+		<loc>https://rinoymjoseph.github.io/podman-play-kube-example-on-ubuntu-22-04/</loc>
 		<lastmod>2023-08-03T12:10:11+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/podman-installation-on-ubuntu-22-04/</loc>
+		<loc>https://rinoymjoseph.github.io/podman-installation-on-ubuntu-22-04/</loc>
 		<lastmod>2023-08-03T05:22:28+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/mirror-registry-quay-registry-installation-on-ubuntu-22-04/</loc>
+		<loc>https://rinoymjoseph.github.io/mirror-registry-quay-registry-installation-on-ubuntu-22-04/</loc>
 		<lastmod>2023-08-01T13:43:24+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-</urlset><!-- Request ID: 61c1626624329283353237edfa499e40; Queries for sitemap: 4; Total queries: 29; Seconds: $end_time; Memory for sitemap: 0MB; Total memory: 6MB -->
+</urlset><!-- Request ID: 5af8455727f241202269058452f36e20; Queries for sitemap: 4; Total queries: 29; Seconds: $end_time; Memory for sitemap: 0MB; Total memory: 6MB -->

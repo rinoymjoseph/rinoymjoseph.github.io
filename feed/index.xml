@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Hyrule Monk</title>
-	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Fri, 11 Aug 2023 12:07:48 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,52 +21,52 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>MicroShift &#8211; dynamic storage provisioning using LVMS</title>
-		<link>/microshift-dynamic-storage-provisioning-using-lvms/</link>
+		<link>https://rinoymjoseph.github.io/microshift-dynamic-storage-provisioning-using-lvms/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Fri, 11 Aug 2023 11:23:02 +0000</pubDate>
 				<category><![CDATA[Kubernetes]]></category>
 		<category><![CDATA[Microshift]]></category>
-		<guid isPermaLink="false">/?p=891</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=891</guid>
 
-					<description><![CDATA[MicroShift enables dynamic storage provisioning with the Logical Volume Manager Storage (LVMS) provider. The LVMS plugin is a Container Storage Interface (CSI) plugin for managing LVM volumes for Kubernetes. LVMS provisions new logical volume management (LVM) and logical volumes (LVs) for container workloads with persistent volume claims (PVC). Each PVC references a storage class that ... <a title="MicroShift &#8211; dynamic storage provisioning using LVMS" class="read-more" href="/microshift-dynamic-storage-provisioning-using-lvms/" aria-label="More on MicroShift &#8211; dynamic storage provisioning using LVMS">Read more</a>]]></description>
+					<description><![CDATA[MicroShift enables dynamic storage provisioning with the Logical Volume Manager Storage (LVMS) provider. The LVMS plugin is a Container Storage Interface (CSI) plugin for managing LVM volumes for Kubernetes. LVMS provisions new logical volume management (LVM) and logical volumes (LVs) for container workloads with persistent volume claims (PVC). Each PVC references a storage class that ... <a title="MicroShift &#8211; dynamic storage provisioning using LVMS" class="read-more" href="https://rinoymjoseph.github.io/microshift-dynamic-storage-provisioning-using-lvms/" aria-label="More on MicroShift &#8211; dynamic storage provisioning using LVMS">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>Kubernetes The Hard Way using Terraform, Ansible and Proxmox</title>
-		<link>/kubernetes-the-hard-way-using-ansible-and-proxmox/</link>
+		<link>https://rinoymjoseph.github.io/kubernetes-the-hard-way-using-ansible-and-proxmox/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 10 Aug 2023 10:40:17 +0000</pubDate>
 				<category><![CDATA[Kubernetes]]></category>
 		<category><![CDATA[Proxmox]]></category>
 		<category><![CDATA[Terraform]]></category>
-		<guid isPermaLink="false">/?p=806</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=806</guid>
 
-					<description><![CDATA[Introduction The scripts are available in https://github.com/rinoymjoseph/k8s-hardway repo. Kubernetes The Hard Way is a popular git hub repo which take the long route to ensure you understand each task required to bootstrap a Kubernetes cluster. 1. Prerequisites 2. System Diagram Single Controller and Three Worker Nodes 3. Configuration Infrastructure Configuration A terraform script creates the ... <a title="Kubernetes The Hard Way using Terraform, Ansible and Proxmox" class="read-more" href="/kubernetes-the-hard-way-using-ansible-and-proxmox/" aria-label="More on Kubernetes The Hard Way using Terraform, Ansible and Proxmox">Read more</a>]]></description>
+					<description><![CDATA[Introduction The scripts are available in https://github.com/rinoymjoseph/k8s-hardway repo. Kubernetes The Hard Way is a popular git hub repo which take the long route to ensure you understand each task required to bootstrap a Kubernetes cluster. 1. Prerequisites 2. System Diagram Single Controller and Three Worker Nodes 3. Configuration Infrastructure Configuration A terraform script creates the ... <a title="Kubernetes The Hard Way using Terraform, Ansible and Proxmox" class="read-more" href="https://rinoymjoseph.github.io/kubernetes-the-hard-way-using-ansible-and-proxmox/" aria-label="More on Kubernetes The Hard Way using Terraform, Ansible and Proxmox">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>Create a custom Fedora ISO using Image Builder</title>
-		<link>/create-a-custom-fedora-iso-using-image-builder/</link>
+		<link>https://rinoymjoseph.github.io/create-a-custom-fedora-iso-using-image-builder/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 10 Aug 2023 08:35:43 +0000</pubDate>
 				<category><![CDATA[Fedora]]></category>
 		<category><![CDATA[Image Builder]]></category>
-		<guid isPermaLink="false">/?p=800</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=800</guid>
 
 					<description><![CDATA[Image Builder is a tool that allows you to create custom Fedora OS ISO images. You can use the command line or a Cockpit plugin to work with Image Builder. Prerequisites]]></description>
 		
@@ -75,92 +75,92 @@
 			</item>
 		<item>
 		<title>Enable SSH in Fedora Workstation 38</title>
-		<link>/enable-ssh-in-fedora-workstation-38/</link>
-					<comments>/enable-ssh-in-fedora-workstation-38/#respond</comments>
+		<link>https://rinoymjoseph.github.io/enable-ssh-in-fedora-workstation-38/</link>
+					<comments>https://rinoymjoseph.github.io/enable-ssh-in-fedora-workstation-38/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 10 Aug 2023 05:57:35 +0000</pubDate>
 				<category><![CDATA[Fedora]]></category>
-		<guid isPermaLink="false">/?p=764</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=764</guid>
 
-					<description><![CDATA[Fedora Linux is a Linux distribution developed by the Fedora Project. It was originally developed in 2003 as a continuation of the Red Hat Linux project. It contains software distributed under various free and open-source licenses and aims to be on the leading edge of open-source technologies Refer Fedora Workstation 38 Installation for installation of ... <a title="Enable SSH in Fedora Workstation 38" class="read-more" href="/enable-ssh-in-fedora-workstation-38/" aria-label="More on Enable SSH in Fedora Workstation 38">Read more</a>]]></description>
+					<description><![CDATA[Fedora Linux is a Linux distribution developed by the Fedora Project. It was originally developed in 2003 as a continuation of the Red Hat Linux project. It contains software distributed under various free and open-source licenses and aims to be on the leading edge of open-source technologies Refer Fedora Workstation 38 Installation for installation of ... <a title="Enable SSH in Fedora Workstation 38" class="read-more" href="https://rinoymjoseph.github.io/enable-ssh-in-fedora-workstation-38/" aria-label="More on Enable SSH in Fedora Workstation 38">Read more</a>]]></description>
 		
-					<wfw:commentRss>/enable-ssh-in-fedora-workstation-38/feed/</wfw:commentRss>
+					<wfw:commentRss>https://rinoymjoseph.github.io/enable-ssh-in-fedora-workstation-38/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Fedora Workstation 38 Installation</title>
-		<link>/fedora-workstation-38-installation/</link>
+		<link>https://rinoymjoseph.github.io/fedora-workstation-38-installation/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 10 Aug 2023 05:15:19 +0000</pubDate>
 				<category><![CDATA[Fedora]]></category>
-		<guid isPermaLink="false">/?p=724</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=724</guid>
 
-					<description><![CDATA[Fedora Linux is a Linux distribution developed by the Fedora Project. It was originally developed in 2003 as a continuation of the Red Hat Linux project. It contains software distributed under various free and open-source licenses and aims to be on the leading edge of open-source technologies Download Fedora 38 installation media from https://fedoraproject.org/workstation/download/ url. Boot the ... <a title="Fedora Workstation 38 Installation" class="read-more" href="/fedora-workstation-38-installation/" aria-label="More on Fedora Workstation 38 Installation">Read more</a>]]></description>
+					<description><![CDATA[Fedora Linux is a Linux distribution developed by the Fedora Project. It was originally developed in 2003 as a continuation of the Red Hat Linux project. It contains software distributed under various free and open-source licenses and aims to be on the leading edge of open-source technologies Download Fedora 38 installation media from https://fedoraproject.org/workstation/download/ url. Boot the ... <a title="Fedora Workstation 38 Installation" class="read-more" href="https://rinoymjoseph.github.io/fedora-workstation-38-installation/" aria-label="More on Fedora Workstation 38 Installation">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>Cockpit installation on Fedora Workstation 38</title>
-		<link>/cockpit-installation-on-fedora-38/</link>
+		<link>https://rinoymjoseph.github.io/cockpit-installation-on-fedora-38/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Wed, 09 Aug 2023 11:44:01 +0000</pubDate>
 				<category><![CDATA[Fedora]]></category>
 		<category><![CDATA[Cockpit]]></category>
-		<guid isPermaLink="false">/?p=669</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=669</guid>
 
-					<description><![CDATA[Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser. You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL. Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks such ... <a title="Cockpit installation on Fedora Workstation 38" class="read-more" href="/cockpit-installation-on-fedora-38/" aria-label="More on Cockpit installation on Fedora Workstation 38">Read more</a>]]></description>
+					<description><![CDATA[Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser. You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL. Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks such ... <a title="Cockpit installation on Fedora Workstation 38" class="read-more" href="https://rinoymjoseph.github.io/cockpit-installation-on-fedora-38/" aria-label="More on Cockpit installation on Fedora Workstation 38">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>Go-swagger installation on Ubuntu 22.04</title>
-		<link>/go-swagger-installation-on-ubuntu-22-04/</link>
-					<comments>/go-swagger-installation-on-ubuntu-22-04/#respond</comments>
+		<link>https://rinoymjoseph.github.io/go-swagger-installation-on-ubuntu-22-04/</link>
+					<comments>https://rinoymjoseph.github.io/go-swagger-installation-on-ubuntu-22-04/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Wed, 09 Aug 2023 09:08:25 +0000</pubDate>
 				<category><![CDATA[Go]]></category>
 		<category><![CDATA[swagger]]></category>
-		<guid isPermaLink="false">/?p=664</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=664</guid>
 
 					<description><![CDATA[Install dependencies Install go-swagger]]></description>
 		
-					<wfw:commentRss>/go-swagger-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
+					<wfw:commentRss>https://rinoymjoseph.github.io/go-swagger-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>gRPC server app using Go</title>
-		<link>/grpc-server-app-using-go/</link>
+		<link>https://rinoymjoseph.github.io/grpc-server-app-using-go/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Tue, 08 Aug 2023 08:46:47 +0000</pubDate>
 				<category><![CDATA[Go]]></category>
 		<category><![CDATA[gRPC]]></category>
-		<guid isPermaLink="false">/?p=597</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=597</guid>
 
-					<description><![CDATA[TL;DR The source code is available in https://github.com/rinoymjoseph/learning-go Create a directory Initialize a go project named &#8216;grpc-demo&#8217; Create a directory to place proto file Install protoc-gen-go and protoc-gen-go-grpc. Add GOPATH/bin to path &#160;Generate the gRPC stubs that can be used to implement the service and consume from clients This creates two files in calc folder. ... <a title="gRPC server app using Go" class="read-more" href="/grpc-server-app-using-go/" aria-label="More on gRPC server app using Go">Read more</a>]]></description>
+					<description><![CDATA[TL;DR The source code is available in https://github.com/rinoymjoseph/learning-go Create a directory Initialize a go project named &#8216;grpc-demo&#8217; Create a directory to place proto file Install protoc-gen-go and protoc-gen-go-grpc. Add GOPATH/bin to path &#160;Generate the gRPC stubs that can be used to implement the service and consume from clients This creates two files in calc folder. ... <a title="gRPC server app using Go" class="read-more" href="https://rinoymjoseph.github.io/grpc-server-app-using-go/" aria-label="More on gRPC server app using Go">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>Github CLI Installation on Ubuntu 22.04</title>
-		<link>/github-cli-installation-on-ubuntu-22-04/</link>
+		<link>https://rinoymjoseph.github.io/github-cli-installation-on-ubuntu-22-04/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Tue, 08 Aug 2023 07:40:02 +0000</pubDate>
 				<category><![CDATA[Ubuntu]]></category>
 		<category><![CDATA[Github]]></category>
-		<guid isPermaLink="false">/?p=590</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=590</guid>
 
 					<description><![CDATA[Update package index files Install Github CLI Login to Github]]></description>
 		
@@ -169,15 +169,15 @@
 			</item>
 		<item>
 		<title>REST Api in Go using Gorilla/Mux</title>
-		<link>/rest-api-in-go-using-gorilla-mux/</link>
+		<link>https://rinoymjoseph.github.io/rest-api-in-go-using-gorilla-mux/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 07 Aug 2023 13:38:56 +0000</pubDate>
 				<category><![CDATA[Go]]></category>
 		<category><![CDATA[REST Api]]></category>
-		<guid isPermaLink="false">/?p=587</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=587</guid>
 
-					<description><![CDATA[This post explains how to develop REST APIs in Go language using Gorilla Mux Gorilla Mux is a package from the Gorilla Web Toolkit. It provides simple ways to create HTTP routers. Using the package, we can redirect program flow to respective HTTP handler functions. Create a directory for the project Initialize a go project ... <a title="REST Api in Go using Gorilla/Mux" class="read-more" href="/rest-api-in-go-using-gorilla-mux/" aria-label="More on REST Api in Go using Gorilla/Mux">Read more</a>]]></description>
+					<description><![CDATA[This post explains how to develop REST APIs in Go language using Gorilla Mux Gorilla Mux is a package from the Gorilla Web Toolkit. It provides simple ways to create HTTP routers. Using the package, we can redirect program flow to respective HTTP handler functions. Create a directory for the project Initialize a go project ... <a title="REST Api in Go using Gorilla/Mux" class="read-more" href="https://rinoymjoseph.github.io/rest-api-in-go-using-gorilla-mux/" aria-label="More on REST Api in Go using Gorilla/Mux">Read more</a>]]></description>
 		
 		
 		

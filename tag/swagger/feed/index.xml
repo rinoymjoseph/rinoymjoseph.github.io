@@ -9,8 +9,8 @@
 
 <channel>
 	<title>swagger &#8211; Hyrule Monk</title>
-	<atom:link href="/tag/swagger/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/tag/swagger/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Wed, 09 Aug 2023 09:10:04 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,26 +21,26 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>swagger &#8211; Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Go-swagger installation on Ubuntu 22.04</title>
-		<link>/go-swagger-installation-on-ubuntu-22-04/</link>
-					<comments>/go-swagger-installation-on-ubuntu-22-04/#respond</comments>
+		<link>https://rinoymjoseph.github.io/go-swagger-installation-on-ubuntu-22-04/</link>
+					<comments>https://rinoymjoseph.github.io/go-swagger-installation-on-ubuntu-22-04/#respond</comments>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Wed, 09 Aug 2023 09:08:25 +0000</pubDate>
 				<category><![CDATA[Go]]></category>
 		<category><![CDATA[swagger]]></category>
-		<guid isPermaLink="false">/?p=664</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=664</guid>
 
 					<description><![CDATA[Install dependencies Install go-swagger]]></description>
 		
-					<wfw:commentRss>/go-swagger-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
+					<wfw:commentRss>https://rinoymjoseph.github.io/go-swagger-installation-on-ubuntu-22-04/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

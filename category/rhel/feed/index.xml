@@ -9,8 +9,8 @@
 
 <channel>
 	<title>RHEL &#8211; Hyrule Monk</title>
-	<atom:link href="/category/rhel/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/category/rhel/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Fri, 11 Aug 2023 11:39:28 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,67 +21,67 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>RHEL &#8211; Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Cockpit installation on RHEL 9.2</title>
-		<link>/installation-of-cockpit-on-rhel-9-2/</link>
+		<link>https://rinoymjoseph.github.io/installation-of-cockpit-on-rhel-9-2/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 15:44:07 +0000</pubDate>
 				<category><![CDATA[RHEL]]></category>
 		<category><![CDATA[Cockpit]]></category>
-		<guid isPermaLink="false">/?p=125</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=125</guid>
 
-					<description><![CDATA[Introduction Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser. You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL. Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks ... <a title="Cockpit installation on RHEL 9.2" class="read-more" href="/installation-of-cockpit-on-rhel-9-2/" aria-label="More on Cockpit installation on RHEL 9.2">Read more</a>]]></description>
+					<description><![CDATA[Introduction Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser. You can install Cockpit on many Linux operating systems including Debian, Fedora and RHEL. Cockpit makes Linux discoverable, allowing sysadmins to easily perform tasks ... <a title="Cockpit installation on RHEL 9.2" class="read-more" href="https://rinoymjoseph.github.io/installation-of-cockpit-on-rhel-9-2/" aria-label="More on Cockpit installation on RHEL 9.2">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>Mirror registry (Quay registry) installation on RHEL 9.2</title>
-		<link>/mirror-registry-quay-registry-installation-on-rhel-9-2/</link>
+		<link>https://rinoymjoseph.github.io/mirror-registry-quay-registry-installation-on-rhel-9-2/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 12:18:51 +0000</pubDate>
 				<category><![CDATA[RHEL]]></category>
 		<category><![CDATA[Quay]]></category>
-		<guid isPermaLink="false">/?p=70</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=70</guid>
 
-					<description><![CDATA[The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a>]]></description>
+					<description><![CDATA[The mirror registry for Red Hat OpenShift is a small and streamlined container registry that you can use as a target for mirroring the required container images of OpenShift Container Platform for disconnected installations. Prerequisite Red Hat Enterprise Linux 9.2. Please refer&#160;Installation of Red Hat Enterprise Linux 9.2 using developer account&#160;for installation of RHEL 9.2. ... <a title="Mirror registry (Quay registry) installation on RHEL 9.2" class="read-more" href="https://rinoymjoseph.github.io/mirror-registry-quay-registry-installation-on-rhel-9-2/" aria-label="More on Mirror registry (Quay registry) installation on RHEL 9.2">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>Red Hat Enterprise Linux 9.2 installation using developer account</title>
-		<link>/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/</link>
+		<link>https://rinoymjoseph.github.io/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 09:46:28 +0000</pubDate>
 				<category><![CDATA[RHEL]]></category>
-		<guid isPermaLink="false">/?p=24</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=24</guid>
 
-					<description><![CDATA[The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program. The no-cost Red Hat Developer Subscription for ... <a title="Red Hat Enterprise Linux 9.2 installation using developer account" class="read-more" href="/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/" aria-label="More on Red Hat Enterprise Linux 9.2 installation using developer account">Read more</a>]]></description>
+					<description><![CDATA[The Red Hat Developer Subscription for Individuals is a no-cost offering of the Red Hat Developer program and includes access to Red Hat Enterprise Linux among other Red Hat products. It is a program and an offering designed for individual developers, available through the Red Hat Developer program. The no-cost Red Hat Developer Subscription for ... <a title="Red Hat Enterprise Linux 9.2 installation using developer account" class="read-more" href="https://rinoymjoseph.github.io/installation-of-red-hat-enterprise-linux-9-2-using-developer-account/" aria-label="More on Red Hat Enterprise Linux 9.2 installation using developer account">Read more</a>]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>MicroShift 4.13 installation on RedHat Enterprise Linux 9.2</title>
-		<link>/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/</link>
+		<link>https://rinoymjoseph.github.io/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 31 Jul 2023 07:12:09 +0000</pubDate>
 				<category><![CDATA[RHEL]]></category>
 		<category><![CDATA[Microshift]]></category>
-		<guid isPermaLink="false">/?p=5</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=5</guid>
 
-					<description><![CDATA[Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of MicroShift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="MicroShift 4.13 installation on RedHat Enterprise Linux 9.2" class="read-more" href="/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on MicroShift 4.13 installation on RedHat Enterprise Linux 9.2">Read more</a>]]></description>
+					<description><![CDATA[Prerequisite Red Hat Enterprise Linux 9.2. Please refer Installation of Red Hat Enterprise Linux 9.2 using developer account for installation of RHEL 9.2. Enable the Red Hat build of MicroShift repositories by running the following command Install Red Hat build of MicroShift and openshift clients by running the following command. Configure firewall rules Download pull ... <a title="MicroShift 4.13 installation on RedHat Enterprise Linux 9.2" class="read-more" href="https://rinoymjoseph.github.io/installation-of-microshift-4-13-on-redhat-enterprise-linux-9-2/" aria-label="More on MicroShift 4.13 installation on RedHat Enterprise Linux 9.2">Read more</a>]]></description>
 		
 		
 		

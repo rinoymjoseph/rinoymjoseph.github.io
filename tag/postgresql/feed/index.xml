@@ -9,8 +9,8 @@
 
 <channel>
 	<title>PostgreSQL &#8211; Hyrule Monk</title>
-	<atom:link href="/tag/postgresql/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/tag/postgresql/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Mon, 07 Aug 2023 13:37:08 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>PostgreSQL &#8211; Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Run PostgreSQL and pgAdmin pod using podman</title>
-		<link>/run-postgresql-and-pgadmin-pod-using-podman/</link>
+		<link>https://rinoymjoseph.github.io/run-postgresql-and-pgadmin-pod-using-podman/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Mon, 07 Aug 2023 11:14:08 +0000</pubDate>
 				<category><![CDATA[Podman]]></category>
 		<category><![CDATA[pgAdmin]]></category>
 		<category><![CDATA[PostgreSQL]]></category>
-		<guid isPermaLink="false">/?p=574</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=574</guid>
 
 					<description><![CDATA[Pull pause image]]></description>
 		

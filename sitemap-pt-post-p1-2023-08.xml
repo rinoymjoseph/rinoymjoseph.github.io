@@ -1,63 +1,63 @@
-<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet type='text/xsl' href='/wp-content/plugins/google-sitemap-generator/sitemap.xsl'?><!-- sitemap-generator-url='http://www.arnebrachhold.de/' sitemap-generator-version='4.1.13' -->
-<!-- generated-on='August 25, 2023 11:30 am' -->
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet type='text/xsl' href='https://rinoymjoseph.github.io/wp-content/plugins/google-sitemap-generator/sitemap.xsl'?><!-- sitemap-generator-url='http://www.arnebrachhold.de/' sitemap-generator-version='4.1.13' -->
+<!-- generated-on='August 25, 2023 11:46 am' -->
 <urlset xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd' xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>	<url>
-		<loc>/microshift-dynamic-storage-provisioning-using-lvms/</loc>
+		<loc>https://rinoymjoseph.github.io/microshift-dynamic-storage-provisioning-using-lvms/</loc>
 		<lastmod>2023-08-11T12:07:48+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/kubernetes-the-hard-way-using-ansible-and-proxmox/</loc>
+		<loc>https://rinoymjoseph.github.io/kubernetes-the-hard-way-using-ansible-and-proxmox/</loc>
 		<lastmod>2023-08-11T10:24:59+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/create-a-custom-fedora-iso-using-image-builder/</loc>
+		<loc>https://rinoymjoseph.github.io/create-a-custom-fedora-iso-using-image-builder/</loc>
 		<lastmod>2023-08-11T10:08:48+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/enable-ssh-in-fedora-workstation-38/</loc>
+		<loc>https://rinoymjoseph.github.io/enable-ssh-in-fedora-workstation-38/</loc>
 		<lastmod>2023-08-10T06:06:13+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/fedora-workstation-38-installation/</loc>
+		<loc>https://rinoymjoseph.github.io/fedora-workstation-38-installation/</loc>
 		<lastmod>2023-08-10T05:51:52+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/cockpit-installation-on-fedora-38/</loc>
+		<loc>https://rinoymjoseph.github.io/cockpit-installation-on-fedora-38/</loc>
 		<lastmod>2023-08-10T06:13:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/go-swagger-installation-on-ubuntu-22-04/</loc>
+		<loc>https://rinoymjoseph.github.io/go-swagger-installation-on-ubuntu-22-04/</loc>
 		<lastmod>2023-08-09T09:10:04+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/grpc-server-app-using-go/</loc>
+		<loc>https://rinoymjoseph.github.io/grpc-server-app-using-go/</loc>
 		<lastmod>2023-08-09T13:27:53+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/github-cli-installation-on-ubuntu-22-04/</loc>
+		<loc>https://rinoymjoseph.github.io/github-cli-installation-on-ubuntu-22-04/</loc>
 		<lastmod>2023-08-08T10:28:17+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>/rest-api-in-go-using-gorilla-mux/</loc>
+		<loc>https://rinoymjoseph.github.io/rest-api-in-go-using-gorilla-mux/</loc>
 		<lastmod>2023-08-09T13:37:27+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-</urlset><!-- Request ID: 9db0d566a914b14cef9875f853f6925c; Queries for sitemap: 4; Total queries: 29; Seconds: $end_time; Memory for sitemap: 0MB; Total memory: 6MB -->
+</urlset><!-- Request ID: 5b7f0bbb26eee5ec698781aa4afa90f0; Queries for sitemap: 4; Total queries: 29; Seconds: $end_time; Memory for sitemap: 0MB; Total memory: 6MB -->

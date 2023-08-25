@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Fedora 38 Installation	</title>
-	<atom:link href="/fedora-39-installation/feed/" rel="self" type="application/rss+xml" />
-	<link>/fedora-39-installation/</link>
+	<atom:link href="https://rinoymjoseph.github.io/fedora-39-installation/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/fedora-39-installation/</link>
 	<description></description>
 	<lastBuildDate>Mon, 07 Aug 2023 10:02:59 +0000</lastBuildDate>
 	<sy:updatePeriod>

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>OS Builder &#8211; Hyrule Monk</title>
-	<atom:link href="/tag/os-builder/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/tag/os-builder/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Thu, 10 Aug 2023 06:49:14 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,24 +21,24 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>OS Builder &#8211; Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Composing a customized Fedora image using Image Builder</title>
-		<link>/composing-a-customized-fedora-image-using-image-builder/</link>
+		<link>https://rinoymjoseph.github.io/composing-a-customized-fedora-image-using-image-builder/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Sun, 06 Aug 2023 07:18:59 +0000</pubDate>
 				<category><![CDATA[Fedora]]></category>
 		<category><![CDATA[Image Builder]]></category>
 		<category><![CDATA[OS Builder]]></category>
-		<guid isPermaLink="false">/?p=531</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=531</guid>
 
-					<description><![CDATA[Image Builder is a tool that allows you to create custom Fedora OS images. You can use the command line or a Cockpit plugin to work with Image Builder. Prerequisites Image Builder Installation Install Image Builder using below command Enable osbuild-composer.socket To run the composer-cli commands as non-root, user must be in the weldr or ... <a title="Composing a customized Fedora image using Image Builder" class="read-more" href="/composing-a-customized-fedora-image-using-image-builder/" aria-label="More on Composing a customized Fedora image using Image Builder">Read more</a>]]></description>
+					<description><![CDATA[Image Builder is a tool that allows you to create custom Fedora OS images. You can use the command line or a Cockpit plugin to work with Image Builder. Prerequisites Image Builder Installation Install Image Builder using below command Enable osbuild-composer.socket To run the composer-cli commands as non-root, user must be in the weldr or ... <a title="Composing a customized Fedora image using Image Builder" class="read-more" href="https://rinoymjoseph.github.io/composing-a-customized-fedora-image-using-image-builder/" aria-label="More on Composing a customized Fedora image using Image Builder">Read more</a>]]></description>
 		
 		
 		

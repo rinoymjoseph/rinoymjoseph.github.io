@@ -9,8 +9,8 @@
 
 <channel>
 	<title>VictoriaMetrics &#8211; Hyrule Monk</title>
-	<atom:link href="/category/victoriametrics/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/category/victoriametrics/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Thu, 03 Aug 2023 10:04:39 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>VictoriaMetrics &#8211; Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Installation of VictoriaMetrics on Ubuntu 22.04</title>
-		<link>/installation-of-victoriametrics-on-ubuntu-22-04/</link>
+		<link>https://rinoymjoseph.github.io/installation-of-victoriametrics-on-ubuntu-22-04/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 05:40:40 +0000</pubDate>
 				<category><![CDATA[VictoriaMetrics]]></category>
-		<guid isPermaLink="false">/?p=363</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=363</guid>
 
-					<description><![CDATA[VictoriaMetrics is a fast, cost-effective and scalable monitoring solution and time series database. It supports the Prometheus pull model and various push protocols (Graphite, InfluxDB, OpenTSDB) for data ingestion. It is optimized for storage with high-latency IO, low IOPS and time series with high churn rate. For reading the data and evaluating alerting rules, VictoriaMetrics ... <a title="Installation of VictoriaMetrics on Ubuntu 22.04" class="read-more" href="/installation-of-victoriametrics-on-ubuntu-22-04/" aria-label="More on Installation of VictoriaMetrics on Ubuntu 22.04">Read more</a>]]></description>
+					<description><![CDATA[VictoriaMetrics is a fast, cost-effective and scalable monitoring solution and time series database. It supports the Prometheus pull model and various push protocols (Graphite, InfluxDB, OpenTSDB) for data ingestion. It is optimized for storage with high-latency IO, low IOPS and time series with high churn rate. For reading the data and evaluating alerting rules, VictoriaMetrics ... <a title="Installation of VictoriaMetrics on Ubuntu 22.04" class="read-more" href="https://rinoymjoseph.github.io/installation-of-victoriametrics-on-ubuntu-22-04/" aria-label="More on Installation of VictoriaMetrics on Ubuntu 22.04">Read more</a>]]></description>
 		
 		
 		

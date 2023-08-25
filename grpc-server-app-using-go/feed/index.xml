@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: gRPC server app using Go	</title>
-	<atom:link href="/grpc-server-app-using-go/feed/" rel="self" type="application/rss+xml" />
-	<link>/grpc-server-app-using-go/</link>
+	<atom:link href="https://rinoymjoseph.github.io/grpc-server-app-using-go/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/grpc-server-app-using-go/</link>
 	<description></description>
 	<lastBuildDate>Wed, 09 Aug 2023 13:27:53 +0000</lastBuildDate>
 	<sy:updatePeriod>

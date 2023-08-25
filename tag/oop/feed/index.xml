@@ -9,8 +9,8 @@
 
 <channel>
 	<title>OOP &#8211; Hyrule Monk</title>
-	<atom:link href="/tag/oop/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/tag/oop/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Thu, 03 Aug 2023 11:38:54 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,21 +21,21 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>OOP &#8211; Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Object Oriented Programming</title>
-		<link>/object-oriented-programming/</link>
+		<link>https://rinoymjoseph.github.io/object-oriented-programming/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 11:38:52 +0000</pubDate>
 				<category><![CDATA[Design Pattern]]></category>
 		<category><![CDATA[OOP]]></category>
-		<guid isPermaLink="false">/?p=504</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=504</guid>
 
 					<description><![CDATA[]]></description>
 		

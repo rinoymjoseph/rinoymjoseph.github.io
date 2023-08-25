@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: SOLID Principle	</title>
-	<atom:link href="/solid-principle/feed/" rel="self" type="application/rss+xml" />
-	<link>/solid-principle/</link>
+	<atom:link href="https://rinoymjoseph.github.io/solid-principle/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/solid-principle/</link>
 	<description></description>
 	<lastBuildDate>Thu, 03 Aug 2023 06:24:56 +0000</lastBuildDate>
 	<sy:updatePeriod>

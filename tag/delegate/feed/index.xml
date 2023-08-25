@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Delegate &#8211; Hyrule Monk</title>
-	<atom:link href="/tag/delegate/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://rinoymjoseph.github.io/tag/delegate/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/</link>
 	<description></description>
 	<lastBuildDate>Thu, 03 Aug 2023 06:16:56 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,23 +21,23 @@
 	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/07/iobeez-144px.png</url>
+	<url>https://rinoymjoseph.github.io/wp-content/uploads/2023/07/iobeez-144px.png</url>
 	<title>Delegate &#8211; Hyrule Monk</title>
-	<link>/</link>
+	<link>https://rinoymjoseph.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Delegates in C#</title>
-		<link>/delegates-in-c/</link>
+		<link>https://rinoymjoseph.github.io/delegates-in-c/</link>
 		
 		<dc:creator><![CDATA[rinoy]]></dc:creator>
 		<pubDate>Thu, 03 Aug 2023 06:07:00 +0000</pubDate>
 				<category><![CDATA[C#]]></category>
 		<category><![CDATA[Delegate]]></category>
-		<guid isPermaLink="false">/?p=381</guid>
+		<guid isPermaLink="false">https://rinoymjoseph.github.io/?p=381</guid>
 
-					<description><![CDATA[There are three types of delegates that can be used in C#. Single Delegate Single delegate can be used to invoke a single method. Multicast Delegate can be used to invoke multiple methods. The delegate instance can do multicasting (adding new method on existing delegate instance) using + operator and – operator can be used ... <a title="Delegates in C#" class="read-more" href="/delegates-in-c/" aria-label="More on Delegates in C#">Read more</a>]]></description>
+					<description><![CDATA[There are three types of delegates that can be used in C#. Single Delegate Single delegate can be used to invoke a single method. Multicast Delegate can be used to invoke multiple methods. The delegate instance can do multicasting (adding new method on existing delegate instance) using + operator and – operator can be used ... <a title="Delegates in C#" class="read-more" href="https://rinoymjoseph.github.io/delegates-in-c/" aria-label="More on Delegates in C#">Read more</a>]]></description>
 		
 		
 		

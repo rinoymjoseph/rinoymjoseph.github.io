@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Observer Design Pattern	</title>
-	<atom:link href="/observer-design-pattern/feed/" rel="self" type="application/rss+xml" />
-	<link>/observer-design-pattern/</link>
+	<atom:link href="https://rinoymjoseph.github.io/observer-design-pattern/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rinoymjoseph.github.io/observer-design-pattern/</link>
 	<description></description>
 	<lastBuildDate>Thu, 03 Aug 2023 11:52:44 +0000</lastBuildDate>
 	<sy:updatePeriod>
